@@ -1,68 +1,70 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { Video, MapPin, Calendar, Phone, Mail, CheckCircle, Camera, Clock, MessageCircle } from 'lucide-react';
 
 const VisiterVehicule = () => {
+    const { t } = useTranslation();
     const [selectedOption, setSelectedOption] = useState('virtual');
 
     const visitOptions = [
         {
             id: 'virtual',
             icon: Video,
-            title: "Visite Virtuelle 360°",
-            description: "Explorez le véhicule en détail depuis chez vous",
+            title: t('visit.options.virtual.title'),
+            description: t('visit.options.virtual.description'),
             color: "blue",
             features: [
-                "Visite interactive à 360°",
-                "Photos HD de tous les angles",
-                "Zoom sur les détails",
-                "Vidéo de présentation",
-                "Disponible 24/7"
+                t('visit.options.virtual.features.0'),
+                t('visit.options.virtual.features.1'),
+                t('visit.options.virtual.features.2'),
+                t('visit.options.virtual.features.3'),
+                t('visit.options.virtual.features.4')
             ],
             advantages: [
-                "Gratuit et immédiat",
-                "Aucun déplacement nécessaire",
-                "Prenez votre temps",
-                "Partagez avec votre famille"
+                t('visit.options.virtual.advantages.0'),
+                t('visit.options.virtual.advantages.1'),
+                t('visit.options.virtual.advantages.2'),
+                t('visit.options.virtual.advantages.3')
             ]
         },
         {
             id: 'video',
             icon: Camera,
-            title: "Visite en Visioconférence",
-            description: "Un expert vous présente le véhicule en direct",
+            title: t('visit.options.video.title'),
+            description: t('visit.options.video.description'),
             color: "green",
             features: [
-                "Appel vidéo avec un expert",
-                "Présentation personnalisée",
-                "Posez toutes vos questions",
-                "Durée : 30-45 minutes",
-                "Sur rendez-vous"
+                t('visit.options.video.features.0'),
+                t('visit.options.video.features.1'),
+                t('visit.options.video.features.2'),
+                t('visit.options.video.features.3'),
+                t('visit.options.video.features.4')
             ],
             advantages: [
-                "Interaction en temps réel",
-                "Conseils d'expert",
-                "Vérification de points spécifiques",
-                "Enregistrement possible"
+                t('visit.options.video.advantages.0'),
+                t('visit.options.video.advantages.1'),
+                t('visit.options.video.advantages.2'),
+                t('visit.options.video.advantages.3')
             ]
         },
         {
             id: 'physical',
             icon: MapPin,
-            title: "Visite Physique",
-            description: "Venez voir et essayer le véhicule sur place",
+            title: t('visit.options.physical.title'),
+            description: t('visit.options.physical.description'),
             color: "purple",
             features: [
-                "Visite dans nos locaux",
-                "Essai routier possible",
-                "Inspection détaillée",
-                "Rencontre avec l'équipe",
-                "Sur rendez-vous"
+                t('visit.options.physical.features.0'),
+                t('visit.options.physical.features.1'),
+                t('visit.options.physical.features.2'),
+                t('visit.options.physical.features.3'),
+                t('visit.options.physical.features.4')
             ],
             advantages: [
-                "Expérience complète",
-                "Essai sur route",
-                "Vérification personnelle",
-                "Décision immédiate possible"
+                t('visit.options.physical.advantages.0'),
+                t('visit.options.physical.advantages.1'),
+                t('visit.options.physical.advantages.2'),
+                t('visit.options.physical.advantages.3')
             ]
         }
     ];
@@ -70,47 +72,47 @@ const VisiterVehicule = () => {
     const locations = [
         {
             city: "Berlin",
-            country: "Allemagne",
+            country: t('visit.locations.germany'),
             flag: "🇩🇪",
             address: "Kurfürstendamm 123, 10719 Berlin",
-            hours: "Lun-Ven: 9h-18h, Sam: 10h-16h"
+            hours: t('visit.locations.hours_berlin')
         },
         {
             city: "Paris",
-            country: "France",
+            country: t('visit.locations.france'),
             flag: "🇫🇷",
             address: "Avenue des Champs-Élysées 75, 75008 Paris",
-            hours: "Lun-Ven: 9h-18h, Sam: 10h-15h"
+            hours: t('visit.locations.hours_paris')
         },
         {
             city: "Bruxelles",
-            country: "Belgique",
+            country: t('visit.locations.belgium'),
             flag: "🇧🇪",
             address: "Avenue Louise 250, 1050 Bruxelles",
-            hours: "Lun-Ven: 9h-17h30, Sam: 10h-14h"
+            hours: t('visit.locations.hours_brussels')
         }
     ];
 
     const steps = [
         {
             number: "1",
-            title: "Choisissez Votre Véhicule",
-            description: "Parcourez notre catalogue et sélectionnez le véhicule qui vous intéresse"
+            title: t('visit.steps.1.title'),
+            description: t('visit.steps.1.description')
         },
         {
             number: "2",
-            title: "Réservez Votre Visite",
-            description: "Choisissez le type de visite et prenez rendez-vous en ligne ou par téléphone"
+            title: t('visit.steps.2.title'),
+            description: t('visit.steps.2.description')
         },
         {
             number: "3",
-            title: "Préparez Vos Questions",
-            description: "Notez tous les points que vous souhaitez vérifier ou les questions à poser"
+            title: t('visit.steps.3.title'),
+            description: t('visit.steps.3.description')
         },
         {
             number: "4",
-            title: "Visitez le Véhicule",
-            description: "Profitez de votre visite virtuelle, en visio ou physique selon votre choix"
+            title: t('visit.steps.4.title'),
+            description: t('visit.steps.4.description')
         }
     ];
 
@@ -131,10 +133,10 @@ const VisiterVehicule = () => {
                     <div className="text-center">
                         <Video className="h-16 w-16 mx-auto mb-6" />
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            Visiter un Véhicule
+                            {t('visit.hero.title')}
                         </h1>
                         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-                            Plusieurs options pour découvrir votre futur véhicule en détail
+                            {t('visit.hero.subtitle')}
                         </p>
                     </div>
                 </div>
@@ -145,10 +147,10 @@ const VisiterVehicule = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Choisissez Votre Type de Visite
+                            {t('visit.options_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Trois façons de découvrir nos véhicules
+                            {t('visit.options_subtitle')}
                         </p>
                     </div>
 
@@ -172,7 +174,7 @@ const VisiterVehicule = () => {
                                     <p className="text-gray-700 mb-6 text-center">{option.description}</p>
 
                                     <div className="mb-6">
-                                        <h4 className="font-bold text-primary mb-3">Inclus :</h4>
+                                        <h4 className="font-bold text-primary mb-3">{t('visit.included')}</h4>
                                         <ul className="space-y-2">
                                             {option.features.map((feature, idx) => (
                                                 <li key={idx} className="flex items-start gap-2 text-sm">
@@ -184,7 +186,7 @@ const VisiterVehicule = () => {
                                     </div>
 
                                     <button className={`w-full ${colors.button} text-white py-3 rounded-xl font-bold hover:opacity-90 transition-opacity`}>
-                                        Choisir cette option
+                                        {t('visit.choose_option')}
                                     </button>
                                 </div>
                             );
@@ -195,7 +197,7 @@ const VisiterVehicule = () => {
                     {selectedOption && (
                         <div className="bg-white rounded-2xl p-8 shadow-lg">
                             <h3 className="text-2xl font-bold text-primary mb-6">
-                                Avantages de la {visitOptions.find(o => o.id === selectedOption)?.title}
+                                {t('visit.advantages_prefix')} {visitOptions.find(o => o.id === selectedOption)?.title}
                             </h3>
                             <div className="grid md:grid-cols-2 gap-4">
                                 {visitOptions.find(o => o.id === selectedOption)?.advantages.map((advantage, idx) => (
@@ -215,10 +217,10 @@ const VisiterVehicule = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Comment Ça Marche ?
+                            {t('visit.how_it_works_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            4 étapes simples pour visiter votre véhicule
+                            {t('visit.how_it_works_subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-4 gap-8">
@@ -240,10 +242,10 @@ const VisiterVehicule = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Nos Points de Visite
+                            {t('visit.locations_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Visitez nos showrooms en Europe
+                            {t('visit.locations_subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8">
@@ -274,9 +276,9 @@ const VisiterVehicule = () => {
             <div className="bg-white py-20">
                 <div className="container mx-auto px-6 max-w-4xl">
                     <div className="bg-gradient-to-r from-primary to-primary/90 rounded-2xl p-8 md:p-12 text-center text-white">
-                        <h2 className="text-3xl font-bold mb-4">Prêt à Visiter Votre Futur Véhicule ?</h2>
+                        <h2 className="text-3xl font-bold mb-4">{t('visit.cta.title')}</h2>
                         <p className="text-xl text-white/90 mb-8">
-                            Contactez-nous pour planifier votre visite virtuelle, en visio ou physique
+                            {t('visit.cta.subtitle')}
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
@@ -284,14 +286,14 @@ const VisiterVehicule = () => {
                                 className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2"
                             >
                                 <Phone className="h-5 w-5" />
-                                Appelez-nous
+                                {t('visit.cta.call')}
                             </a>
                             <a
                                 href="/contact"
                                 className="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2"
                             >
                                 <Mail className="h-5 w-5" />
-                                Envoyez un email
+                                {t('visit.cta.email')}
                             </a>
                             <a
                                 href="https://wa.me/33123456789"
@@ -300,7 +302,7 @@ const VisiterVehicule = () => {
                                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2"
                             >
                                 <MessageCircle className="h-5 w-5" />
-                                WhatsApp
+                                {t('visit.cta.whatsapp')}
                             </a>
                         </div>
                     </div>
@@ -311,25 +313,25 @@ const VisiterVehicule = () => {
             <div className="py-20">
                 <div className="container mx-auto px-6 max-w-4xl">
                     <h2 className="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">
-                        Questions Fréquentes
+                        {t('visit.faq_title')}
                     </h2>
                     <div className="space-y-6">
                         {[
                             {
-                                q: "La visite virtuelle est-elle aussi détaillée qu'une visite physique ?",
-                                a: "Oui ! Nos visites virtuelles 360° incluent des photos HD de tous les angles, des zooms sur les détails et une vidéo de présentation complète."
+                                q: t('visit.faq.0.q'),
+                                a: t('visit.faq.0.a')
                             },
                             {
-                                q: "Puis-je faire un essai routier ?",
-                                a: "Oui, lors d'une visite physique dans nos locaux, vous pouvez effectuer un essai routier sur rendez-vous."
+                                q: t('visit.faq.1.q'),
+                                a: t('visit.faq.1.a')
                             },
                             {
-                                q: "Combien de temps dure une visite en visioconférence ?",
-                                a: "Une visite en visioconférence dure généralement entre 30 et 45 minutes, selon vos questions et besoins."
+                                q: t('visit.faq.2.q'),
+                                a: t('visit.faq.2.a')
                             },
                             {
-                                q: "Dois-je payer pour une visite ?",
-                                a: "Non, toutes nos visites (virtuelles, visio et physiques) sont entièrement gratuites et sans engagement."
+                                q: t('visit.faq.3.q'),
+                                a: t('visit.faq.3.a')
                             }
                         ].map((faq, index) => (
                             <div key={index} className="bg-white p-6 rounded-xl shadow-sm">

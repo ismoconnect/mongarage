@@ -192,149 +192,152 @@ const Header = () => {
                         </div>
                     </div>
 
-                    {/* Mobile Menu Button */}
-                    <button className="lg:hidden p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                        {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-                    </button>
+                    {/* Mobile: Account, Language & Menu Button */}
+                    <div className="lg:hidden flex items-center gap-2">
+                        {/* Mon Compte Icon */}
+                        <Link to="/dashboard" className="p-2 text-gray-600 hover:text-primary transition-colors">
+                            <User className="h-6 w-6" />
+                        </Link>
+
+                        {/* Language Switcher */}
+                        <div className="relative dropdown-container">
+                            <button
+                                onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
+                                className="flex items-center justify-center p-2 text-gray-600 hover:text-primary transition-colors"
+                                title={t('nav.language')}
+                            >
+                                <img
+                                    src={`https://flagcdn.com/w40/${currentLang.flagCode}.png`}
+                                    srcSet={`https://flagcdn.com/w80/${currentLang.flagCode}.png 2x`}
+                                    width="24"
+                                    height="16"
+                                    alt={currentLang.name}
+                                    className="rounded-sm object-cover"
+                                />
+                            </button>
+                            {isLangMenuOpen && (
+                                <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
+                                    {languages.map((lang) => (
+                                        <button
+                                            key={lang.code}
+                                            onClick={() => changeLanguage(lang.code)}
+                                            className={`w-full text-left px-4 py-2 hover:bg-gray-50 flex items-center space-x-3 ${i18n.language === lang.code ? 'bg-gray-50 text-primary font-medium' : 'text-gray-700'}`}
+                                        >
+                                            <img
+                                                src={`https://flagcdn.com/w40/${lang.flagCode}.png`}
+                                                srcSet={`https://flagcdn.com/w80/${lang.flagCode}.png 2x`}
+                                                width="20"
+                                                height="15"
+                                                alt={lang.name}
+                                                className="rounded-sm object-cover"
+                                            />
+                                            <span>{lang.name}</span>
+                                        </button>
+                                    ))}
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Menu Button */}
+                        <button className="p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+                            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                        </button>
+                    </div>
                 </div>
             </div>
 
 
             {/* Mobile Menu */}
             {isMenuOpen && (
-                <div className="lg:hidden fixed inset-0 z-50 bg-white">
-                    {/* Mobile Header */}
-                    <div className="flex items-center justify-between h-20 px-6 border-b">
-                        <Link to="/" onClick={() => setIsMenuOpen(false)}>
-                            <img src="/logo.png" alt="AUTO17" className="h-12 w-auto object-contain" />
-                        </Link>
-                        <button onClick={() => setIsMenuOpen(false)} className="p-2">
-                            <X className="h-6 w-6" />
-                        </button>
-                    </div>
+                <>
+                    {/* Backdrop */}
+                    <div
+                        className="lg:hidden fixed inset-0 z-40 bg-black/50 animate-fadeIn"
+                        onClick={() => setIsMenuOpen(false)}
+                    ></div>
 
-                    {/* Mobile Menu Content */}
-                    <div className="overflow-y-auto h-[calc(100vh-80px)]">
-                        <div className="px-6 py-6 space-y-1">
-                            {menuItems.map((item, idx) => (
-                                <div key={idx} className="border-b border-gray-100 pb-1 mobile-menu-dropdown">
-                                    {item.hasDropdown ? (
-                                        <>
-                                            <button
-                                                onClick={(e) => {
-                                                    e.stopPropagation();
-                                                    setOpenDropdown(openDropdown === item.name ? null : item.name);
-                                                }}
-                                                className="w-full text-left text-gray-800 font-semibold py-4 flex items-center justify-between hover:text-primary transition-colors"
-                                            >
-                                                <span className="text-base">{item.name}</span>
-                                                <svg
-                                                    className={`w-5 h-5 transition-transform ${openDropdown === item.name ? 'rotate-180' : ''}`}
-                                                    fill="none"
-                                                    stroke="currentColor"
-                                                    viewBox="0 0 24 24"
+                    {/* Menu Panel */}
+                    <div className="lg:hidden fixed right-0 top-0 bottom-0 z-50 bg-white w-3/4 shadow-2xl animate-slideInRight">
+                        {/* Mobile Header */}
+                        <div className="flex items-center justify-between h-20 px-6 border-b">
+                            <Link to="/" onClick={() => setIsMenuOpen(false)}>
+                                <img src="/logo.png" alt="AUTO17" className="h-12 w-auto object-contain" />
+                            </Link>
+                            <button onClick={() => setIsMenuOpen(false)} className="p-2">
+                                <X className="h-6 w-6" />
+                            </button>
+                        </div>
+
+                        {/* Mobile Menu Content */}
+                        <div className="overflow-y-auto h-[calc(100vh-80px)]">
+                            <div className="px-6 py-6 space-y-1">
+                                {menuItems.map((item, idx) => (
+                                    <div key={idx} className="border-b border-gray-100 pb-1 mobile-menu-dropdown">
+                                        {item.hasDropdown ? (
+                                            <>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        setOpenDropdown(openDropdown === item.name ? null : item.name);
+                                                    }}
+                                                    className="w-full text-left text-gray-800 font-semibold py-4 flex items-center justify-between hover:text-primary transition-colors"
                                                 >
-                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                                </svg>
-                                            </button>
-                                            {openDropdown === item.name && (
-                                                <div className="pl-4 pb-3 space-y-1 bg-gray-50 -mx-6 px-10 py-3">
-                                                    {item.submenu.map((sub, subIdx) => (
-                                                        <Link
-                                                            key={subIdx}
-                                                            to={sub.path}
-                                                            className="block text-gray-600 py-2.5 hover:text-primary transition-colors"
-                                                            onClick={() => {
-                                                                setIsMenuOpen(false);
-                                                                setOpenDropdown(null);
-                                                            }}
-                                                        >
-                                                            {sub.name}
-                                                        </Link>
-                                                    ))}
-                                                </div>
-                                            )}
-                                        </>
-                                    ) : (
-                                        <Link
-                                            to={item.path}
-                                            className="block text-gray-800 font-semibold py-4 hover:text-primary transition-colors text-base"
-                                            onClick={() => setIsMenuOpen(false)}
-                                        >
-                                            {item.name}
-                                        </Link>
-                                    )}
-                                </div>
-                            ))}
-
-                            {/* Mon Compte */}
-                            <div className="pt-4 pb-2">
-                                <Link
-                                    to="/dashboard"
-                                    className="flex items-center gap-3 text-gray-800 font-semibold py-3 hover:text-primary transition-colors"
-                                    onClick={() => setIsMenuOpen(false)}
-                                >
-                                    <User className="h-5 w-5" />
-                                    <span>Mon Compte</span>
-                                </Link>
-                            </div>
-
-                            {/* Language Selector */}
-                            <div className="pt-2 pb-4 border-t border-gray-100">
-                                <button
-                                    onClick={() => setIsLangMenuOpen(!isLangMenuOpen)}
-                                    className="flex items-center gap-3 text-gray-800 font-semibold py-3 w-full"
-                                >
-                                    <Globe className="h-5 w-5" />
-                                    <span>{currentLang.name}</span>
-                                    <svg
-                                        className={`w-5 h-5 ml-auto transition-transform ${isLangMenuOpen ? 'rotate-180' : ''}`}
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                    </svg>
-                                </button>
-                                {isLangMenuOpen && (
-                                    <div className="pl-4 space-y-1 bg-gray-50 -mx-6 px-10 py-3">
-                                        {languages.map((lang) => (
-                                            <button
-                                                key={lang.code}
-                                                onClick={() => {
-                                                    changeLanguage(lang.code);
-                                                    setIsLangMenuOpen(false);
-                                                }}
-                                                className={`w-full text-left py-2.5 flex items-center gap-3 ${i18n.language === lang.code ? 'text-primary font-semibold' : 'text-gray-600'}`}
+                                                    <span className="text-base">{item.name}</span>
+                                                    <svg
+                                                        className={`w-5 h-5 transition-transform ${openDropdown === item.name ? 'rotate-180' : ''}`}
+                                                        fill="none"
+                                                        stroke="currentColor"
+                                                        viewBox="0 0 24 24"
+                                                    >
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                                    </svg>
+                                                </button>
+                                                {openDropdown === item.name && (
+                                                    <div className="pl-4 pb-3 space-y-1 bg-gray-50 -mx-6 px-10 py-3">
+                                                        {item.submenu.map((sub, subIdx) => (
+                                                            <Link
+                                                                key={subIdx}
+                                                                to={sub.path}
+                                                                className="block text-gray-600 py-2.5 hover:text-primary transition-colors"
+                                                                onClick={() => {
+                                                                    setIsMenuOpen(false);
+                                                                    setOpenDropdown(null);
+                                                                }}
+                                                            >
+                                                                {sub.name}
+                                                            </Link>
+                                                        ))}
+                                                    </div>
+                                                )}
+                                            </>
+                                        ) : (
+                                            <Link
+                                                to={item.path}
+                                                className="block text-gray-800 font-semibold py-4 hover:text-primary transition-colors text-base"
+                                                onClick={() => setIsMenuOpen(false)}
                                             >
-                                                <img
-                                                    src={`https://flagcdn.com/w40/${lang.flagCode}.png`}
-                                                    srcSet={`https://flagcdn.com/w80/${lang.flagCode}.png 2x`}
-                                                    width="24"
-                                                    height="18"
-                                                    alt={lang.name}
-                                                    className="rounded-sm object-cover"
-                                                />
-                                                <span>{lang.name}</span>
-                                            </button>
-                                        ))}
+                                                {item.name}
+                                            </Link>
+                                        )}
                                     </div>
-                                )}
-                            </div>
+                                ))}
 
-                            {/* CTA Button */}
-                            <div className="pt-6 pb-4">
-                                <Link
-                                    to="/contact"
-                                    className="block w-full bg-accent hover:bg-accent/90 text-white text-center py-4 rounded-lg font-semibold text-base shadow-lg"
-                                    onClick={() => setIsMenuOpen(false)}
-                                >
-                                    {t('hero.cta_quote')}
-                                </Link>
+
+
+                                {/* CTA Button */}
+                                <div className="pt-6 pb-4">
+                                    <Link
+                                        to="/contact"
+                                        className="block w-full bg-accent hover:bg-accent/90 text-white text-center py-4 rounded-lg font-semibold text-base shadow-lg"
+                                        onClick={() => setIsMenuOpen(false)}
+                                    >
+                                        {t('hero.cta_quote')}
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </>
             )}
 
         </header>

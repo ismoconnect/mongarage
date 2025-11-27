@@ -1,52 +1,55 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Shield, CheckCircle, Clock, Phone, Wrench, Car, Award, TrendingUp } from 'lucide-react';
 
 const Garanties = () => {
+    const { t } = useTranslation();
+
     const warranties = [
         {
-            name: "Garantie Standard",
-            duration: "12 mois",
-            price: "Incluse",
+            name: t('warranties.plans.standard_name'),
+            duration: t('warranties.plans.standard_duration'),
+            price: t('warranties.plans.standard_price'),
             color: "primary",
             features: [
-                "Couverture mécanique de base",
-                "Assistance routière 24/7",
-                "Réparations dans notre réseau",
-                "Pièces d'origine garanties",
-                "Transfert de propriété possible"
+                t('warranties.plans.standard_feat1'),
+                t('warranties.plans.standard_feat2'),
+                t('warranties.plans.standard_feat3'),
+                t('warranties.plans.standard_feat4'),
+                t('warranties.plans.standard_feat5')
             ],
             popular: false
         },
         {
-            name: "Garantie Étendue",
-            duration: "24 mois",
+            name: t('warranties.plans.extended_name'),
+            duration: t('warranties.plans.extended_duration'),
             price: "1,290€",
             color: "accent",
             features: [
-                "Couverture complète mécanique et électrique",
-                "Assistance routière 24/7 en Europe",
-                "Véhicule de remplacement inclus",
-                "Réparations dans tout réseau agréé",
-                "Prise en charge des frais de remorquage",
-                "Extension possible jusqu'à 36 mois",
-                "Pas de franchise"
+                t('warranties.plans.extended_feat1'),
+                t('warranties.plans.extended_feat2'),
+                t('warranties.plans.extended_feat3'),
+                t('warranties.plans.extended_feat4'),
+                t('warranties.plans.extended_feat5'),
+                t('warranties.plans.extended_feat6'),
+                t('warranties.plans.extended_feat7')
             ],
             popular: true
         },
         {
-            name: "Garantie Premium",
-            duration: "36 mois",
+            name: t('warranties.plans.premium_name'),
+            duration: t('warranties.plans.premium_duration'),
             price: "1,890€",
             color: "primary",
             features: [
-                "Couverture intégrale tous risques",
-                "Assistance routière 24/7 internationale",
-                "Véhicule de remplacement premium",
-                "Réparations dans tous les centres agréés",
-                "Prise en charge totale des frais",
-                "Entretien préventif inclus",
-                "Garantie carrosserie et peinture",
-                "Service de conciergerie"
+                t('warranties.plans.premium_feat1'),
+                t('warranties.plans.premium_feat2'),
+                t('warranties.plans.premium_feat3'),
+                t('warranties.plans.premium_feat4'),
+                t('warranties.plans.premium_feat5'),
+                t('warranties.plans.premium_feat6'),
+                t('warranties.plans.premium_feat7'),
+                t('warranties.plans.premium_feat8')
             ],
             popular: false
         }
@@ -55,46 +58,46 @@ const Garanties = () => {
     const coverage = [
         {
             icon: Wrench,
-            title: "Moteur et Transmission",
-            description: "Couverture complète du groupe motopropulseur, boîte de vitesses et embrayage"
+            title: t('warranties.coverage.engine_title'),
+            description: t('warranties.coverage.engine_desc')
         },
         {
             icon: Car,
-            title: "Système Électrique",
-            description: "Électronique embarquée, batterie, alternateur et démarreur"
+            title: t('warranties.coverage.electric_title'),
+            description: t('warranties.coverage.electric_desc')
         },
         {
             icon: Shield,
-            title: "Suspension et Direction",
-            description: "Amortisseurs, ressorts, direction assistée et rotules"
+            title: t('warranties.coverage.suspension_title'),
+            description: t('warranties.coverage.suspension_desc')
         },
         {
             icon: TrendingUp,
-            title: "Système de Freinage",
-            description: "Freins, ABS, ESP et tous les composants de sécurité"
+            title: t('warranties.coverage.brakes_title'),
+            description: t('warranties.coverage.brakes_desc')
         }
     ];
 
     const advantages = [
         {
             icon: Clock,
-            title: "Activation Immédiate",
-            description: "Votre garantie est active dès la livraison du véhicule"
+            title: t('warranties.advantages.immediate_title'),
+            description: t('warranties.advantages.immediate_desc')
         },
         {
             icon: Phone,
-            title: "Assistance 24/7",
-            description: "Une équipe disponible jour et nuit pour vous assister"
+            title: t('warranties.advantages.support_title'),
+            description: t('warranties.advantages.support_desc')
         },
         {
             icon: Award,
-            title: "Réseau Européen",
-            description: "Plus de 5,000 garages agréés dans toute l'Europe"
+            title: t('warranties.advantages.network_title'),
+            description: t('warranties.advantages.network_desc')
         },
         {
             icon: CheckCircle,
-            title: "Procédure Simple",
-            description: "Déclaration en ligne et prise en charge rapide"
+            title: t('warranties.advantages.simple_title'),
+            description: t('warranties.advantages.simple_desc')
         }
     ];
 
@@ -106,10 +109,10 @@ const Garanties = () => {
                     <div className="text-center">
                         <Shield className="h-16 w-16 mx-auto mb-6" />
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            Nos Garanties
+                            {t('warranties.hero_title')}
                         </h1>
                         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-                            Roulez l'esprit tranquille avec nos garanties complètes et notre assistance 24/7
+                            {t('warranties.hero_subtitle')}
                         </p>
                     </div>
                 </div>
@@ -120,10 +123,10 @@ const Garanties = () => {
                 <div className="container mx-auto px-6 max-w-7xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Choisissez Votre Protection
+                            {t('warranties.plans_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Des formules adaptées à tous les besoins
+                            {t('warranties.plans_subtitle')}
                         </p>
                     </div>
 
@@ -136,7 +139,7 @@ const Garanties = () => {
                             >
                                 {warranty.popular && (
                                     <div className="absolute top-0 right-0 bg-accent text-white px-4 py-1 text-sm font-bold rounded-bl-lg">
-                                        POPULAIRE
+                                        {t('warranties.popular')}
                                     </div>
                                 )}
                                 <div className={`bg-gradient-to-r ${warranty.color === 'accent' ? 'from-accent to-accent/90' : 'from-primary to-primary/90'} text-white p-8 text-center`}>
@@ -154,7 +157,7 @@ const Garanties = () => {
                                         ))}
                                     </ul>
                                     <button className={`w-full mt-8 ${warranty.popular ? 'bg-accent hover:bg-accent/90' : 'bg-primary hover:bg-primary/90'} text-white py-4 rounded-xl font-bold transition-all shadow-lg hover:shadow-xl`}>
-                                        Choisir cette garantie
+                                        {t('warranties.choose_plan')}
                                     </button>
                                 </div>
                             </div>
@@ -168,10 +171,10 @@ const Garanties = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Ce Qui Est Couvert
+                            {t('warranties.coverage_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Une protection complète pour votre tranquillité d'esprit
+                            {t('warranties.coverage_subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -193,10 +196,10 @@ const Garanties = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Nos Avantages
+                            {t('warranties.advantages_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Un service premium pour votre sérénité
+                            {t('warranties.advantages_subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -217,25 +220,25 @@ const Garanties = () => {
             <div className="bg-white py-20">
                 <div className="container mx-auto px-6 max-w-4xl">
                     <h2 className="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">
-                        Questions Fréquentes
+                        {t('warranties.faq_title')}
                     </h2>
                     <div className="space-y-6">
                         {[
                             {
-                                q: "Puis-je étendre ma garantie après l'achat ?",
-                                a: "Oui, vous pouvez souscrire à une garantie étendue dans les 30 jours suivant l'achat du véhicule."
+                                q: t('warranties.faq.q1'),
+                                a: t('warranties.faq.a1')
                             },
                             {
-                                q: "La garantie est-elle valable dans toute l'Europe ?",
-                                a: "Oui, nos garanties sont valables dans tous les pays européens avec notre réseau de garages agréés."
+                                q: t('warranties.faq.q2'),
+                                a: t('warranties.faq.a2')
                             },
                             {
-                                q: "Que faire en cas de panne ?",
-                                a: "Contactez notre assistance 24/7 au numéro indiqué sur votre certificat de garantie. Nous organiserons le dépannage et la réparation."
+                                q: t('warranties.faq.q3'),
+                                a: t('warranties.faq.a3')
                             },
                             {
-                                q: "Y a-t-il une franchise à payer ?",
-                                a: "La garantie standard peut inclure une franchise. Les garanties étendue et premium n'ont aucune franchise."
+                                q: t('warranties.faq.q4'),
+                                a: t('warranties.faq.a4')
                             }
                         ].map((faq, index) => (
                             <div key={index} className="bg-gray-50 p-6 rounded-xl">
@@ -251,24 +254,24 @@ const Garanties = () => {
             <div className="bg-gradient-to-r from-primary to-primary/90 text-white py-20">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                        Besoin de Plus d'Informations ?
+                        {t('warranties.cta_title')}
                     </h2>
                     <p className="text-xl text-white/90 mb-8">
-                        Notre équipe est à votre disposition pour vous conseiller
+                        {t('warranties.cta_subtitle')}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href="/contact"
                             className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold transition-all shadow-lg"
                         >
-                            Nous contacter
+                            {t('warranties.contact_btn')}
                         </a>
                         <a
                             href="tel:+33123456789"
                             className="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg flex items-center justify-center gap-2"
                         >
                             <Phone className="h-5 w-5" />
-                            Appeler maintenant
+                            {t('warranties.call_btn')}
                         </a>
                     </div>
                 </div>

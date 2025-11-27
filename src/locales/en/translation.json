@@ -50,99 +50,6 @@
         "in_delivery": "In delivery",
         "delivered": "Delivered",
         "track_order": "Track my order",
-        "download_invoice": "Download invoice",
-        "view": "View",
-        "download": "Download",
-        "account_settings": "Account Settings",
-        "save_changes": "Save changes"
-    },
-    "nav": {
-        "home": "Accueil",
-        "vehicles": "Véhicules",
-        "services": "Services",
-        "contact": "Contact",
-        "language": "Langue"
-    },
-    "hero": {
-        "title": "Importez votre véhicule d'occasion",
-        "subtitle": "depuis l'Allemagne",
-        "description": "Qualité allemande, prix compétitifs et livraison sécurisée dans toute l'Europe.",
-        "cta_vehicles": "Voir les véhicules",
-        "cta_quote": "Demander un devis"
-    },
-    "search": {
-        "brand": "Marque",
-        "all_brands": "Toutes les marques",
-        "model": "Modèle",
-        "all_models": "Tous les modèles",
-        "max_price": "Prix Max",
-        "no_limit": "Pas de limite",
-        "delivery_country": "Pays de livraison",
-        "search": "Rechercher"
-    },
-    "countries": {
-        "france": "France",
-        "belgium": "Belgique",
-        "switzerland": "Suisse",
-        "luxembourg": "Luxembourg",
-        "italy": "Italie",
-        "spain": "Espagne",
-        "portugal": "Portugal",
-        "romania": "Roumanie",
-        "germany": "Allemagne"
-    },
-    "why_us": {
-        "title": "Pourquoi choisir MonGarage ?",
-        "description": "Nous simplifions l'importation de véhicules d'occasion en vous offrant un service complet, sécurisé et transparent.",
-        "certified_title": "Véhicules Certifiés",
-        "certified_desc": "Inspection rigoureuse et historique complet vérifié pour chaque véhicule.",
-        "transparent_title": "Prix Transparents",
-        "transparent_desc": "Aucun frais caché. Prix final incluant transport et démarches administratives.",
-        "delivery_title": "Livraison Europe",
-        "delivery_desc": "Livraison sécurisée à votre domicile dans 8 pays européens.",
-        "warranty_title": "Garantie Incluse",
-        "warranty_desc": "Garantie mécanique européenne pour rouler en toute sérénité."
-    },
-    "featured": {
-        "title": "Véhicules en Vedette",
-        "description": "Découvrez notre sélection des meilleures opportunités du moment.",
-        "view_all": "Voir tout le catalogue",
-        "verified": "Vérifié",
-        "germany": "Allemagne"
-    },
-    "how_it_works": {
-        "title": "Comment ça marche ?",
-        "description": "Votre nouvelle voiture en 4 étapes simples.",
-        "step1_title": "Choisissez",
-        "step1_desc": "Sélectionnez votre véhicule parmi notre large catalogue certifié.",
-        "step2_title": "Commandez",
-        "step2_desc": "Validez votre commande et signez le contrat de vente sécurisé.",
-        "step3_title": "Paiement",
-        "step3_desc": "Effectuez le paiement par virement bancaire sécurisé.",
-        "step4_title": "Livraison",
-        "step4_desc": "Recevez votre véhicule chez vous, prêt à rouler."
-    },
-    "europe_delivery": {
-        "title": "Livraison dans toute l'Europe",
-        "description": "Nous assurons le transport de votre véhicule depuis l'Allemagne vers 8 pays européens. Notre service inclut toutes les démarches administratives et douanières.",
-        "map_placeholder": "Carte Interactive de Livraison"
-    },
-    "stats": {
-        "vehicles": "Véhicules Importés",
-        "countries": "Pays Desservis",
-        "satisfaction": "Clients Satisfaits",
-        "experience": "Années d'Expérience"
-    },
-    "cta": {
-        "title": "Prêt à trouver la voiture de vos rêves ?",
-        "description": "Ne perdez plus de temps. Confiez-nous votre recherche et profitez de notre expertise pour importer votre véhicule en toute sécurité.",
-        "browse": "Parcourir le catalogue",
-        "contact_us": "Nous contacter"
-    },
-    "footer": {
-        "tagline": "Votre partenaire de confiance pour l'importation de véhicules d'occasion depuis l'Allemagne vers toute l'Europe.",
-        "quick_links": "Liens Rapides",
-        "available_vehicles": "Véhicules Disponibles",
         "our_services": "Nos Services",
         "about": "À Propos",
         "inspection_title": "Inspection Technique",
@@ -166,7 +73,12 @@
         "step4_title": "Livraison",
         "step4_desc": "Remise des clés et des papiers à votre domicile.",
         "cta_title": "Besoin d'informations complémentaires ?",
-        "cta_contact": "Contactez-nous"
+        "cta_contact": "Contactez-nous",
+        "download_invoice": "Télécharger facture",
+        "view": "Voir",
+        "download": "Télécharger",
+        "account_settings": "Paramètres du Compte",
+        "save_changes": "Enregistrer les modifications"
     },
     "vehicles": {
         "title": "Available Vehicles",
@@ -189,8 +101,6 @@
         "all": "All",
         "transmission": "Transmission",
         "all_feminine": "All",
-        "vehicle_count": "vehicle{{count}}",
-        "filter_count": "filter{{count}}",
         "sort_newest": "Newest",
         "sort_price_asc": "Price ascending",
         "sort_price_desc": "Price descending",
@@ -203,7 +113,75 @@
         "reset_filters": "Reset filters",
         "apply": "Apply",
         "km": "km",
-        "germany": "Germany"
+        "germany": "Germany",
+        "share_title": "Découvrez ce {{brand}} {{model}} à {{price}}€",
+        "horses": "Chevaux",
+        "doors": "Portes",
+        "warranty": "Garantie",
+        "description": "Description",
+        "controls_diagnostics": "Contrôles & Diagnostics",
+        "technical_control": "Contrôle Technique",
+        "status": "Statut",
+        "last_control": "Dernier contrôle",
+        "next_control": "Prochain contrôle",
+        "battery_diagnostic": "Diagnostic Batterie",
+        "health_state": "État de santé",
+        "remaining_capacity": "Capacité restante",
+        "charge_cycles": "Cycles de charge",
+        "thermal_vehicle": "Véhicule thermique - Pas de diagnostic batterie requis",
+        "complete_maintenance_book": "Carnet d'Entretien Complet",
+        "maintenance_history": "Historique d'entretien complet disponible • Toutes révisions effectuées en concession agréée",
+        "equipments": "Équipements",
+        "technical_specs": "Caractéristiques Techniques",
+        "color": "Couleur",
+        "consumption": "Consommation",
+        "vat_recoverable": "TVA récupérable",
+        "delivery_estimation": "Estimation Livraison",
+        "cost": "Coût",
+        "delay": "Délai",
+        "total_estimated": "Total estimé",
+        "vehicle_price_delivery": "Prix véhicule + livraison",
+        "extended_warranty": "Garantie Étendue",
+        "extended_warranty_desc": "Prolongez votre tranquillité d'esprit avec notre garantie étendue 24 mois",
+        "full_coverage": "Couverture complète",
+        "assistance_24_7": "Assistance 24/7",
+        "replacement_vehicle": "Véhicule de remplacement",
+        "first_registration": "1ère immatriculation",
+        "warranty_included": "Garantie incluse",
+        "ask_info": "Demander des informations",
+        "call_now": "Appeler maintenant",
+        "whatsapp": "WhatsApp",
+        "certified_vehicle": "Véhicule certifié",
+        "quality_control": "Contrôle qualité complet",
+        "europe_delivery": "Livraison Europe",
+        "europe_wide": "Dans toute l'Europe",
+        "financing_available": "Financement disponible",
+        "custom_solutions": "Solutions personnalisées",
+        "warranty_duration": "{{duration}} de garantie",
+        "fuel_types": {
+            "petrol": "Petrol",
+            "diesel": "Diesel",
+            "hybrid": "Hybrid",
+            "electric": "Electric"
+        },
+        "transmission_types": {
+            "manual": "Manual",
+            "automatic": "Automatic"
+        },
+        "power_unit": "hp",
+        "colors": {
+            "black": "Black",
+            "white": "White",
+            "gray": "Gray",
+            "blue": "Blue",
+            "red": "Red"
+        },
+        "vehicle_count_one": "{{count}} vehicle",
+        "vehicle_count_other": "{{count}} vehicles",
+        "filter_count_one": "{{count}} filter",
+        "filter_count_other": "{{count}} filters",
+        "vehicle_count": "vehicle{{count}}",
+        "filter_count": "filter{{count}}"
     },
     "vehicle_detail": {
         "back_to_list": "Back to vehicles",
@@ -258,312 +236,1055 @@
         "warranty_duration": "{{duration}} warranty"
     },
     "services_page": {
-        "title": "Nos Services",
-        "subtitle": "Une solution clé en main pour importer votre véhicule en toute sérénité. Nous gérons tout le processus de A à Z.",
-        "search_title": "Recherche Personnalisée",
-        "search_desc": "Nous trouvons le véhicule exact que vous cherchez parmi des milliers d'annonces en Allemagne, en vérifiant la disponibilité et la conformité.",
-        "inspection_title": "Inspection Technique",
-        "inspection_desc": "Chaque véhicule subit une inspection rigoureuse sur plus de 100 points de contrôle pour garantir son parfait état mécanique et esthétique.",
-        "admin_title": "Gestion Administrative",
-        "admin_desc": "Nous nous occupons de toutes les démarches : négociation, contrat de vente, désimmatriculation allemande et documents d'exportation.",
-        "transport_title": "Transport Sécurisé",
-        "transport_desc": "Transport par camion porte-voiture assuré tous risques jusqu'à votre domicile ou notre centre de livraison le plus proche.",
-        "warranty_title": "Garantie Mécanique",
-        "warranty_desc": "Tous nos véhicules sont livrés avec une garantie mécanique européenne de 12 mois minimum, extensible jusqu'à 36 mois.",
-        "registration_title": "Immatriculation",
-        "registration_desc": "Nous vous fournissons tous les documents nécessaires (COC, Quitus Fiscal, CPI) pour l'immatriculation définitive dans votre pays.",
-        "process_title": "Notre Processus d'Importation",
-        "process_subtitle": "Simple, transparent et efficace.",
-        "step1_title": "Recherche & Devis",
-        "step1_desc": "Validation des critères et estimation du coût total.",
-        "step2_title": "Inspection & Achat",
-        "step2_desc": "Vérification sur place et sécurisation du véhicule.",
+        "title": "Our Services",
+        "subtitle": "A turnkey solution to import your vehicle with peace of mind. We manage the entire process from A to Z.",
+        "search_title": "Custom Search",
+        "search_desc": "We find the exact vehicle you are looking for among thousands of listings in Germany, checking availability and compliance.",
+        "inspection_title": "Technical Inspection",
+        "inspection_desc": "Each vehicle undergoes a rigorous inspection on more than 100 control points to ensure its perfect mechanical and aesthetic condition.",
+        "admin_title": "Administrative Management",
+        "admin_desc": "We take care of all procedures: negotiation, sales contract, German deregistration, and export documents.",
+        "transport_title": "Secure Transport",
+        "transport_desc": "Transport by car carrier truck fully insured to your home or our nearest delivery center.",
+        "warranty_title": "Mechanical Warranty",
+        "warranty_desc": "All our vehicles are delivered with a European mechanical warranty of at least 12 months, extendable up to 36 months.",
+        "registration_title": "Registration",
+        "registration_desc": "We provide you with all the necessary documents (COC, Tax Clearance, CPI) for final registration in your country.",
+        "process_title": "Our Import Process",
+        "process_subtitle": "Simple, transparent, and efficient.",
+        "step1_title": "Search & Quote",
+        "step1_desc": "Validation of criteria and total cost estimation.",
+        "step2_title": "Inspection & Purchase",
+        "step2_desc": "On-site verification and vehicle securing.",
         "step3_title": "Transport",
-        "step3_desc": "Rapatriement sécurisé vers le pays de destination.",
-        "step4_title": "Livraison",
-        "step4_desc": "Remise des clés et des papiers à votre domicile.",
-        "cta_title": "Besoin d'informations complémentaires ?",
-        "cta_contact": "Contactez-nous",
-        "phone_title": "Téléphone",
-        "phone_hours": "Lun-Ven: 9h-18h",
-        "email_title": "Email",
-        "email_response": "Réponse sous 24h",
-        "follow_us": "Suivez-nous",
-        "chat_title": "Chat en direct",
-        "chat_desc": "Discutez instantanément avec un conseiller commercial via WhatsApp.",
-        "chat_btn": "Ouvrir WhatsApp",
-        "form_title": "Envoyez-nous un message",
-        "name_label": "Nom complet",
-        "name_placeholder": "Votre nom",
-        "email_label": "Email",
-        "email_placeholder": "votre@email.com",
-        "phone_label": "Téléphone",
-        "phone_placeholder": "+33 6 12 34 56 78",
-        "subject_label": "Sujet",
-        "subject_placeholder": "Sélectionnez un sujet",
-        "subject_quote": "Demande de devis",
-        "subject_info": "Information véhicule",
-        "subject_partnership": "Partenariat",
-        "subject_other": "Autre",
-        "message_label": "Message",
-        "message_placeholder": "Comment pouvons-nous vous aider ?",
-        "send_btn": "Envoyer le message",
-        "success_message": "Merci de votre message. Nous vous répondrons dans les plus brefs délais."
+        "step3_desc": "Secure repatriation to the destination country.",
+        "step4_title": "Delivery",
+        "step4_desc": "Handover of keys and papers at your home.",
+        "cta_title": "Need more information?",
+        "cta_contact": "Contact us",
+        "cta_contact_btn": "Contact us"
     },
     "contact": {
-        "title": "Contactez-nous",
-        "subtitle": "Vous avez une question sur un véhicule ou souhaitez un devis personnalisé ? Notre équipe est à votre écoute.",
-        "info_title": "Nos Coordonnées",
-        "address_title": "Adresse",
-        "phone_title": "Téléphone",
-        "phone_hours": "Lun-Ven: 9h-18h",
+        "title": "Contact Us",
+        "subtitle": "Have a question about a vehicle or want a personalized quote? Our team is here to help.",
+        "info_title": "Our Contact Information",
+        "address_title": "Address",
+        "phone_title": "Phone",
+        "phone_hours": "Mon-Fri: 9am-6pm",
         "email_title": "Email",
-        "email_response": "Réponse sous 24h",
-        "follow_us": "Suivez-nous",
-        "chat_title": "Chat en direct",
-        "chat_desc": "Discutez instantanément avec un conseiller commercial via WhatsApp.",
-        "chat_btn": "Ouvrir WhatsApp",
-        "form_title": "Envoyez-nous un message",
-        "name_label": "Nom complet",
-        "name_placeholder": "Votre nom",
+        "email_response": "Response within 24h",
+        "follow_us": "Follow Us",
+        "chat_title": "Live Chat",
+        "chat_desc": "Chat instantly with a sales advisor via WhatsApp.",
+        "chat_btn": "Open WhatsApp",
+        "form_title": "Send Us a Message",
+        "name_label": "Full Name",
+        "name_placeholder": "Your name",
         "email_label": "Email",
-        "email_placeholder": "votre@email.com",
-        "phone_label": "Téléphone",
+        "email_placeholder": "your@email.com",
+        "phone_label": "Phone",
         "phone_placeholder": "+33 6 12 34 56 78",
-        "subject_label": "Sujet",
-        "subject_placeholder": "Sélectionnez un sujet",
-        "subject_quote": "Demande de devis",
-        "subject_info": "Information véhicule",
-        "subject_partnership": "Partenariat",
-        "subject_other": "Autre",
+        "subject_label": "Subject",
+        "subject_placeholder": "Select a subject",
+        "subject_quote": "Quote Request",
+        "subject_info": "Vehicle Information",
+        "subject_partnership": "Partnership",
+        "subject_other": "Other",
         "message_label": "Message",
-        "message_placeholder": "Comment pouvons-nous vous aider ?",
-        "send_btn": "Envoyer le message",
-        "success_message": "Merci de votre message. Nous vous répondrons dans les plus brefs délais."
+        "message_placeholder": "How can we help you?",
+        "send_btn": "Send Message",
+        "success_message": "Thank you! Your message has been sent successfully."
     },
     "about_page": {
-        "hero_title": "Qui sommes-nous ?",
-        "hero_subtitle": "Votre partenaire de confiance pour l'importation de véhicules d'occasion premium depuis l'Allemagne",
+        "hero_title": "Who We Are?",
+        "hero_subtitle": "Your trusted partner for importing premium used vehicles from Germany",
         "stats": {
-            "clients": "Clients satisfaits",
-            "countries": "Pays desservis",
-            "experience": "D'expérience",
-            "satisfaction": "Taux de satisfaction"
+            "clients": "Satisfied Customers",
+            "countries": "Countries Served",
+            "experience": "Years of Experience",
+            "satisfaction": "Satisfaction Rate"
         },
         "history": {
-            "title": "Notre Histoire",
-            "p1": "Fondée en 2009, AUTO17 est née d'une passion pour l'automobile et d'une vision claire : rendre accessible à tous les véhicules d'occasion premium allemands.",
-            "p2": "Basés à Berlin, au cœur du marché automobile allemand, nous avons développé un réseau solide de partenaires et d'experts pour vous offrir les meilleurs véhicules au meilleur prix.",
-            "p3": "Aujourd'hui, nous sommes fiers d'avoir aidé plus de 10,000 clients à travers l'Europe à trouver le véhicule de leurs rêves, avec un service personnalisé et une garantie de qualité.",
-            "p4": "Notre engagement reste le même : transparence, qualité et satisfaction client avant tout.",
-            "years_excellence": "d'excellence"
+            "title": "Our Story",
+            "p1": "Founded in 2009, AUTO17 was born from a passion for automobiles and a clear vision: to make premium German used vehicles accessible to everyone.",
+            "p2": "Based in Berlin, at the heart of the German automotive market, we have developed a strong network of partners and experts to offer you the best vehicles at the best price.",
+            "p3": "Today, we are proud to have helped over 10,000 customers across Europe find their dream vehicle, with personalized service and a quality guarantee.",
+            "p4": "Our commitment remains the same: transparency, quality, and customer satisfaction above all.",
+            "years_excellence": "of excellence"
         },
         "values": {
-            "title": "Nos Valeurs",
-            "subtitle": "Les principes qui guident notre travail au quotidien",
-            "transparency_title": "Transparence",
-            "transparency_desc": "Nous croyons en une communication honnête et transparente. Tous nos prix sont clairs, sans frais cachés.",
+            "title": "Our Values",
+            "subtitle": "The principles that guide our daily work",
+            "transparency_title": "Transparency",
+            "transparency_desc": "We believe in honest and transparent communication. All our prices are clear, with no hidden fees.",
             "passion_title": "Passion",
-            "passion_desc": "Notre passion pour l'automobile nous pousse à sélectionner uniquement les meilleurs véhicules pour nos clients.",
-            "quality_title": "Qualité",
-            "quality_desc": "Chaque véhicule passe par un contrôle qualité rigoureux et une expertise technique complète.",
+            "passion_desc": "Our passion for automobiles drives us to select only the best vehicles for our customers.",
+            "quality_title": "Quality",
+            "quality_desc": "Each vehicle undergoes rigorous quality control and complete technical expertise.",
             "excellence_title": "Excellence",
-            "excellence_desc": "Nous visons l'excellence dans chaque aspect de notre service, de la sélection à la livraison."
+            "excellence_desc": "We aim for excellence in every aspect of our service, from selection to delivery."
         },
         "team": {
-            "title": "Notre Équipe",
-            "subtitle": "Des experts passionnés à votre service",
-            "member1_role": "Fondateur & CEO",
-            "member1_desc": "15 ans d'expérience dans l'importation automobile",
-            "member2_role": "Directrice des Opérations",
-            "member2_desc": "Experte en logistique internationale",
-            "member3_role": "Expert Technique",
-            "member3_desc": "Mécanicien certifié avec 20 ans d'expérience"
+            "title": "Our Team",
+            "subtitle": "Passionate experts at your service",
+            "member1_role": "Founder & CEO",
+            "member1_desc": "15 years of experience in automotive import",
+            "member2_role": "Operations Director",
+            "member2_desc": "Expert in international logistics",
+            "member3_role": "Technical Expert",
+            "member3_desc": "Certified mechanic with 20 years of experience"
         },
         "cta": {
-            "title": "Prêt à trouver votre véhicule idéal ?",
-            "subtitle": "Découvrez notre sélection de véhicules premium ou contactez-nous pour un accompagnement personnalisé",
-            "btn_vehicles": "Voir les véhicules",
-            "btn_contact": "Nous contacter"
+            "title": "Ready to Find Your Ideal Vehicle?",
+            "subtitle": "Discover our selection of premium vehicles or contact us for personalized support",
+            "btn_vehicles": "View Vehicles",
+            "btn_contact": "Contact Us"
         }
     },
     "how_to_buy": {
-        "hero_title": "Comment Acheter en Ligne ?",
-        "hero_subtitle": "Un processus simple, transparent et 100% sécurisé en 6 étapes",
+        "hero_title": "How to Buy",
+        "hero_subtitle": "Your step-by-step guide to acquiring your vehicle with ease",
         "steps": {
             "step1": {
-                "title": "Recherchez Votre Véhicule",
-                "desc": "Parcourez notre catalogue en ligne et utilisez nos filtres pour trouver le véhicule qui correspond à vos critères.",
+                "title": "Personalized Search",
+                "desc": "Define your criteria and let us find the rare gem.",
                 "details": [
-                    "Filtres par marque, modèle, prix, année",
-                    "Photos HD et visites virtuelles 360°",
-                    "Historique complet du véhicule",
-                    "Rapport d'inspection technique détaillé"
+                    "Analysis of your needs",
+                    "Search on the European market",
+                    "Selection of the best offers",
+                    "Availability check"
                 ]
             },
             "step2": {
-                "title": "Contactez-Nous",
-                "desc": "Notre équipe d'experts est à votre disposition pour répondre à toutes vos questions et vous conseiller.",
+                "title": "Contact & Advice",
+                "desc": "Talk to our experts to refine your choice.",
                 "details": [
-                    "Conseiller personnel dédié",
-                    "Disponible par téléphone, email ou WhatsApp",
-                    "Réponse sous 24h maximum",
-                    "Visite virtuelle personnalisée possible"
+                    "Discovery call",
+                    "Personalized advice",
+                    "Answers to your questions",
+                    "Project validation"
                 ]
             },
             "step3": {
-                "title": "Réservez Votre Véhicule",
-                "desc": "Une fois votre choix fait, réservez votre véhicule avec un acompte sécurisé.",
+                "title": "Inspection & Validation",
+                "desc": "We rigorously check the vehicle for you.",
                 "details": [
-                    "Acompte de 10% pour réserver",
-                    "Paiement 100% sécurisé",
-                    "Confirmation immédiate",
-                    "Véhicule bloqué pour vous pendant 7 jours"
+                    "150-point inspection",
+                    "Detailed report with photos",
+                    "History check",
+                    "Technical validation"
                 ]
             },
             "step4": {
-                "title": "Finalisez le Paiement",
-                "desc": "Plusieurs options de paiement sont disponibles pour votre confort.",
+                "title": "Secure Payment",
+                "desc": "Proceed with payment securely.",
                 "details": [
-                    "Virement bancaire",
-                    "Paiement par carte bancaire",
-                    "Financement sur mesure disponible",
-                    "Paiement en plusieurs fois possible"
+                    "Secure bank transfer",
+                    "Transparent sales contract",
+                    "Detailed invoice",
+                    "Financial guarantees"
                 ]
             },
             "step5": {
-                "title": "Préparation du Véhicule",
-                "desc": "Votre véhicule est préparé avec soin par nos experts avant la livraison.",
+                "title": "Administrative Procedures",
+                "desc": "We handle all the paperwork for you.",
                 "details": [
-                    "Nettoyage complet intérieur/extérieur",
-                    "Contrôle technique final",
-                    "Préparation des documents",
-                    "Photos avant livraison envoyées"
+                    "Provisional registration",
+                    "Certificate of Conformity (COC)",
+                    "Tax clearance",
+                    "Final registration card"
                 ]
             },
             "step6": {
-                "title": "Livraison",
-                "desc": "Recevez votre véhicule à l'adresse de votre choix ou venez le chercher.",
+                "title": "Home Delivery",
+                "desc": "Receive your vehicle at home, ready to drive.",
                 "details": [
-                    "Livraison à domicile dans toute l'Europe",
-                    "Récupération dans nos points de vente",
-                    "Assurance transport incluse",
-                    "Suivi en temps réel de la livraison"
+                    "Insured transport",
+                    "Real-time tracking",
+                    "Personalized handover",
+                    "Complete cleaning"
                 ]
             }
         },
         "payment": {
-            "title": "Modes de Paiement",
-            "subtitle": "Choisissez la solution qui vous convient le mieux",
+            "title": "Payment Methods",
+            "subtitle": "Flexible and secure solutions",
             "methods": {
                 "bank_transfer": {
-                    "title": "Virement Bancaire",
-                    "desc": "Méthode sécurisée et sans frais supplémentaires"
+                    "title": "Bank Transfer",
+                    "desc": "Simple, fast, and secure"
                 },
                 "card": {
-                    "title": "Carte Bancaire",
-                    "desc": "Paiement instantané et sécurisé par Stripe"
+                    "title": "Credit Card",
+                    "desc": "For deposit or service fees"
                 },
                 "financing": {
-                    "title": "Financement",
-                    "desc": "Solutions de crédit personnalisées de 12 à 84 mois"
+                    "title": "Financing",
+                    "desc": "Credit solutions adapted to your budget"
                 }
             }
         },
         "guarantees": {
-            "title": "Nos Garanties",
-            "subtitle": "Achetez en toute confiance",
+            "title": "Our Guarantees",
+            "subtitle": "Buy with peace of mind",
             "money_back": {
-                "title": "Garantie Satisfait ou Remboursé",
-                "desc": "7 jours pour changer d'avis après réception"
+                "title": "Money Back Guarantee",
+                "desc": "14 days to change your mind"
             },
             "mechanical": {
-                "title": "Garantie Mécanique Incluse",
-                "desc": "12 mois minimum sur tous nos véhicules"
+                "title": "Mechanical Warranty",
+                "desc": "Up to 36 months of coverage"
             },
             "documents": {
-                "title": "Documents Certifiés",
-                "desc": "Tous les documents nécessaires fournis"
+                "title": "Papers in Order",
+                "desc": "All official documents provided"
             }
         },
         "faq": {
-            "title": "Questions Fréquentes",
-            "q1": "L'achat en ligne est-il sûr ?",
-            "a1": "Oui, absolument. Tous nos paiements sont sécurisés et nous offrons une garantie satisfait ou remboursé de 7 jours.",
-            "q2": "Puis-je voir le véhicule avant d'acheter ?",
-            "a2": "Oui, nous proposons des visites virtuelles détaillées et vous pouvez également planifier une visite physique dans nos locaux.",
-            "q3": "Combien de temps prend la livraison ?",
-            "a3": "Le délai varie selon votre localisation, de 5-7 jours pour la France à 10-12 jours pour des destinations plus éloignées."
+            "title": "Frequently Asked Questions",
+            "q1": "How long does the process take?",
+            "a1": "On average, allow 2 to 3 weeks between order and delivery.",
+            "q2": "Does the price include delivery?",
+            "a2": "The displayed price generally includes import fees, but home delivery may be optional depending on your location.",
+            "q3": "Can I cancel my order?",
+            "a3": "Yes, you have a withdrawal period in accordance with current legislation."
         },
         "cta": {
-            "title": "Prêt à Commencer ?",
-            "subtitle": "Découvrez notre sélection de véhicules premium ou contactez-nous pour être accompagné",
-            "btn_vehicles": "Voir les véhicules",
-            "btn_contact": "Nous contacter"
+            "title": "Ready to Take the Plunge?",
+            "subtitle": "Start your search today",
+            "btn_vehicles": "View vehicles",
+            "btn_contact": "Contact us"
         }
     },
     "auctions": {
-        "hero_title": "Comprendre les Enchères",
-        "hero_subtitle": "Achetez des véhicules premium à prix avantageux grâce aux enchères professionnelles",
+        "hero_title": "Understanding Auctions",
+        "hero_subtitle": "Buy premium vehicles at advantageous prices through professional auctions",
         "intro": {
-            "title": "Qu'est-ce qu'une Enchère Automobile ?",
-            "desc": "Les enchères automobiles professionnelles sont des plateformes B2B où les concessionnaires, sociétés de leasing et entreprises vendent leurs véhicules. Grâce à notre expertise et notre accès privilégié, nous vous permettons de bénéficier de ces prix avantageux normalement réservés aux professionnels.",
-            "important_title": "Important à Savoir",
-            "important_desc": "Les enchères sont réservées aux professionnels. En tant que particulier, vous ne pouvez pas y accéder directement. C'est pourquoi nous participons aux enchères en votre nom et vous garantissons le meilleur service."
+            "title": "What is a Car Auction?",
+            "desc": "Professional car auctions are B2B platforms where dealers, leasing companies, and businesses sell their vehicles. Thanks to our expertise and privileged access, we allow you to benefit from these advantageous prices normally reserved for professionals.",
+            "important_title": "Important to Know",
+            "important_desc": "Auctions are reserved for professionals. As an individual, you cannot access them directly. That's why we participate in auctions on your behalf and guarantee you the best service."
         },
         "advantages": {
-            "title": "Pourquoi Acheter aux Enchères ?",
-            "subtitle": "Des avantages incomparables",
-            "price_title": "Prix Avantageux",
-            "price_desc": "Achetez des véhicules premium jusqu'à 30% moins cher que le marché traditionnel grâce aux enchères professionnelles.",
-            "verified_title": "Véhicules Vérifiés",
-            "verified_desc": "Tous les véhicules aux enchères sont inspectés et certifiés par des experts indépendants.",
-            "selection_title": "Large Sélection",
-            "selection_desc": "Accès à des milliers de véhicules premium provenant de flottes d'entreprises, leasing et reprises.",
-            "transparency_title": "Transparence Totale",
-            "transparency_desc": "Historique complet, photos détaillées et rapport d'inspection disponibles pour chaque véhicule."
+            "title": "Why Buy at Auctions?",
+            "subtitle": "Incomparable advantages",
+            "price_title": "Advantageous Prices",
+            "price_desc": "Buy premium vehicles up to 30% cheaper than the traditional market thanks to professional auctions.",
+            "verified_title": "Verified Vehicles",
+            "verified_desc": "All vehicles at auctions are inspected and certified by independent experts.",
+            "selection_title": "Large Selection",
+            "selection_desc": "Access to thousands of premium vehicles from corporate fleets, leasing, and trade-ins.",
+            "transparency_title": "Total Transparency",
+            "transparency_desc": "Complete history, detailed photos, and inspection report available for each vehicle."
         },
         "how_it_works": {
-            "title": "Comment Ça Marche ?",
-            "subtitle": "Le processus en 5 étapes simples",
-            "step1_title": "Sélection du Véhicule",
-            "step1_desc": "Nous surveillons quotidiennement les enchères professionnelles en Allemagne et sélectionnons les meilleures opportunités selon vos critères.",
-            "step2_title": "Analyse et Validation",
-            "step2_desc": "Notre équipe d'experts analyse l'historique, l'état et la valeur marchande de chaque véhicule avant de participer aux enchères.",
-            "step3_title": "Participation aux Enchères",
-            "step3_desc": "Nous participons aux enchères en votre nom avec une stratégie d'achat optimisée pour obtenir le meilleur prix.",
-            "step4_title": "Acquisition et Inspection",
-            "step4_desc": "Une fois le véhicule remporté, nous effectuons une inspection complète et préparons tous les documents nécessaires.",
-            "step5_title": "Livraison",
-            "step5_desc": "Le véhicule est préparé, nettoyé et livré à l'adresse de votre choix avec tous les documents et la garantie incluse."
+            "title": "How It Works?",
+            "subtitle": "The process in 5 simple steps",
+            "step1_title": "Vehicle Selection",
+            "step1_desc": "We monitor professional auctions in Germany daily and select the best opportunities according to your criteria.",
+            "step2_title": "Analysis and Validation",
+            "step2_desc": "Our team of experts analyzes the history, condition, and market value of each vehicle before participating in auctions.",
+            "step3_title": "Participation in Auctions",
+            "step3_desc": "We participate in auctions on your behalf with an optimized buying strategy to get the best price.",
+            "step4_title": "Acquisition and Inspection",
+            "step4_desc": "Once the vehicle is won, we perform a complete inspection and prepare all necessary documents.",
+            "step5_title": "Delivery",
+            "step5_desc": "The vehicle is prepared, cleaned, and delivered to the address of your choice with all documents and warranty included."
         },
         "types": {
-            "title": "Types de Véhicules aux Enchères",
-            "subtitle": "D'où proviennent les véhicules ?",
-            "fleet_title": "Véhicules de Flotte",
-            "fleet_desc": "Voitures d'entreprise bien entretenues avec historique complet",
-            "leasing_title": "Fin de Leasing",
-            "leasing_desc": "Véhicules récents en excellent état avec peu de kilomètres",
-            "trade_in_title": "Reprises Concessionnaires",
-            "trade_in_desc": "Véhicules premium repris par les concessionnaires officiels"
+            "title": "Types of Vehicles at Auctions",
+            "subtitle": "Where do the vehicles come from?",
+            "fleet_title": "Fleet Vehicles",
+            "fleet_desc": "Well-maintained company cars with complete history",
+            "leasing_title": "Leasing Returns",
+            "leasing_desc": "Recent vehicles in excellent condition with low mileage",
+            "trade_in_title": "Dealer Trade-ins",
+            "trade_in_desc": "Premium vehicles traded in at official dealerships"
         },
         "tips": {
-            "title": "Nos Conseils",
-            "subtitle": "Pour maximiser vos chances de trouver la perle rare",
-            "budget_title": "Définissez Votre Budget",
-            "budget_desc": "Fixez un budget maximum incluant le prix d'achat, les frais et la livraison.",
-            "flexible_title": "Soyez Flexible",
-            "flexible_desc": "Plus vos critères sont flexibles (couleur, options), plus vous aurez d'opportunités.",
-            "experts_title": "Faites Confiance aux Experts",
-            "experts_desc": "Notre équipe connaît le marché et saura vous conseiller sur les meilleures opportunités.",
-            "act_fast_title": "Agissez Rapidement",
-            "act_fast_desc": "Les meilleures affaires partent vite. Soyez réactif quand nous vous proposons un véhicule."
+            "title": "Our Tips",
+            "subtitle": "To maximize your chances of finding the rare gem",
+            "budget_title": "Define Your Budget",
+            "budget_desc": "Set a maximum budget including the purchase price, fees, and delivery.",
+            "flexible_title": "Be Flexible",
+            "flexible_desc": "The more flexible your criteria (color, options), the more opportunities you will have.",
+            "experts_title": "Trust the Experts",
+            "experts_desc": "Our team knows the market and will advise you on the best opportunities.",
+            "act_fast_title": "Act Fast",
+            "act_fast_desc": "The best deals go fast. Be reactive when we propose a vehicle to you."
         },
         "cta": {
-            "title": "Intéressé par les Enchères ?",
-            "subtitle": "Contactez-nous pour discuter de vos critères et nous trouverons le véhicule idéal pour vous",
-            "btn_contact": "Nous contacter",
-            "btn_vehicles": "Voir les véhicules disponibles"
+            "title": "Interested in Auctions?",
+            "subtitle": "Contact us to discuss your criteria and we will find the ideal vehicle for you",
+            "btn_contact": "Contact us",
+            "btn_vehicles": "View available vehicles"
         }
+    },
+    "nav": {
+        "home": "Home",
+        "vehicles": "Vehicles",
+        "services": "Services",
+        "contact": "Contact",
+        "language": "Language",
+        "all_vehicles": "All vehicles",
+        "auctions": "Auctions",
+        "sourcing": "Provenance & Sourcing",
+        "services_trust": "Services & Trust",
+        "our_services": "Our Services",
+        "warranties": "Our Warranties",
+        "expertises": "Expertise & Controls",
+        "visit_vehicle": "Visit a vehicle",
+        "buying_guide": "Buying Guide",
+        "how_to_buy": "How to buy?",
+        "faq": "FAQ",
+        "company": "Company",
+        "about_us": "Who are we?",
+        "commitments": "Our Commitments",
+        "points_of_sale": "Our Points of Sale",
+        "contact_us": "Contact us",
+        "my_account": "My Account"
+    },
+    "hero": {
+        "title": "Import your used vehicle",
+        "subtitle": "from Germany",
+        "description": "German quality, competitive prices and secure delivery throughout Europe.",
+        "cta_vehicles": "View vehicles",
+        "cta_quote": "Request a quote"
+    },
+    "search": {
+        "brand": "Brand",
+        "all_brands": "All brands",
+        "model": "Model",
+        "all_models": "All models",
+        "max_price": "Max Price",
+        "no_limit": "No limit",
+        "delivery_country": "Delivery country",
+        "search": "Search"
+    },
+    "countries": {
+        "france": "France",
+        "belgium": "Belgium",
+        "switzerland": "Switzerland",
+        "luxembourg": "Luxembourg",
+        "italy": "Italy",
+        "spain": "Spain",
+        "portugal": "Portugal",
+        "romania": "Romania",
+        "germany": "Germany"
+    },
+    "why_us": {
+        "title": "Why choose MonGarage?",
+        "description": "We simplify the import of used vehicles by offering you a complete, secure and transparent service.",
+        "certified_title": "Certified Vehicles",
+        "certified_desc": "Rigorous inspection and complete verified history for each vehicle.",
+        "transparent_title": "Transparent Prices",
+        "transparent_desc": "No hidden fees. Final price including transport and administrative procedures.",
+        "delivery_title": "Europe Delivery",
+        "delivery_desc": "Secure delivery to your home in 8 European countries.",
+        "warranty_title": "Warranty Included",
+        "warranty_desc": "European mechanical warranty for worry-free driving."
+    },
+    "featured": {
+        "title": "Featured Vehicles",
+        "description": "Discover our selection of the best opportunities of the moment.",
+        "view_all": "View full catalog",
+        "verified": "Verified",
+        "germany": "Germany"
+    },
+    "how_it_works": {
+        "title": "How does it work?",
+        "description": "Your new car in 4 simple steps.",
+        "step1_title": "Choose",
+        "step1_desc": "Select your vehicle from our large certified catalog.",
+        "step2_title": "Order",
+        "step2_desc": "Confirm your order and sign the secure sales contract.",
+        "step3_title": "Payment",
+        "step3_desc": "Make payment by secure bank transfer.",
+        "step4_title": "Delivery",
+        "step4_desc": "Receive your vehicle at home, ready to drive."
+    },
+    "europe_delivery": {
+        "title": "Delivery throughout Europe",
+        "description": "We ensure the transport of your vehicle from Germany to 8 European countries. Our service includes all administrative and customs procedures.",
+        "map_placeholder": "Interactive Delivery Map"
+    },
+    "stats": {
+        "vehicles": "Imported Vehicles",
+        "countries": "Countries Served",
+        "satisfaction": "Satisfied Customers",
+        "experience": "Years of Experience"
+    },
+    "cta": {
+        "title": "Ready to find your dream car?",
+        "description": "Don't waste any more time. Trust us with your search and benefit from our expertise to import your vehicle safely.",
+        "browse": "Browse catalog",
+        "contact_us": "Contact us"
+    },
+    "footer": {
+        "tagline": "Your trusted partner for importing used vehicles from Germany to all of Europe.",
+        "quick_links": "Quick Links",
+        "available_vehicles": "Available Vehicles",
+        "our_services": "Our Services",
+        "about": "About",
+        "service1": "Germany Import",
+        "service2": "Technical Inspection",
+        "service3": "Secure Transport",
+        "service4": "Customs Clearance",
+        "rights": "All rights reserved",
+        "inspection_title": "Technical Inspection",
+        "inspection_desc": "Each vehicle undergoes a rigorous inspection on more than 100 control points to guarantee its perfect mechanical and aesthetic condition.",
+        "admin_title": "Administrative Management",
+        "admin_desc": "We take care of all the procedures: negotiation, sales contract, German deregistration and export documents.",
+        "transport_title": "Secure Transport",
+        "transport_desc": "Transport by car carrier truck insured all risks to your home or our nearest delivery center.",
+        "warranty_title": "Mechanical Warranty",
+        "warranty_desc": "All our vehicles are delivered with a European mechanical warranty of 12 months minimum, extendable up to 36 months.",
+        "registration_title": "Registration",
+        "registration_desc": "We provide you with all the necessary documents (COC, Tax Clearance, CPI) for final registration in your country.",
+        "process_title": "Our Import Process",
+        "process_subtitle": "Simple, transparent and efficient.",
+        "step1_title": "Search & Quote",
+        "step1_desc": "Validation of criteria and estimation of total cost.",
+        "step2_title": "Inspection & Purchase",
+        "step2_desc": "On-site verification and securing of the vehicle.",
+        "step3_title": "Transport",
+        "step3_desc": "Secure repatriation to the destination country.",
+        "step4_title": "Delivery",
+        "step4_desc": "Handover of keys and papers at your home.",
+        "cta_title": "Need more information?",
+        "cta_contact": "Contact us"
+    },
+    "sourcing": {
+        "hero_title": "Vehicle Provenance",
+        "hero_subtitle": "Premium vehicles carefully selected in Germany and Europe",
+        "intro": {
+            "title": "Why Germany?",
+            "desc": "Germany is the cradle of premium automobiles and has the most developed and reliable used vehicle market in Europe. Quality standards are exceptional, and vehicle maintenance is mandatory and rigorously controlled.",
+            "stat1": "Europe's Auto Market",
+            "stat2": "Of our vehicles come from Germany",
+            "stat3": "Checked and Certified"
+        },
+        "sources": {
+            "title": "Where Do Our Vehicles Come From?",
+            "subtitle": "Three main sources for optimal quality",
+            "fleet_title": "Corporate Fleets",
+            "fleet_desc": "Vehicles from large companies with regular maintenance and complete history.",
+            "fleet_adv1": "Dealership maintenance followed",
+            "fleet_adv2": "Complete documented history",
+            "fleet_adv3": "Certified mileage",
+            "fleet_adv4": "Recent vehicles (2-4 years)",
+            "leasing_title": "Leasing Returns",
+            "leasing_desc": "Vehicles at the end of professional leasing contracts, often in excellent condition.",
+            "leasing_adv1": "Impeccable condition",
+            "leasing_adv2": "Low mileage",
+            "leasing_adv3": "Guaranteed maintenance",
+            "leasing_adv4": "Premium options",
+            "trade_in_title": "Dealer Trade-ins",
+            "trade_in_desc": "Vehicles traded in at official dealerships when purchasing a new vehicle.",
+            "trade_in_adv1": "Technical inspection OK",
+            "trade_in_adv2": "Verified history",
+            "trade_in_adv3": "Good general condition",
+            "trade_in_adv4": "Competitive prices"
+        },
+        "countries": {
+            "title": "Our Source Countries",
+            "subtitle": "A rigorous selection across Europe",
+            "germany_desc": "Our main market with the best premium vehicles",
+            "germany_reason1": "Superior manufacturing quality",
+            "germany_reason2": "Mandatory rigorous maintenance",
+            "germany_reason3": "Strict technical inspections",
+            "germany_reason4": "Most developed auto market in Europe",
+            "austria": "Austria",
+            "austria_desc": "Premium vehicles in excellent condition",
+            "austria_reason1": "High quality standards",
+            "austria_reason2": "Well-maintained vehicles",
+            "austria_reason3": "Stable and reliable market",
+            "netherlands": "Netherlands",
+            "netherlands_desc": "Specific opportunities on electric vehicles",
+            "netherlands_reason1": "European leader in electric vehicles",
+            "netherlands_reason2": "Developed charging infrastructure",
+            "netherlands_reason3": "Recent vehicles"
+        },
+        "quality": {
+            "title": "Our Quality Guarantee",
+            "subtitle": "A rigorous selection process",
+            "control_title": "Rigorous Quality Control",
+            "control_desc": "Each vehicle goes through a 150-point check before being offered for sale.",
+            "history_title": "Complete History",
+            "history_desc": "We check the complete history: accidents, maintenance, previous owners.",
+            "certification_title": "Official Certification",
+            "certification_desc": "All our vehicles are certified compliant with European standards.",
+            "transparency_title": "Total Transparency",
+            "transparency_desc": "Detailed inspection report and HD photos available for each vehicle."
+        },
+        "process": {
+            "title": "Our Selection Process",
+            "step1_title": "Sourcing",
+            "step1_desc": "We monitor the best sources in Germany and Europe daily.",
+            "step2_title": "Verification",
+            "step2_desc": "Check of complete history, documents, and provenance.",
+            "step3_title": "Inspection",
+            "step3_desc": "150-point technical inspection by our certified experts.",
+            "step4_title": "Certification",
+            "step4_desc": "Final validation and certification before sale."
+        },
+        "cta": {
+            "title": "Discover Our Selection",
+            "subtitle": "Premium vehicles carefully selected for you",
+            "btn": "View available vehicles"
+        }
+    },
+    "warranties": {
+        "hero_title": "Our Warranties",
+        "hero_subtitle": "Drive with peace of mind with our comprehensive warranties and 24/7 assistance",
+        "plans_title": "Choose Your Protection",
+        "plans_subtitle": "Plans adapted to all needs",
+        "popular": "POPULAR",
+        "choose_plan": "Choose this warranty",
+        "coverage_title": "What Is Covered",
+        "coverage_subtitle": "Complete protection for your peace of mind",
+        "advantages_title": "Our Advantages",
+        "advantages_subtitle": "Premium service for your serenity",
+        "faq_title": "Frequently Asked Questions",
+        "cta_title": "Need More Information?",
+        "cta_subtitle": "Our team is at your disposal to advise you",
+        "contact_btn": "Contact us",
+        "call_btn": "Call now",
+        "plans": {
+            "standard_name": "Standard Warranty",
+            "standard_duration": "12 months",
+            "standard_price": "Included",
+            "standard_feat1": "Basic mechanical coverage",
+            "standard_feat2": "24/7 Roadside Assistance",
+            "standard_feat3": "Repairs in our network",
+            "standard_feat4": "Original parts guaranteed",
+            "standard_feat5": "Transfer of ownership possible",
+            "extended_name": "Extended Warranty",
+            "extended_duration": "24 months",
+            "extended_feat1": "Complete mechanical and electrical coverage",
+            "extended_feat2": "24/7 Roadside Assistance in Europe",
+            "extended_feat3": "Replacement vehicle included",
+            "extended_feat4": "Repairs in any approved network",
+            "extended_feat5": "Towing costs covered",
+            "extended_feat6": "Extension possible up to 36 months",
+            "extended_feat7": "No deductible",
+            "premium_name": "Premium Warranty",
+            "premium_duration": "36 months",
+            "premium_feat1": "Comprehensive all-risk coverage",
+            "premium_feat2": "International 24/7 Roadside Assistance",
+            "premium_feat3": "Premium replacement vehicle",
+            "premium_feat4": "Repairs in all approved centers",
+            "premium_feat5": "Total cost coverage",
+            "premium_feat6": "Preventive maintenance included",
+            "premium_feat7": "Bodywork and paint warranty",
+            "premium_feat8": "Concierge service"
+        },
+        "coverage": {
+            "engine_title": "Engine and Transmission",
+            "engine_desc": "Complete coverage of powertrain, gearbox, and clutch",
+            "electric_title": "Electrical System",
+            "electric_desc": "Onboard electronics, battery, alternator, and starter",
+            "suspension_title": "Suspension and Steering",
+            "suspension_desc": "Shock absorbers, springs, power steering, and ball joints",
+            "brakes_title": "Braking System",
+            "brakes_desc": "Brakes, ABS, ESP, and all safety components"
+        },
+        "advantages": {
+            "immediate_title": "Immediate Activation",
+            "immediate_desc": "Your warranty is active as soon as the vehicle is delivered",
+            "support_title": "24/7 Support",
+            "support_desc": "A team available day and night to assist you",
+            "network_title": "European Network",
+            "network_desc": "More than 5,000 approved garages across Europe",
+            "simple_title": "Simple Procedure",
+            "simple_desc": "Online declaration and quick handling"
+        },
+        "faq": {
+            "q1": "Can I extend my warranty after purchase?",
+            "a1": "Yes, you can subscribe to an extended warranty within 30 days of purchasing the vehicle.",
+            "q2": "Is the warranty valid throughout Europe?",
+            "a2": "Yes, our warranties are valid in all European countries with our network of approved garages.",
+            "q3": "What to do in case of breakdown?",
+            "a3": "Contact our 24/7 assistance at the number indicated on your warranty certificate. We will organize towing and repair.",
+            "q4": "Is there a deductible to pay?",
+            "a4": "The standard warranty may include a deductible. Extended and premium warranties have no deductible."
+        }
+    },
+    "expertises": {
+        "hero_title": "Vehicle Expertise",
+        "hero_subtitle": "A rigorous 150-point check for your peace of mind",
+        "intro_title": "Our Quality Commitment",
+        "intro_desc": "Each vehicle we offer undergoes a complete expertise carried out by our certified technicians. This 150-point inspection ensures that you receive a vehicle in perfect condition, with no unpleasant surprises.",
+        "stats": {
+            "points": "Checkpoints",
+            "inspected": "Vehicles inspected",
+            "experience": "Years of experience"
+        },
+        "points_title": "Checkpoints",
+        "points_subtitle": "A complete inspection of all systems",
+        "categories": {
+            "mechanical": "Mechanical",
+            "electronic": "Electronic",
+            "security": "Security",
+            "bodywork": "Bodywork"
+        },
+        "points": {
+            "mechanical_1": "Engine and transmission",
+            "mechanical_2": "Cooling system",
+            "mechanical_3": "Exhaust and catalyst",
+            "mechanical_4": "Clutch and gearbox",
+            "mechanical_5": "Timing belt",
+            "electronic_1": "Battery and alternator",
+            "electronic_2": "Complete electrical system",
+            "electronic_3": "Onboard electronics",
+            "electronic_4": "Sensors and ECUs",
+            "electronic_5": "Multimedia system",
+            "security_1": "Brakes (discs, pads, fluid)",
+            "security_2": "Suspension and shock absorbers",
+            "security_3": "Steering and ball joints",
+            "security_4": "Tires and geometry",
+            "security_5": "Airbags and seat belts",
+            "bodywork_1": "Paint condition",
+            "bodywork_2": "Absence of corrosion",
+            "bodywork_3": "Windows and windshield",
+            "bodywork_4": "Complete lighting",
+            "bodywork_5": "Sealing"
+        },
+        "process_title": "Our Expertise Process",
+        "process_subtitle": "4 steps for a complete inspection",
+        "process": {
+            "step1_title": "Complete Visual Inspection",
+            "step1_desc": "Detailed examination of the vehicle exterior and interior",
+            "step1_detail1": "HD photos from all angles",
+            "step1_detail2": "Paint verification",
+            "step1_detail3": "Interior condition",
+            "step1_detail4": "Equipment check",
+            "step2_title": "In-depth Technical Control",
+            "step2_desc": "Test of all mechanical and electronic systems",
+            "step2_detail1": "Complete electronic diagnostic",
+            "step2_detail2": "Road test",
+            "step2_detail3": "Performance measurement",
+            "step2_detail4": "Level check",
+            "step3_title": "Document Verification",
+            "step3_desc": "Check of history and documents",
+            "step3_detail1": "Maintenance history",
+            "step3_detail2": "VIN verification",
+            "step3_detail3": "Invoice check",
+            "step3_detail4": "Accident search",
+            "step4_title": "Expertise Report",
+            "step4_desc": "Generation of a detailed report with photos",
+            "step4_detail1": "150-point report",
+            "step4_detail2": "Detailed photos",
+            "step4_detail3": "Recommendations",
+            "step4_detail4": "Value estimation"
+        },
+        "certifications_title": "Our Certifications",
+        "certifications_subtitle": "Experts recognized for their professionalism",
+        "certifications": {
+            "certified_title": "Certified Experts",
+            "certified_desc": "Our inspectors are certified and have over 15 years of automotive experience.",
+            "independent_title": "Total Independence",
+            "independent_desc": "Our expertises are carried out completely independently and objectively.",
+            "report_title": "Detailed Report",
+            "report_desc": "Each vehicle has a complete inspection report available on request."
+        },
+        "check_title": "What We Check",
+        "checks": {
+            "accidents_title": "No Accidents",
+            "accidents_desc": "Complete history check and search for repair traces",
+            "mileage_title": "Certified Mileage",
+            "mileage_desc": "Validation of actual mileage via history and databases",
+            "mechanical_title": "Mechanical Condition",
+            "mechanical_desc": "Complete test of all mechanical and electronic systems",
+            "legal_title": "Legal Compliance",
+            "legal_desc": "Verification of compliance with European standards and documents"
+        },
+        "warning": {
+            "title": "Our Transparency Commitment",
+            "desc1": "If during our expertise we detect a major problem or a hidden defect, we refuse the vehicle. We only offer vehicles that successfully pass our rigorous quality control.",
+            "desc2": "Your satisfaction and safety are our top priority."
+        },
+        "cta_title": "Expertised and Certified Vehicles",
+        "cta_subtitle": "Discover our selection of vehicles that have successfully passed our complete expertise",
+        "cta_btn": "View available vehicles"
+    },
+    "visit": {
+        "hero": {
+            "title": "Visit a Vehicle",
+            "subtitle": "Several options to discover your future vehicle in detail"
+        },
+        "options_title": "Choose Your Visit Type",
+        "options_subtitle": "Three ways to discover our vehicles",
+        "options": {
+            "virtual": {
+                "title": "360° Virtual Tour",
+                "description": "Explore the vehicle in detail from home",
+                "features": [
+                    "360° interactive tour",
+                    "HD photos from all angles",
+                    "Zoom on details",
+                    "Presentation video",
+                    "Available 24/7"
+                ],
+                "advantages": [
+                    "Free and immediate",
+                    "No travel necessary",
+                    "Take your time",
+                    "Share with your family"
+                ]
+            },
+            "video": {
+                "title": "Video Conference Visit",
+                "description": "An expert presents the vehicle to you live",
+                "features": [
+                    "Video call with an expert",
+                    "Personalized presentation",
+                    "Ask all your questions",
+                    "Duration: 30-45 minutes",
+                    "By appointment"
+                ],
+                "advantages": [
+                    "Real-time interaction",
+                    "Expert advice",
+                    "Verification of specific points",
+                    "Recording possible"
+                ]
+            },
+            "physical": {
+                "title": "Physical Visit",
+                "description": "Come see and test drive the vehicle on site",
+                "features": [
+                    "Visit in our premises",
+                    "Test drive possible",
+                    "Detailed inspection",
+                    "Meeting with the team",
+                    "By appointment"
+                ],
+                "advantages": [
+                    "Complete experience",
+                    "Road test",
+                    "Personal verification",
+                    "Immediate decision possible"
+                ]
+            }
+        },
+        "included": "Included:",
+        "choose_option": "Choose this option",
+        "advantages_prefix": "Advantages of",
+        "how_it_works_title": "How It Works?",
+        "how_it_works_subtitle": "4 simple steps to visit your vehicle",
+        "steps": {
+            "1": {
+                "title": "Choose Your Vehicle",
+                "description": "Browse our catalog and select the vehicle you are interested in"
+            },
+            "2": {
+                "title": "Book Your Visit",
+                "description": "Choose the type of visit and make an appointment online or by phone"
+            },
+            "3": {
+                "title": "Prepare Your Questions",
+                "description": "Note all the points you want to check or questions to ask"
+            },
+            "4": {
+                "title": "Visit the Vehicle",
+                "description": "Enjoy your virtual, video, or physical visit according to your choice"
+            }
+        },
+        "locations_title": "Our Visit Points",
+        "locations_subtitle": "Visit our showrooms in Europe",
+        "locations": {
+            "germany": "Germany",
+            "france": "France",
+            "belgium": "Belgium",
+            "hours_berlin": "Mon-Fri: 9am-6pm, Sat: 10am-4pm",
+            "hours_paris": "Mon-Fri: 9am-6pm, Sat: 10am-3pm",
+            "hours_brussels": "Mon-Fri: 9am-5:30pm, Sat: 10am-2pm"
+        },
+        "cta": {
+            "title": "Ready to Visit Your Future Vehicle?",
+            "subtitle": "Contact us to plan your virtual, video, or physical visit",
+            "call": "Call us",
+            "email": "Send an email",
+            "whatsapp": "WhatsApp"
+        },
+        "faq_title": "Frequently Asked Questions",
+        "faq": [
+            {
+                "q": "Is the virtual tour as detailed as a physical visit?",
+                "a": "Yes! Our 360° virtual tours include HD photos from all angles, zooms on details, and a complete presentation video."
+            },
+            {
+                "q": "Can I take a test drive?",
+                "a": "Yes, during a physical visit to our premises, you can take a test drive by appointment."
+            },
+            {
+                "q": "How long does a video conference visit last?",
+                "a": "A video conference visit generally lasts between 30 and 45 minutes, depending on your questions and needs."
+            },
+            {
+                "q": "Do I have to pay for a visit?",
+                "a": "No, all our visits (virtual, video, and physical) are completely free and without obligation."
+            }
+        ]
+    },
+    "faq": {
+        "hero_title": "Frequently Asked Questions",
+        "hero_subtitle": "Quickly find answers to your questions about purchasing, delivery, and our services",
+        "categories": {
+            "purchase": {
+                "title": "Vehicle Purchase",
+                "q1": "How can I buy a vehicle?",
+                "a1": "You can browse our online catalog, select the vehicle you're interested in, and contact us to finalize the purchase. We guide you through every step of the process.",
+                "q2": "Can I see the vehicle before buying it?",
+                "a2": "Yes, we offer detailed virtual tours and you can also schedule a physical visit at our premises in Germany or at our sales points.",
+                "q3": "What payment methods are accepted?",
+                "a3": "We accept bank transfers, credit card payments, and also offer personalized financing solutions.",
+                "q4": "Is it possible to take a test drive?",
+                "a4": "Yes, you can take a test drive by appointment at our premises in Germany or at one of our partner sales points."
+            },
+            "delivery": {
+                "title": "Delivery and Transport",
+                "q1": "Which countries do you deliver to?",
+                "a1": "We deliver throughout Europe: France, Belgium, Switzerland, Luxembourg, Italy, Spain, Portugal, Romania, and other countries upon request.",
+                "q2": "What is the delivery time?",
+                "a2": "The timeframe varies by country: 5-7 days for France, 4-6 days for Belgium, up to 10-12 days for more distant destinations.",
+                "q3": "How is transport insured?",
+                "a3": "All our vehicles are transported by certified professionals and are fully insured during transport.",
+                "q4": "Can I pick up the vehicle myself?",
+                "a4": "Yes, you can collect your vehicle directly from our premises in Germany. We assist you with all necessary formalities."
+            },
+            "warranties": {
+                "title": "Warranties and Services",
+                "q1": "What warranty is included with the vehicle?",
+                "a1": "All our vehicles include a minimum 12-month warranty. You can also subscribe to an extended 24-month warranty.",
+                "q2": "What does the warranty cover?",
+                "a2": "The warranty covers major mechanical and electrical defects. The extended warranty offers comprehensive coverage including 24/7 assistance and a replacement vehicle.",
+                "q3": "Are the vehicles inspected?",
+                "a3": "Yes, all our vehicles undergo a complete technical inspection and detailed expertise before sale. We provide a full report.",
+                "q4": "Do you offer after-sales service?",
+                "a4": "Yes, we offer complete after-sales service with technical assistance, maintenance, and repairs in our partner network."
+            },
+            "documentation": {
+                "title": "Documentation and Formalities",
+                "q1": "What documents will I receive?",
+                "a1": "You will receive: the registration certificate, technical inspection, service book, European certificate of conformity, and all documents necessary for registration.",
+                "q2": "Do you help with registration?",
+                "a2": "Yes, we assist you with all registration procedures in your country and provide all necessary documents.",
+                "q3": "Is the vehicle compliant with European standards?",
+                "a3": "Yes, all our vehicles comply with European standards and have an EC certificate of conformity.",
+                "q4": "Are there any hidden fees?",
+                "a4": "No, all our prices are transparent. The displayed price includes the vehicle and warranty. Delivery and registration fees are clearly indicated separately."
+            },
+            "financing": {
+                "title": "Financing",
+                "q1": "Do you offer financing solutions?",
+                "a1": "Yes, we work with several financial partners to offer you credit solutions adapted to your situation.",
+                "q2": "What is the minimum down payment?",
+                "a2": "The minimum down payment varies according to your situation and the chosen vehicle. Contact us for a personalized study.",
+                "q3": "Can I get credit without a down payment?",
+                "a3": "Yes, under certain conditions. Our financial advisors will study your file to find the best solution.",
+                "q4": "What is the maximum financing duration?",
+                "a4": "We offer financing from 12 to 84 months depending on your profile and the amount borrowed."
+            }
+        },
+        "cta_title": "Can't Find Your Answer?",
+        "cta_subtitle": "Our team is here to help you",
+        "cta_call": "Call us",
+        "cta_email": "Send an email",
+        "cta_whatsapp": "WhatsApp"
+    },
+    "commitments": {
+        "hero_title": "Our Commitments",
+        "hero_subtitle": "Strong values that guide each of our daily actions",
+        "promise_title": "Our Promise",
+        "promise_text": "At AUTO17, we don't just sell vehicles. We build relationships of trust based on solid values and concrete commitments. Every decision we make is guided by our desire to offer you the best possible experience.",
+        "items": {
+            "transparency": {
+                "title": "Total Transparency",
+                "description": "We believe in honest and transparent communication. Each vehicle comes with a complete report detailing its history, condition, and all relevant information.",
+                "points": [
+                    "Complete vehicle history",
+                    "Detailed photos from all angles",
+                    "Technical inspection report",
+                    "Clear prices with no hidden fees"
+                ]
+            },
+            "quality": {
+                "title": "Guaranteed Quality",
+                "description": "We only select premium quality vehicles. Each car goes through rigorous quality control before being offered for sale.",
+                "points": [
+                    "Thorough technical inspection",
+                    "History verification",
+                    "Complete mechanical inspection",
+                    "Warranty included on all vehicles"
+                ]
+            },
+            "service": {
+                "title": "Exceptional Customer Service",
+                "description": "Your satisfaction is our priority. Our dedicated team supports you at every step, from selection to delivery and beyond.",
+                "points": [
+                    "Dedicated personal advisor",
+                    "Available 7 days a week",
+                    "Multilingual support",
+                    "Personalized order tracking"
+                ]
+            },
+            "ecology": {
+                "title": "Environmental Commitment",
+                "description": "We are committed to reducing our carbon footprint by optimizing our transport and offering a wide selection of electric and hybrid vehicles.",
+                "points": [
+                    "Optimized and grouped transport",
+                    "Wide choice of electric vehicles",
+                    "Partnership with eco-responsible carriers",
+                    "Carbon offset available"
+                ]
+            },
+            "trust": {
+                "title": "Trust Relationship",
+                "description": "We build lasting relationships with our customers based on trust, integrity, and mutual respect.",
+                "points": [
+                    "Over 10,000 satisfied customers",
+                    "98% satisfaction rate",
+                    "Referral program",
+                    "Personalized after-sales follow-up"
+                ]
+            },
+            "innovation": {
+                "title": "Continuous Innovation",
+                "description": "We constantly invest in new technologies to improve your purchasing experience and offer you the best services.",
+                "points": [
+                    "Modern online platform",
+                    "360° virtual tours",
+                    "Digitalized purchasing process",
+                    "Online financing tools"
+                ]
+            }
+        },
+        "core_values_title": "Our Core Values",
+        "core_values_subtitle": "The principles that define us",
+        "values": [
+            "Honesty in all our transactions",
+            "Excellence in customer service",
+            "Respect for our commitments",
+            "Continuous improvement of our services"
+        ],
+        "testimonials_title": "They Trust Us",
+        "testimonials_subtitle": "Discover testimonials from our satisfied customers",
+        "testimonials": [
+            {
+                "location": "Paris, France",
+                "text": "Exceptional service! The team supported me from start to finish. My Audi arrived in perfect condition."
+            },
+            {
+                "location": "Brussels, Belgium",
+                "text": "Total transparency on the vehicle's condition. No surprises, pure happiness!"
+            },
+            {
+                "location": "Milan, Italy",
+                "text": "Simple and fast process. I highly recommend AUTO17 to all my friends."
+            }
+        ],
+        "cta_title": "Join Our Community",
+        "cta_subtitle": "Experience a different automotive service, based on trust and excellence",
+        "cta_btn_vehicles": "Discover our vehicles",
+        "cta_btn_contact": "Contact us"
+    },
+    "sales_points": {
+        "hero_title": "Our Sales Points",
+        "hero_subtitle": "Present throughout Europe to serve you better",
+        "intro_title": "A European Network at Your Service",
+        "intro_text": "Our network of sales and delivery points extends across Europe to offer you local service. Whether you want to pick up your vehicle directly or benefit from home delivery, we have the solution tailored to your needs.",
+        "opening_hours": "Opening Hours",
+        "btn_directions": "Directions",
+        "btn_contact": "Contact",
+        "locations": {
+            "berlin": {
+                "country": "Germany",
+                "city": "Berlin",
+                "type": "Headquarters & Main Showroom",
+                "hours": {
+                    "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+                    "saturday": "Sat: 10:00 AM - 4:00 PM",
+                    "sunday": "Sun: Closed"
+                },
+                "features": [
+                    "2000m² showroom",
+                    "Over 150 vehicles in stock",
+                    "Preparation workshop",
+                    "Complete after-sales service"
+                ]
+            },
+            "paris": {
+                "country": "France",
+                "city": "Paris",
+                "type": "Delivery Point",
+                "hours": {
+                    "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+                    "saturday": "Sat: 10:00 AM - 3:00 PM",
+                    "sunday": "Sun: Closed"
+                },
+                "features": [
+                    "Secure delivery point",
+                    "Pre-delivery inspection",
+                    "French-speaking advisor",
+                    "Customer parking"
+                ]
+            },
+            "brussels": {
+                "country": "Belgium",
+                "city": "Brussels",
+                "type": "Delivery Point",
+                "hours": {
+                    "weekdays": "Mon-Fri: 9:00 AM - 5:30 PM",
+                    "saturday": "Sat: 10:00 AM - 2:00 PM",
+                    "sunday": "Sun: Closed"
+                },
+                "features": [
+                    "Modern delivery center",
+                    "Test drives available",
+                    "Multilingual support",
+                    "Customer café"
+                ]
+            },
+            "geneva": {
+                "country": "Switzerland",
+                "city": "Geneva",
+                "type": "Delivery Point",
+                "hours": {
+                    "weekdays": "Mon-Fri: 9:00 AM - 6:00 PM",
+                    "saturday": "Sat: 10:00 AM - 3:00 PM",
+                    "sunday": "Sun: Closed"
+                },
+                "features": [
+                    "Premium location",
+                    "VIP service available",
+                    "On-site customs clearance",
+                    "Assisted registration"
+                ]
+            }
+        },
+        "services_title": "Available Services",
+        "services_subtitle": "At all our sales points",
+        "services": {
+            "inspection": {
+                "title": "Free Inspection",
+                "description": "Complete vehicle inspection before delivery"
+            },
+            "advisor": {
+                "title": "Dedicated Advisor",
+                "description": "An expert listening to answer your questions"
+            },
+            "test_drive": {
+                "title": "Test Drive",
+                "description": "Test your vehicle before finalization"
+            }
+        },
+        "cta_title": "Plan Your Visit",
+        "cta_subtitle": "Make an appointment at the sales point closest to you",
+        "cta_btn": "Make an appointment"
+    },
+    "home": {
+        "most_requested_brands": "Most Requested"
     }
 }

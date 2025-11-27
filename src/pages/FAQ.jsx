@@ -1,112 +1,114 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { ChevronDown, MessageCircle, Phone, Mail } from 'lucide-react';
 
 const FAQ = () => {
+    const { t } = useTranslation();
     const [openIndex, setOpenIndex] = useState(null);
 
     const faqs = [
         {
-            category: "Achat de véhicules",
+            category: t('faq.categories.purchase.title'),
             questions: [
                 {
-                    q: "Comment puis-je acheter un véhicule ?",
-                    a: "Vous pouvez parcourir notre catalogue en ligne, sélectionner le véhicule qui vous intéresse, et nous contacter pour finaliser l'achat. Nous vous accompagnons à chaque étape du processus."
+                    q: t('faq.categories.purchase.q1'),
+                    a: t('faq.categories.purchase.a1')
                 },
                 {
-                    q: "Puis-je voir le véhicule avant de l'acheter ?",
-                    a: "Oui, nous proposons des visites virtuelles détaillées et vous pouvez également planifier une visite physique dans nos locaux en Allemagne ou dans nos points de vente."
+                    q: t('faq.categories.purchase.q2'),
+                    a: t('faq.categories.purchase.a2')
                 },
                 {
-                    q: "Quels sont les modes de paiement acceptés ?",
-                    a: "Nous acceptons les virements bancaires, les paiements par carte bancaire et proposons également des solutions de financement personnalisées."
+                    q: t('faq.categories.purchase.q3'),
+                    a: t('faq.categories.purchase.a3')
                 },
                 {
-                    q: "Est-il possible de faire un essai routier ?",
-                    a: "Oui, vous pouvez effectuer un essai routier sur rendez-vous dans nos locaux en Allemagne ou dans l'un de nos points de vente partenaires."
+                    q: t('faq.categories.purchase.q4'),
+                    a: t('faq.categories.purchase.a4')
                 }
             ]
         },
         {
-            category: "Livraison et transport",
+            category: t('faq.categories.delivery.title'),
             questions: [
                 {
-                    q: "Dans quels pays livrez-vous ?",
-                    a: "Nous livrons dans toute l'Europe : France, Belgique, Suisse, Luxembourg, Italie, Espagne, Portugal, Roumanie et autres pays sur demande."
+                    q: t('faq.categories.delivery.q1'),
+                    a: t('faq.categories.delivery.a1')
                 },
                 {
-                    q: "Quel est le délai de livraison ?",
-                    a: "Le délai varie selon votre pays : 5-7 jours pour la France, 4-6 jours pour la Belgique, jusqu'à 10-12 jours pour des destinations plus éloignées."
+                    q: t('faq.categories.delivery.q2'),
+                    a: t('faq.categories.delivery.a2')
                 },
                 {
-                    q: "Comment est assuré le transport ?",
-                    a: "Tous nos véhicules sont transportés par des professionnels certifiés et sont entièrement assurés pendant le transport."
+                    q: t('faq.categories.delivery.q3'),
+                    a: t('faq.categories.delivery.a3')
                 },
                 {
-                    q: "Puis-je venir chercher le véhicule moi-même ?",
-                    a: "Oui, vous pouvez récupérer votre véhicule directement dans nos locaux en Allemagne. Nous vous aidons avec toutes les formalités nécessaires."
+                    q: t('faq.categories.delivery.q4'),
+                    a: t('faq.categories.delivery.a4')
                 }
             ]
         },
         {
-            category: "Garanties et services",
+            category: t('faq.categories.warranties.title'),
             questions: [
                 {
-                    q: "Quelle garantie est incluse avec le véhicule ?",
-                    a: "Tous nos véhicules incluent une garantie de 12 mois minimum. Vous pouvez également souscrire à une garantie étendue de 24 mois."
+                    q: t('faq.categories.warranties.q1'),
+                    a: t('faq.categories.warranties.a1')
                 },
                 {
-                    q: "Que couvre la garantie ?",
-                    a: "La garantie couvre les défauts mécaniques et électriques majeurs. La garantie étendue offre une couverture complète incluant l'assistance 24/7 et un véhicule de remplacement."
+                    q: t('faq.categories.warranties.q2'),
+                    a: t('faq.categories.warranties.a2')
                 },
                 {
-                    q: "Les véhicules sont-ils inspectés ?",
-                    a: "Oui, tous nos véhicules passent un contrôle technique complet et une expertise détaillée avant la vente. Nous fournissons un rapport complet."
+                    q: t('faq.categories.warranties.q3'),
+                    a: t('faq.categories.warranties.a3')
                 },
                 {
-                    q: "Proposez-vous un service après-vente ?",
-                    a: "Oui, nous offrons un service après-vente complet avec assistance technique, entretien et réparations dans notre réseau de partenaires."
+                    q: t('faq.categories.warranties.q4'),
+                    a: t('faq.categories.warranties.a4')
                 }
             ]
         },
         {
-            category: "Documentation et formalités",
+            category: t('faq.categories.documentation.title'),
             questions: [
                 {
-                    q: "Quels documents vais-je recevoir ?",
-                    a: "Vous recevrez : le certificat d'immatriculation, le contrôle technique, le carnet d'entretien, le certificat de conformité européen et tous les documents nécessaires pour l'immatriculation."
+                    q: t('faq.categories.documentation.q1'),
+                    a: t('faq.categories.documentation.a1')
                 },
                 {
-                    q: "Aidez-vous avec l'immatriculation ?",
-                    a: "Oui, nous vous assistons dans toutes les démarches d'immatriculation dans votre pays et fournissons tous les documents nécessaires."
+                    q: t('faq.categories.documentation.q2'),
+                    a: t('faq.categories.documentation.a2')
                 },
                 {
-                    q: "Le véhicule est-il conforme aux normes européennes ?",
-                    a: "Oui, tous nos véhicules sont conformes aux normes européennes et disposent d'un certificat de conformité CE."
+                    q: t('faq.categories.documentation.q3'),
+                    a: t('faq.categories.documentation.a3')
                 },
                 {
-                    q: "Y a-t-il des frais cachés ?",
-                    a: "Non, tous nos prix sont transparents. Le prix affiché inclut le véhicule et la garantie. Les frais de livraison et d'immatriculation sont clairement indiqués séparément."
+                    q: t('faq.categories.documentation.q4'),
+                    a: t('faq.categories.documentation.a4')
                 }
             ]
         },
         {
-            category: "Financement",
+            category: t('faq.categories.financing.title'),
             questions: [
                 {
-                    q: "Proposez-vous des solutions de financement ?",
-                    a: "Oui, nous travaillons avec plusieurs partenaires financiers pour vous proposer des solutions de crédit adaptées à votre situation."
+                    q: t('faq.categories.financing.q1'),
+                    a: t('faq.categories.financing.a1')
                 },
                 {
-                    q: "Quel est le montant minimum d'apport ?",
-                    a: "L'apport minimum varie selon votre situation et le véhicule choisi. Contactez-nous pour une étude personnalisée."
+                    q: t('faq.categories.financing.q2'),
+                    a: t('faq.categories.financing.a2')
                 },
                 {
-                    q: "Puis-je obtenir un crédit sans apport ?",
-                    a: "Oui, sous certaines conditions. Nos conseillers financiers étudieront votre dossier pour trouver la meilleure solution."
+                    q: t('faq.categories.financing.q3'),
+                    a: t('faq.categories.financing.a3')
                 },
                 {
-                    q: "Quelle est la durée maximale de financement ?",
-                    a: "Nous proposons des financements sur 12 à 84 mois selon votre profil et le montant emprunté."
+                    q: t('faq.categories.financing.q4'),
+                    a: t('faq.categories.financing.a4')
                 }
             ]
         }
@@ -123,10 +125,10 @@ const FAQ = () => {
                 {/* Header */}
                 <div className="text-center mb-16">
                     <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-                        Questions Fréquentes
+                        {t('faq.hero_title')}
                     </h1>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Trouvez rapidement les réponses à vos questions sur l'achat, la livraison et nos services
+                        {t('faq.hero_subtitle')}
                     </p>
                 </div>
 
@@ -169,22 +171,22 @@ const FAQ = () => {
 
                 {/* Contact CTA */}
                 <div className="mt-16 bg-gradient-to-r from-primary to-primary/90 rounded-2xl p-8 md:p-12 text-center text-white">
-                    <h2 className="text-3xl font-bold mb-4">Vous ne trouvez pas votre réponse ?</h2>
-                    <p className="text-xl mb-8 text-white/90">Notre équipe est là pour vous aider</p>
+                    <h2 className="text-3xl font-bold mb-4">{t('faq.cta_title')}</h2>
+                    <p className="text-xl mb-8 text-white/90">{t('faq.cta_subtitle')}</p>
                     <div className="flex flex-col md:flex-row gap-4 justify-center">
                         <a
                             href="tel:+33123456789"
                             className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 shadow-lg"
                         >
                             <Phone className="h-5 w-5" />
-                            Appelez-nous
+                            {t('faq.cta_call')}
                         </a>
                         <a
                             href="mailto:contact@auto17.com"
                             className="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 shadow-lg"
                         >
                             <Mail className="h-5 w-5" />
-                            Envoyez un email
+                            {t('faq.cta_email')}
                         </a>
                         <a
                             href="https://wa.me/33123456789"
@@ -193,7 +195,7 @@ const FAQ = () => {
                             className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold transition-all flex items-center justify-center gap-2 shadow-lg"
                         >
                             <MessageCircle className="h-5 w-5" />
-                            WhatsApp
+                            {t('faq.cta_whatsapp')}
                         </a>
                     </div>
                 </div>

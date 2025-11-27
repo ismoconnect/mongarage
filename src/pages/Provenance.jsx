@@ -1,82 +1,85 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { MapPin, Building, Award, Shield, CheckCircle, TrendingUp, FileText, Users } from 'lucide-react';
 
 const Provenance = () => {
+    const { t } = useTranslation();
+
     const sources = [
         {
             icon: Building,
-            title: "Flottes d'Entreprises",
+            title: t('sourcing.sources.fleet_title'),
             percentage: "40%",
-            description: "Véhicules provenant de grandes entreprises avec entretien régulier et historique complet.",
+            description: t('sourcing.sources.fleet_desc'),
             color: "blue",
             advantages: [
-                "Entretien suivi en concession",
-                "Historique complet documenté",
-                "Kilométrage certifié",
-                "Véhicules récents (2-4 ans)"
+                t('sourcing.sources.fleet_adv1'),
+                t('sourcing.sources.fleet_adv2'),
+                t('sourcing.sources.fleet_adv3'),
+                t('sourcing.sources.fleet_adv4')
             ]
         },
         {
             icon: Award,
-            title: "Fin de Leasing",
+            title: t('sourcing.sources.leasing_title'),
             percentage: "35%",
-            description: "Véhicules en fin de contrat de leasing professionnel, souvent en excellent état.",
+            description: t('sourcing.sources.leasing_desc'),
             color: "green",
             advantages: [
-                "État impeccable",
-                "Peu de kilomètres",
-                "Entretien garanti",
-                "Options premium"
+                t('sourcing.sources.leasing_adv1'),
+                t('sourcing.sources.leasing_adv2'),
+                t('sourcing.sources.leasing_adv3'),
+                t('sourcing.sources.leasing_adv4')
             ]
         },
         {
             icon: Users,
-            title: "Reprises Concessionnaires",
+            title: t('sourcing.sources.trade_in_title'),
             percentage: "25%",
-            description: "Véhicules repris par les concessionnaires officiels lors de l'achat d'un véhicule neuf.",
+            description: t('sourcing.sources.trade_in_desc'),
             color: "purple",
             advantages: [
-                "Contrôle technique OK",
-                "Historique vérifié",
-                "Bon état général",
-                "Prix compétitifs"
+                t('sourcing.sources.trade_in_adv1'),
+                t('sourcing.sources.trade_in_adv2'),
+                t('sourcing.sources.trade_in_adv3'),
+                t('sourcing.sources.trade_in_adv4')
             ]
         }
     ];
 
     const countries = [
         {
-            name: "Allemagne",
+            name: t('countries.germany'),
             flag: "🇩🇪",
             percentage: "85%",
-            description: "Notre marché principal avec les meilleurs véhicules premium",
+            description: t('sourcing.countries.germany_desc'),
             reasons: [
-                "Qualité de fabrication supérieure",
-                "Entretien rigoureux obligatoire",
-                "Contrôles techniques stricts",
-                "Marché automobile le plus développé d'Europe"
+                t('sourcing.countries.germany_reason1'),
+                t('sourcing.countries.germany_reason2'),
+                t('sourcing.countries.germany_reason3'),
+                t('sourcing.countries.germany_reason4')
             ]
         },
         {
-            name: "Autriche",
+            name: t('sourcing.countries.austria'),
             flag: "🇦🇹",
             percentage: "10%",
-            description: "Véhicules premium en excellent état",
+            description: t('sourcing.countries.austria_desc'),
             reasons: [
-                "Standards de qualité élevés",
-                "Véhicules bien entretenus",
-                "Marché stable et fiable"
+                t('sourcing.countries.austria_reason1'),
+                t('sourcing.countries.austria_reason2'),
+                t('sourcing.countries.austria_reason3')
             ]
         },
         {
-            name: "Pays-Bas",
+            name: t('sourcing.countries.netherlands'),
             flag: "🇳🇱",
             percentage: "5%",
-            description: "Opportunités spécifiques sur véhicules électriques",
+            description: t('sourcing.countries.netherlands_desc'),
             reasons: [
-                "Leader européen de l'électrique",
-                "Infrastructures de charge développées",
-                "Véhicules récents"
+                t('sourcing.countries.netherlands_reason1'),
+                t('sourcing.countries.netherlands_reason2'),
+                t('sourcing.countries.netherlands_reason3')
             ]
         }
     ];
@@ -84,23 +87,23 @@ const Provenance = () => {
     const quality = [
         {
             icon: Shield,
-            title: "Contrôle Qualité Rigoureux",
-            description: "Chaque véhicule passe par un contrôle en 150 points avant d'être proposé à la vente."
+            title: t('sourcing.quality.control_title'),
+            description: t('sourcing.quality.control_desc')
         },
         {
             icon: FileText,
-            title: "Historique Complet",
-            description: "Nous vérifions l'historique complet : accidents, entretien, propriétaires précédents."
+            title: t('sourcing.quality.history_title'),
+            description: t('sourcing.quality.history_desc')
         },
         {
             icon: CheckCircle,
-            title: "Certification Officielle",
-            description: "Tous nos véhicules sont certifiés conformes aux normes européennes."
+            title: t('sourcing.quality.certification_title'),
+            description: t('sourcing.quality.certification_desc')
         },
         {
             icon: TrendingUp,
-            title: "Transparence Totale",
-            description: "Rapport d'inspection détaillé et photos HD disponibles pour chaque véhicule."
+            title: t('sourcing.quality.transparency_title'),
+            description: t('sourcing.quality.transparency_desc')
         }
     ];
 
@@ -121,10 +124,10 @@ const Provenance = () => {
                     <div className="text-center">
                         <MapPin className="h-16 w-16 mx-auto mb-6" />
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            Provenance des Véhicules
+                            {t('sourcing.hero_title')}
                         </h1>
                         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-                            Des véhicules premium sélectionnés avec soin en Allemagne et en Europe
+                            {t('sourcing.hero_subtitle')}
                         </p>
                     </div>
                 </div>
@@ -133,24 +136,22 @@ const Provenance = () => {
             {/* Introduction */}
             <div className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
-                    <h2 className="text-3xl font-bold text-primary mb-6">Pourquoi l'Allemagne ?</h2>
+                    <h2 className="text-3xl font-bold text-primary mb-6">{t('sourcing.intro.title')}</h2>
                     <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                        L'Allemagne est le berceau de l'automobile premium et possède le marché de véhicules d'occasion
-                        le plus développé et le plus fiable d'Europe. Les standards de qualité y sont exceptionnels et
-                        l'entretien des véhicules est obligatoire et rigoureusement contrôlé.
+                        {t('sourcing.intro.desc')}
                     </p>
                     <div className="grid md:grid-cols-3 gap-6">
                         <div className="bg-gray-50 p-6 rounded-xl">
                             <div className="text-4xl font-bold text-primary mb-2">1er</div>
-                            <p className="text-gray-700">Marché automobile d'Europe</p>
+                            <p className="text-gray-700">{t('sourcing.intro.stat1')}</p>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-xl">
                             <div className="text-4xl font-bold text-primary mb-2">85%</div>
-                            <p className="text-gray-700">De nos véhicules viennent d'Allemagne</p>
+                            <p className="text-gray-700">{t('sourcing.intro.stat2')}</p>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-xl">
                             <div className="text-4xl font-bold text-primary mb-2">100%</div>
-                            <p className="text-gray-700">Contrôlés et certifiés</p>
+                            <p className="text-gray-700">{t('sourcing.intro.stat3')}</p>
                         </div>
                     </div>
                 </div>
@@ -161,10 +162,10 @@ const Provenance = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            D'où Proviennent Nos Véhicules ?
+                            {t('sourcing.sources.title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Trois sources principales pour une qualité optimale
+                            {t('sourcing.sources.subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8">
@@ -198,10 +199,10 @@ const Provenance = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Nos Pays Sources
+                            {t('sourcing.countries.title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Une sélection rigoureuse à travers l'Europe
+                            {t('sourcing.countries.subtitle')}
                         </p>
                     </div>
                     <div className="space-y-8">
@@ -234,10 +235,10 @@ const Provenance = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Notre Garantie Qualité
+                            {t('sourcing.quality.title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Un processus de sélection rigoureux
+                            {t('sourcing.quality.subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -258,29 +259,29 @@ const Provenance = () => {
             <div className="bg-white py-20">
                 <div className="container mx-auto px-6 max-w-4xl">
                     <h2 className="text-3xl md:text-4xl font-bold text-primary mb-12 text-center">
-                        Notre Processus de Sélection
+                        {t('sourcing.process.title')}
                     </h2>
                     <div className="space-y-6">
                         {[
                             {
                                 step: "1",
-                                title: "Sourcing",
-                                description: "Nous surveillons quotidiennement les meilleures sources en Allemagne et en Europe."
+                                title: t('sourcing.process.step1_title'),
+                                description: t('sourcing.process.step1_desc')
                             },
                             {
                                 step: "2",
-                                title: "Vérification",
-                                description: "Contrôle de l'historique complet, des documents et de la provenance."
+                                title: t('sourcing.process.step2_title'),
+                                description: t('sourcing.process.step2_desc')
                             },
                             {
                                 step: "3",
-                                title: "Inspection",
-                                description: "Inspection technique en 150 points par nos experts certifiés."
+                                title: t('sourcing.process.step3_title'),
+                                description: t('sourcing.process.step3_desc')
                             },
                             {
                                 step: "4",
-                                title: "Certification",
-                                description: "Validation finale et certification avant mise en vente."
+                                title: t('sourcing.process.step4_title'),
+                                description: t('sourcing.process.step4_desc')
                             }
                         ].map((item, index) => (
                             <div key={index} className="flex gap-6 items-start bg-gray-50 p-6 rounded-xl">
@@ -301,16 +302,16 @@ const Provenance = () => {
             <div className="bg-gradient-to-r from-primary to-primary/90 text-white py-20">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                        Découvrez Notre Sélection
+                        {t('sourcing.cta.title')}
                     </h2>
                     <p className="text-xl text-white/90 mb-8">
-                        Des véhicules premium soigneusement sélectionnés pour vous
+                        {t('sourcing.cta.subtitle')}
                     </p>
                     <a
                         href="/vehicules"
                         className="inline-block bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold transition-all shadow-lg"
                     >
-                        Voir les véhicules disponibles
+                        {t('sourcing.cta.btn')}
                     </a>
                 </div>
             </div>

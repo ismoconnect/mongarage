@@ -168,6 +168,36 @@ const Vehicles = () => {
 
     const activeFiltersCount = Object.values(filters).filter(v => v !== '').length;
 
+    // Helper functions for translations
+    const getFuelTranslation = (fuel) => {
+        const fuelMap = {
+            'Essence': t('vehicles.fuel_types.petrol'),
+            'Diesel': t('vehicles.fuel_types.diesel'),
+            'Hybride': t('vehicles.fuel_types.hybrid'),
+            'Électrique': t('vehicles.fuel_types.electric')
+        };
+        return fuelMap[fuel] || fuel;
+    };
+
+    const getTransmissionTranslation = (transmission) => {
+        const transmissionMap = {
+            'Manuelle': t('vehicles.transmission_types.manual'),
+            'Automatique': t('vehicles.transmission_types.automatic')
+        };
+        return transmissionMap[transmission] || transmission;
+    };
+
+    const getColorTranslation = (color) => {
+        const colorMap = {
+            'Noir': t('vehicles.colors.black'),
+            'Blanc': t('vehicles.colors.white'),
+            'Gris': t('vehicles.colors.gray'),
+            'Bleu': t('vehicles.colors.blue'),
+            'Rouge': t('vehicles.colors.red')
+        };
+        return colorMap[color] || color;
+    };
+
     return (
         <div className="bg-gray-50 min-h-screen">
             {/* Hero Section */}
@@ -254,7 +284,7 @@ const Vehicles = () => {
                                         />
                                         <input
                                             type="number"
-                                            placeholder="Max"
+                                            placeholder={t('vehicles.max')}
                                             value={filters.maxPrice}
                                             onChange={(e) => handleFilterChange('maxPrice', e.target.value)}
                                             className="w-1/2 p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent outline-none bg-gray-50"
@@ -302,7 +332,7 @@ const Vehicles = () => {
                                         />
                                         <input
                                             type="number"
-                                            placeholder="Max"
+                                            placeholder={t('vehicles.max')}
                                             value={filters.maxKm}
                                             onChange={(e) => handleFilterChange('maxKm', e.target.value)}
                                             className="w-1/2 p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent outline-none bg-gray-50"
@@ -322,10 +352,10 @@ const Vehicles = () => {
                                         className="w-full p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent focus:border-transparent outline-none bg-gray-50 font-medium"
                                     >
                                         <option value="">{t('vehicles.all')}</option>
-                                        <option value="Essence">Essence</option>
-                                        <option value="Diesel">Diesel</option>
-                                        <option value="Hybride">Hybride</option>
-                                        <option value="Électrique">Électrique</option>
+                                        <option value="Essence">{t('vehicles.fuel_types.petrol')}</option>
+                                        <option value="Diesel">{t('vehicles.fuel_types.diesel')}</option>
+                                        <option value="Hybride">{t('vehicles.fuel_types.hybrid')}</option>
+                                        <option value="Électrique">{t('vehicles.fuel_types.electric')}</option>
                                     </select>
                                 </div>
 
@@ -340,8 +370,8 @@ const Vehicles = () => {
                                         className="w-full p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent focus:border-transparent outline-none bg-gray-50 font-medium"
                                     >
                                         <option value="">{t('vehicles.all_feminine')}</option>
-                                        <option value="Manuelle">Manuelle</option>
-                                        <option value="Automatique">Automatique</option>
+                                        <option value="Manuelle">{t('vehicles.transmission_types.manual')}</option>
+                                        <option value="Automatique">{t('vehicles.transmission_types.automatic')}</option>
                                     </select>
                                 </div>
                             </div>
@@ -355,7 +385,7 @@ const Vehicles = () => {
                             <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                                 <div className="flex items-center gap-3">
                                     <h2 className="text-xl md:text-2xl font-bold text-primary">
-                                        {filteredAndSortedVehicles.length} {t('vehicles.vehicle_count', { count: filteredAndSortedVehicles.length })}
+                                        {t('vehicles.vehicle_count', { count: filteredAndSortedVehicles.length })}
                                     </h2>
                                     {activeFiltersCount > 0 && (
                                         <span className="bg-accent text-white text-sm font-bold px-3 py-1 rounded-full">
@@ -414,7 +444,7 @@ const Vehicles = () => {
                                                 {car.year}
                                             </div>
                                             <div className="absolute top-4 left-4 bg-accent/95 backdrop-blur-md px-3 py-1.5 rounded-full text-sm font-bold text-white shadow-lg z-20">
-                                                {car.fuel}
+                                                {getFuelTranslation(car.fuel)}
                                             </div>
                                         </div>
 
@@ -429,10 +459,10 @@ const Vehicles = () => {
                                                 <div className="flex items-center gap-2 text-sm text-gray-600">
                                                     <span className="flex items-center gap-1">
                                                         <Gauge className="h-4 w-4 text-accent" />
-                                                        {car.power} ch
+                                                        {car.power} {t('vehicles.power_unit')}
                                                     </span>
                                                     <span>•</span>
-                                                    <span>{car.color}</span>
+                                                    <span>{getColorTranslation(car.color)}</span>
                                                 </div>
                                             </div>
 
@@ -449,11 +479,11 @@ const Vehicles = () => {
                                                 </div>
                                                 <div className="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg">
                                                     <Map className="h-4 w-4 text-accent flex-shrink-0" />
-                                                    <span className="font-medium">Allemagne</span>
+                                                    <span className="font-medium">{t('countries.germany')}</span>
                                                 </div>
                                                 <div className="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg col-span-2">
                                                     <CheckCircle className="h-4 w-4 text-green-600 flex-shrink-0" />
-                                                    <span className="font-medium">{car.transmission}</span>
+                                                    <span className="font-medium">{getTransmissionTranslation(car.transmission)}</span>
                                                 </div>
                                             </div>
 
@@ -605,10 +635,10 @@ const Vehicles = () => {
                                     className="w-full p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent focus:border-transparent outline-none bg-gray-50 font-medium"
                                 >
                                     <option value="">{t('vehicles.all')}</option>
-                                    <option value="Essence">Essence</option>
-                                    <option value="Diesel">Diesel</option>
-                                    <option value="Hybride">Hybride</option>
-                                    <option value="Électrique">Électrique</option>
+                                    <option value="Essence">{t('vehicles.fuel_types.petrol')}</option>
+                                    <option value="Diesel">{t('vehicles.fuel_types.diesel')}</option>
+                                    <option value="Hybride">{t('vehicles.fuel_types.hybrid')}</option>
+                                    <option value="Électrique">{t('vehicles.fuel_types.electric')}</option>
                                 </select>
                             </div>
 
@@ -622,8 +652,8 @@ const Vehicles = () => {
                                     className="w-full p-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-accent focus:border-transparent outline-none bg-gray-50 font-medium"
                                 >
                                     <option value="">{t('vehicles.all_feminine')}</option>
-                                    <option value="Manuelle">Manuelle</option>
-                                    <option value="Automatique">Automatique</option>
+                                    <option value="Manuelle">{t('vehicles.transmission_types.manual')}</option>
+                                    <option value="Automatique">{t('vehicles.transmission_types.automatic')}</option>
                                 </select>
                             </div>
                         </div>

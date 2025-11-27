@@ -4,7 +4,24 @@
         "vehicles": "Vehicule",
         "services": "Servicii",
         "contact": "Contact",
-        "language": "Limbă"
+        "language": "Limbă",
+        "all_vehicles": "Toate vehiculele",
+        "auctions": "Licitații",
+        "sourcing": "Proveniență & Sourcing",
+        "services_trust": "Servicii & Încredere",
+        "our_services": "Serviciile Noastre",
+        "warranties": "Garanțiile Noastre",
+        "expertises": "Expertize & Controale",
+        "visit_vehicle": "Vizitați un vehicul",
+        "buying_guide": "Ghid de Cumpărare",
+        "how_to_buy": "Cum să cumpărați?",
+        "faq": "Întrebări Frecvente (FAQ)",
+        "company": "Compania",
+        "about_us": "Cine suntem?",
+        "commitments": "Angajamentele Noastre",
+        "points_of_sale": "Punctele Noastre de Vânzare",
+        "contact_us": "Contactați-ne",
+        "my_account": "Contul Meu"
     },
     "hero": {
         "title": "Importați vehiculul dumneavoastră second-hand",
@@ -134,24 +151,88 @@
         "transmission": "Transmisie",
         "km": "km",
         "germany": "Germania",
-        "hero_title": "Trouvez Votre Véhicule Idéal",
-        "hero_subtitle": "Découvrez notre sélection de véhicules premium en provenance d'Allemagne",
-        "search_placeholder": "Rechercher par marque ou modèle...",
+        "hero_title": "Găsiți Vehiculul Dvs. Ideal",
+        "hero_subtitle": "Descoperiți selecția noastră de vehicule premium din Germania",
+        "search_placeholder": "Căutați după marcă sau model...",
         "reset": "Réinitialiser",
         "mileage": "Kilométrage",
-        "all": "Tous",
-        "all_feminine": "Toutes",
-        "vehicle_count": "véhicule{{count}}",
-        "filter_count": "filtre{{count}}",
-        "sort_newest": "Plus récent",
-        "sort_price_asc": "Prix croissant",
-        "sort_price_desc": "Prix décroissant",
-        "sort_year_desc": "Année décroissante",
-        "sort_km_asc": "Km croissant",
-        "no_results_title": "Aucun véhicule trouvé",
-        "no_results_desc": "Essayez de modifier vos critères de recherche ou réinitialisez les filtres.",
-        "reset_filters": "Réinitialiser les filtres",
-        "apply": "Appliquer"
+        "all": "Toate",
+        "all_feminine": "Toate",
+        "sort_newest": "Cel mai recent",
+        "sort_price_asc": "Preț crescător",
+        "sort_price_desc": "Preț descrescător",
+        "sort_year_desc": "An descrescător",
+        "sort_km_asc": "Km crescător",
+        "no_results_title": "Nu s-au găsit vehicule",
+        "no_results_desc": "Încercați să modificați criteriile de căutare sau resetați filtrele.",
+        "reset_filters": "Resetează filtrele",
+        "apply": "Aplică",
+        "share_title": "Découvrez ce {{brand}} {{model}} à {{price}}€",
+        "horses": "Chevaux",
+        "doors": "Portes",
+        "warranty": "Garantie",
+        "description": "Description",
+        "controls_diagnostics": "Contrôles & Diagnostics",
+        "technical_control": "Contrôle Technique",
+        "status": "Statut",
+        "last_control": "Dernier contrôle",
+        "next_control": "Prochain contrôle",
+        "battery_diagnostic": "Diagnostic Batterie",
+        "health_state": "État de santé",
+        "remaining_capacity": "Capacité restante",
+        "charge_cycles": "Cycles de charge",
+        "thermal_vehicle": "Véhicule thermique - Pas de diagnostic batterie requis",
+        "complete_maintenance_book": "Carnet d'Entretien Complet",
+        "maintenance_history": "Historique d'entretien complet disponible • Toutes révisions effectuées en concession agréée",
+        "equipments": "Équipements",
+        "technical_specs": "Caractéristiques Techniques",
+        "color": "Couleur",
+        "consumption": "Consommation",
+        "vat_recoverable": "TVA récupérable",
+        "delivery_estimation": "Estimation Livraison",
+        "cost": "Coût",
+        "delay": "Délai",
+        "total_estimated": "Total estimé",
+        "vehicle_price_delivery": "Prix véhicule + livraison",
+        "extended_warranty": "Garantie Étendue",
+        "extended_warranty_desc": "Prolongez votre tranquillité d'esprit avec notre garantie étendue 24 mois",
+        "full_coverage": "Couverture complète",
+        "assistance_24_7": "Assistance 24/7",
+        "replacement_vehicle": "Véhicule de remplacement",
+        "first_registration": "1ère immatriculation",
+        "warranty_included": "Garantie incluse",
+        "ask_info": "Demander des informations",
+        "call_now": "Appeler maintenant",
+        "whatsapp": "WhatsApp",
+        "certified_vehicle": "Véhicule certifié",
+        "quality_control": "Contrôle qualité complet",
+        "europe_delivery": "Livraison Europe",
+        "europe_wide": "Dans toute l'Europe",
+        "financing_available": "Financement disponible",
+        "custom_solutions": "Solutions personnalisées",
+        "warranty_duration": "{{duration}} de garantie",
+        "fuel_types": {
+            "petrol": "Benzină",
+            "diesel": "Diesel",
+            "hybrid": "Hibrid",
+            "electric": "Electric"
+        },
+        "transmission_types": {
+            "manual": "Manuală",
+            "automatic": "Automată"
+        },
+        "power_unit": "CP",
+        "colors": {
+            "black": "Negru",
+            "white": "Alb",
+            "gray": "Gri",
+            "blue": "Albastru",
+            "red": "Roșu"
+        },
+        "vehicle_count_one": "{{count}} vehicul",
+        "vehicle_count_other": "{{count}} vehicule",
+        "filter_count_one": "{{count}} filtru",
+        "filter_count_other": "{{count}} filtre"
     },
     "services_page": {
         "title": "Serviciile Noastre",
@@ -208,34 +289,34 @@
     },
     "contact": {
         "title": "Contactați-ne",
-        "subtitle": "Aveți o întrebare despre un vehicul sau doriți o ofertă personalizată? Echipa noastră vă stă la dispoziție.",
-        "info_title": "Datele Noastre de Contact",
+        "subtitle": "Aveți o întrebare despre un vehicul sau doriți o ofertă personalizată? Echipa noastră este la dispoziția dumneavoastră.",
+        "info_title": "Informațiile Noastre de Contact",
         "address_title": "Adresă",
         "phone_title": "Telefon",
-        "phone_hours": "Lun-Vin: 9:00-18:00",
+        "phone_hours": "Lun-Vin: 9-18",
         "email_title": "Email",
         "email_response": "Răspuns în 24h",
         "follow_us": "Urmăriți-ne",
         "chat_title": "Chat Live",
-        "chat_desc": "Discutați instantaneu cu un consilier de vânzări prin WhatsApp.",
+        "chat_desc": "Discutați instantaneu cu un consultant comercial prin WhatsApp.",
         "chat_btn": "Deschide WhatsApp",
-        "form_title": "Trimiteți-ne un mesaj",
-        "name_label": "Nume complet",
+        "form_title": "Trimiteți-ne un Mesaj",
+        "name_label": "Nume Complet",
         "name_placeholder": "Numele dumneavoastră",
         "email_label": "Email",
-        "email_placeholder": "dvs@email.com",
+        "email_placeholder": "email@dumneavoastra.com",
         "phone_label": "Telefon",
-        "phone_placeholder": "+33 6 12 34 56 78",
+        "phone_placeholder": "+40 712 345 678",
         "subject_label": "Subiect",
         "subject_placeholder": "Selectați un subiect",
-        "subject_quote": "Cerere de ofertă",
-        "subject_info": "Informații vehicul",
+        "subject_quote": "Cerere de Ofertă",
+        "subject_info": "Informații despre Vehicul",
         "subject_partnership": "Parteneriat",
         "subject_other": "Altele",
         "message_label": "Mesaj",
         "message_placeholder": "Cum vă putem ajuta?",
-        "send_btn": "Trimite mesaj",
-        "success_message": "Vă mulțumim pentru mesaj. Vă vom răspunde cât mai curând posibil."
+        "send_btn": "Trimite Mesajul",
+        "success_message": "Mulțumim! Mesajul dumneavoastră a fost trimis cu succes."
     },
     "login": {
         "connection": "Autentificare",
@@ -347,228 +428,861 @@
         "warranty_duration": "{{duration}} de garantie"
     },
     "about_page": {
-        "hero_title": "Qui sommes-nous ?",
-        "hero_subtitle": "Votre partenaire de confiance pour l'importation de véhicules d'occasion premium depuis l'Allemagne",
+        "hero_title": "Cine Suntem?",
+        "hero_subtitle": "Partenerul dumneavoastră de încredere pentru importul de vehicule second-hand premium din Germania",
         "stats": {
-            "clients": "Clients satisfaits",
-            "countries": "Pays desservis",
-            "experience": "D'expérience",
-            "satisfaction": "Taux de satisfaction"
+            "clients": "Clienți Mulțumiți",
+            "countries": "Țări Deservite",
+            "experience": "Ani de Experiență",
+            "satisfaction": "Rata de Satisfacție"
         },
         "history": {
-            "title": "Notre Histoire",
-            "p1": "Fondée en 2009, AUTO17 est née d'une passion pour l'automobile et d'une vision claire : rendre accessible à tous les véhicules d'occasion premium allemands.",
-            "p2": "Basés à Berlin, au cœur du marché automobile allemand, nous avons développé un réseau solide de partenaires et d'experts pour vous offrir les meilleurs véhicules au meilleur prix.",
-            "p3": "Aujourd'hui, nous sommes fiers d'avoir aidé plus de 10,000 clients à travers l'Europe à trouver le véhicule de leurs rêves, avec un service personnalisé et une garantie de qualité.",
-            "p4": "Notre engagement reste le même : transparence, qualité et satisfaction client avant tout.",
-            "years_excellence": "d'excellence"
+            "title": "Povestea Noastră",
+            "p1": "Fondată în 2009, AUTO17 s-a născut dintr-o pasiune pentru automobile și o viziune clară: să facă accesibile tuturor vehiculele second-hand premium germane.",
+            "p2": "Cu sediul în Berlin, în inima pieței auto germane, am dezvoltat o rețea solidă de parteneri și experți pentru a vă oferi cele mai bune vehicule la cel mai bun preț.",
+            "p3": "Astăzi, suntem mândri că am ajutat peste 10.000 de clienți din toată Europa să își găsească vehiculul visurilor lor, cu servicii personalizate și garanție de calitate.",
+            "p4": "Angajamentul nostru rămâne același: transparență, calitate și satisfacția clientului mai presus de toate.",
+            "years_excellence": "de excelență"
         },
         "values": {
-            "title": "Nos Valeurs",
-            "subtitle": "Les principes qui guident notre travail au quotidien",
-            "transparency_title": "Transparence",
-            "transparency_desc": "Nous croyons en une communication honnête et transparente. Tous nos prix sont clairs, sans frais cachés.",
-            "passion_title": "Passion",
-            "passion_desc": "Notre passion pour l'automobile nous pousse à sélectionner uniquement les meilleurs véhicules pour nos clients.",
-            "quality_title": "Qualité",
-            "quality_desc": "Chaque véhicule passe par un contrôle qualité rigoureux et une expertise technique complète.",
-            "excellence_title": "Excellence",
-            "excellence_desc": "Nous visons l'excellence dans chaque aspect de notre service, de la sélection à la livraison."
+            "title": "Valorile Noastre",
+            "subtitle": "Principiile care ne ghidează munca zilnică",
+            "transparency_title": "Transparență",
+            "transparency_desc": "Credem în comunicare onestă și transparentă. Toate prețurile noastre sunt clare, fără taxe ascunse.",
+            "passion_title": "Pasiune",
+            "passion_desc": "Pasiunea noastră pentru automobile ne determină să selectăm doar cele mai bune vehicule pentru clienții noștri.",
+            "quality_title": "Calitate",
+            "quality_desc": "Fiecare vehicul trece printr-un control de calitate riguros și expertiză tehnică completă.",
+            "excellence_title": "Excelență",
+            "excellence_desc": "Vizăm excelența în fiecare aspect al serviciului nostru, de la selecție la livrare."
         },
         "team": {
-            "title": "Notre Équipe",
-            "subtitle": "Des experts passionnés à votre service",
-            "member1_role": "Fondateur & CEO",
-            "member1_desc": "15 ans d'expérience dans l'importation automobile",
-            "member2_role": "Directrice des Opérations",
-            "member2_desc": "Experte en logistique internationale",
-            "member3_role": "Expert Technique",
-            "member3_desc": "Mécanicien certifié avec 20 ans d'expérience"
+            "title": "Echipa Noastră",
+            "subtitle": "Experți pasionați în serviciul dumneavoastră",
+            "member1_role": "Fondator și CEO",
+            "member1_desc": "15 ani de experiență în importul auto",
+            "member2_role": "Director Operațiuni",
+            "member2_desc": "Expert în logistică internațională",
+            "member3_role": "Expert Tehnic",
+            "member3_desc": "Mecanic certificat cu 20 de ani de experiență"
         },
         "cta": {
-            "title": "Prêt à trouver votre véhicule idéal ?",
-            "subtitle": "Découvrez notre sélection de véhicules premium ou contactez-nous pour un accompagnement personnalisé",
-            "btn_vehicles": "Voir les véhicules",
-            "btn_contact": "Nous contacter"
+            "title": "Gata să Vă Găsiți Vehiculul Ideal?",
+            "subtitle": "Descoperiți selecția noastră de vehicule premium sau contactați-ne pentru asistență personalizată",
+            "btn_vehicles": "Vezi Vehiculele",
+            "btn_contact": "Contactați-ne"
         }
     },
     "how_to_buy": {
-        "hero_title": "Comment Acheter en Ligne ?",
-        "hero_subtitle": "Un processus simple, transparent et 100% sécurisé en 6 étapes",
+        "hero_title": "Cum să Cumpărați",
+        "hero_subtitle": "Ghidul dumneavoastră pas cu pas pentru a achiziționa vehiculul cu ușurință",
         "steps": {
             "step1": {
-                "title": "Recherchez Votre Véhicule",
-                "desc": "Parcourez notre catalogue en ligne et utilisez nos filtres pour trouver le véhicule qui correspond à vos critères.",
+                "title": "Căutare Personalizată",
+                "desc": "Definiți criteriile și lăsați-ne să găsim bijuteria rară.",
                 "details": [
-                    "Filtres par marque, modèle, prix, année",
-                    "Photos HD et visites virtuelles 360°",
-                    "Historique complet du véhicule",
-                    "Rapport d'inspection technique détaillé"
+                    "Analiza nevoilor dumneavoastră",
+                    "Căutare pe piața europeană",
+                    "Selecția celor mai bune oferte",
+                    "Verificarea disponibilității"
                 ]
             },
             "step2": {
-                "title": "Contactez-Nous",
-                "desc": "Notre équipe d'experts est à votre disposition pour répondre à toutes vos questions et vous conseiller.",
+                "title": "Contact & Consultanță",
+                "desc": "Discutați cu experții noștri pentru a vă rafina alegerea.",
                 "details": [
-                    "Conseiller personnel dédié",
-                    "Disponible par téléphone, email ou WhatsApp",
-                    "Réponse sous 24h maximum",
-                    "Visite virtuelle personnalisée possible"
+                    "Apel de descoperire",
+                    "Sfaturi personalizate",
+                    "Răspunsuri la întrebările dumneavoastră",
+                    "Validarea proiectului"
                 ]
             },
             "step3": {
-                "title": "Réservez Votre Véhicule",
-                "desc": "Une fois votre choix fait, réservez votre véhicule avec un acompte sécurisé.",
+                "title": "Inspecție & Validare",
+                "desc": "Verificăm riguros vehiculul pentru dumneavoastră.",
                 "details": [
-                    "Acompte de 10% pour réserver",
-                    "Paiement 100% sécurisé",
-                    "Confirmation immédiate",
-                    "Véhicule bloqué pour vous pendant 7 jours"
+                    "Inspecție în 150 de puncte",
+                    "Raport detaliat cu fotografii",
+                    "Verificarea istoricului",
+                    "Validare tehnică"
                 ]
             },
             "step4": {
-                "title": "Finalisez le Paiement",
-                "desc": "Plusieurs options de paiement sont disponibles pour votre confort.",
+                "title": "Plată Securizată",
+                "desc": "Procedați la plată în siguranță.",
                 "details": [
-                    "Virement bancaire",
-                    "Paiement par carte bancaire",
-                    "Financement sur mesure disponible",
-                    "Paiement en plusieurs fois possible"
+                    "Transfer bancar securizat",
+                    "Contract de vânzare transparent",
+                    "Factură detaliată",
+                    "Garanții financiare"
                 ]
             },
             "step5": {
-                "title": "Préparation du Véhicule",
-                "desc": "Votre véhicule est préparé avec soin par nos experts avant la livraison.",
+                "title": "Proceduri Administrative",
+                "desc": "Ne ocupăm de toate actele pentru dumneavoastră.",
                 "details": [
-                    "Nettoyage complet intérieur/extérieur",
-                    "Contrôle technique final",
-                    "Préparation des documents",
-                    "Photos avant livraison envoyées"
+                    "Înmatriculare provizorie",
+                    "Certificat de Conformitate (COC)",
+                    "Fiscalitate",
+                    "Carte de identitate definitivă"
                 ]
             },
             "step6": {
-                "title": "Livraison",
-                "desc": "Recevez votre véhicule à l'adresse de votre choix ou venez le chercher.",
+                "title": "Livrare la Domiciliu",
+                "desc": "Primiți vehiculul acasă, gata de drum.",
                 "details": [
-                    "Livraison à domicile dans toute l'Europe",
-                    "Récupération dans nos points de vente",
-                    "Assurance transport incluse",
-                    "Suivi en temps réel de la livraison"
+                    "Transport asigurat",
+                    "Urmărire în timp real",
+                    "Predare personalizată",
+                    "Curățare completă"
                 ]
             }
         },
         "payment": {
-            "title": "Modes de Paiement",
-            "subtitle": "Choisissez la solution qui vous convient le mieux",
+            "title": "Metode de Plată",
+            "subtitle": "Soluții flexibile și sigure",
             "methods": {
                 "bank_transfer": {
-                    "title": "Virement Bancaire",
-                    "desc": "Méthode sécurisée et sans frais supplémentaires"
+                    "title": "Transfer Bancar",
+                    "desc": "Simplu, rapid și sigur"
                 },
                 "card": {
-                    "title": "Carte Bancaire",
-                    "desc": "Paiement instantané et sécurisé par Stripe"
+                    "title": "Card de Credit",
+                    "desc": "Pentru avans sau taxe de servicii"
                 },
                 "financing": {
-                    "title": "Financement",
-                    "desc": "Solutions de crédit personnalisées de 12 à 84 mois"
+                    "title": "Finanțare",
+                    "desc": "Soluții de credit adaptate bugetului dumneavoastră"
                 }
             }
         },
         "guarantees": {
-            "title": "Nos Garanties",
-            "subtitle": "Achetez en toute confiance",
+            "title": "Garanțiile Noastre",
+            "subtitle": "Cumpărați cu liniște",
             "money_back": {
-                "title": "Garantie Satisfait ou Remboursé",
-                "desc": "7 jours pour changer d'avis après réception"
+                "title": "Satisfăcut sau Rambursat",
+                "desc": "14 zile pentru a vă răzgândi"
             },
             "mechanical": {
-                "title": "Garantie Mécanique Incluse",
-                "desc": "12 mois minimum sur tous nos véhicules"
+                "title": "Garanție Mecanică",
+                "desc": "Până la 36 de luni de acoperire"
             },
             "documents": {
-                "title": "Documents Certifiés",
-                "desc": "Tous les documents nécessaires fournis"
+                "title": "Acte în Regulă",
+                "desc": "Toate documentele oficiale furnizate"
             }
         },
         "faq": {
-            "title": "Questions Fréquentes",
-            "q1": "L'achat en ligne est-il sûr ?",
-            "a1": "Oui, absolument. Tous nos paiements sont sécurisés et nous offrons une garantie satisfait ou remboursé de 7 jours.",
-            "q2": "Puis-je voir le véhicule avant d'acheter ?",
-            "a2": "Oui, nous proposons des visites virtuelles détaillées et vous pouvez également planifier une visite physique dans nos locaux.",
-            "q3": "Combien de temps prend la livraison ?",
-            "a3": "Le délai varie selon votre localisation, de 5-7 jours pour la France à 10-12 jours pour des destinations plus éloignées."
+            "title": "Întrebări Frecvente",
+            "q1": "Cât durează procesul?",
+            "a1": "În medie, contați pe 2 până la 3 săptămâni între comandă și livrare.",
+            "q2": "Prețul include livrarea?",
+            "a2": "Prețul afișat include în general taxele de import, dar livrarea la domiciliu poate fi opțională în funcție de locația dumneavoastră.",
+            "q3": "Pot anula comanda?",
+            "a3": "Da, aveți un termen de retragere conform legislației în vigoare."
         },
         "cta": {
-            "title": "Prêt à Commencer ?",
-            "subtitle": "Découvrez notre sélection de véhicules premium ou contactez-nous pour être accompagné",
-            "btn_vehicles": "Voir les véhicules",
-            "btn_contact": "Nous contacter"
+            "title": "Gata să Faceți Pasul?",
+            "subtitle": "Începeți căutarea astăzi",
+            "btn_vehicles": "Vedeți vehiculele",
+            "btn_contact": "Contactați-ne"
         }
     },
     "auctions": {
-        "hero_title": "Comprendre les Enchères",
-        "hero_subtitle": "Achetez des véhicules premium à prix avantageux grâce aux enchères professionnelles",
+        "hero_title": "Înțelegerea Licitațiilor",
+        "hero_subtitle": "Cumpărați vehicule premium la prețuri avantajoase prin licitații profesionale",
         "intro": {
-            "title": "Qu'est-ce qu'une Enchère Automobile ?",
-            "desc": "Les enchères automobiles professionnelles sont des plateformes B2B où les concessionnaires, sociétés de leasing et entreprises vendent leurs véhicules. Grâce à notre expertise et notre accès privilégié, nous vous permettons de bénéficier de ces prix avantageux normalement réservés aux professionnels.",
-            "important_title": "Important à Savoir",
-            "important_desc": "Les enchères sont réservées aux professionnels. En tant que particulier, vous ne pouvez pas y accéder directement. C'est pourquoi nous participons aux enchères en votre nom et vous garantissons le meilleur service."
+            "title": "Ce este o Licitație Auto?",
+            "desc": "Licitațiile auto profesionale sunt platforme B2B unde dealerii, companiile de leasing și întreprinderile își vând vehiculele. Datorită expertizei noastre și accesului privilegiat, vă permitem să beneficiați de aceste prețuri avantajoase rezervate în mod normal profesioniștilor.",
+            "important_title": "Important de Știut",
+            "important_desc": "Licitațiile sunt rezervate profesioniștilor. Ca persoană fizică, nu puteți accesa direct. De aceea participăm la licitații în numele dvs. și vă garantăm cel mai bun serviciu."
         },
         "advantages": {
-            "title": "Pourquoi Acheter aux Enchères ?",
-            "subtitle": "Des avantages incomparables",
-            "price_title": "Prix Avantageux",
-            "price_desc": "Achetez des véhicules premium jusqu'à 30% moins cher que le marché traditionnel grâce aux enchères professionnelles.",
-            "verified_title": "Véhicules Vérifiés",
-            "verified_desc": "Tous les véhicules aux enchères sont inspectés et certifiés par des experts indépendants.",
-            "selection_title": "Large Sélection",
-            "selection_desc": "Accès à des milliers de véhicules premium provenant de flottes d'entreprises, leasing et reprises.",
-            "transparency_title": "Transparence Totale",
-            "transparency_desc": "Historique complet, photos détaillées et rapport d'inspection disponibles pour chaque véhicule."
+            "title": "De ce să Cumpărați la Licitații?",
+            "subtitle": "Avantaje incomparabile",
+            "price_title": "Prețuri Avantajoase",
+            "price_desc": "Cumpărați vehicule premium cu până la 30% mai ieftin decât pe piața tradițională datorită licitațiilor profesionale.",
+            "verified_title": "Vehicule Verificate",
+            "verified_desc": "Toate vehiculele la licitație sunt inspectate și certificate de experți independenți.",
+            "selection_title": "Selecție Largă",
+            "selection_desc": "Acces la mii de vehicule premium provenite din flote corporative, leasing și schimburi.",
+            "transparency_title": "Transparență Totală",
+            "transparency_desc": "Istoric complet, fotografii detaliate și raport de inspecție disponibile pentru fiecare vehicul."
         },
         "how_it_works": {
-            "title": "Comment Ça Marche ?",
-            "subtitle": "Le processus en 5 étapes simples",
-            "step1_title": "Sélection du Véhicule",
-            "step1_desc": "Nous surveillons quotidiennement les enchères professionnelles en Allemagne et sélectionnons les meilleures opportunités selon vos critères.",
-            "step2_title": "Analyse et Validation",
-            "step2_desc": "Notre équipe d'experts analyse l'historique, l'état et la valeur marchande de chaque véhicule avant de participer aux enchères.",
-            "step3_title": "Participation aux Enchères",
-            "step3_desc": "Nous participons aux enchères en votre nom avec une stratégie d'achat optimisée pour obtenir le meilleur prix.",
-            "step4_title": "Acquisition et Inspection",
-            "step4_desc": "Une fois le véhicule remporté, nous effectuons une inspection complète et préparons tous les documents nécessaires.",
-            "step5_title": "Livraison",
-            "step5_desc": "Le véhicule est préparé, nettoyé et livré à l'adresse de votre choix avec tous les documents et la garantie incluse."
+            "title": "Cum Funcționează?",
+            "subtitle": "Procesul în 5 pași simpli",
+            "step1_title": "Selecția Vehiculului",
+            "step1_desc": "Monitorizăm zilnic licitațiile profesionale din Germania și selectăm cele mai bune oportunități conform criteriilor dvs.",
+            "step2_title": "Analiză și Validare",
+            "step2_desc": "Echipa noastră de experți analizează istoricul, starea și valoarea de piață a fiecărui vehicul înainte de a participa la licitații.",
+            "step3_title": "Participarea la Licitații",
+            "step3_desc": "Participăm la licitații în numele dvs. cu o strategie de cumpărare optimizată pentru a obține cel mai bun preț.",
+            "step4_title": "Achiziție și Inspecție",
+            "step4_desc": "Odată câștigat vehiculul, efectuăm o inspecție completă și pregătim toate documentele necesare.",
+            "step5_title": "Livrare",
+            "step5_desc": "Vehiculul este pregătit, curățat și livrat la adresa aleasă de dvs. cu toate documentele și garanția inclusă."
         },
         "types": {
-            "title": "Types de Véhicules aux Enchères",
-            "subtitle": "D'où proviennent les véhicules ?",
-            "fleet_title": "Véhicules de Flotte",
-            "fleet_desc": "Voitures d'entreprise bien entretenues avec historique complet",
-            "leasing_title": "Fin de Leasing",
-            "leasing_desc": "Véhicules récents en excellent état avec peu de kilomètres",
-            "trade_in_title": "Reprises Concessionnaires",
-            "trade_in_desc": "Véhicules premium repris par les concessionnaires officiels"
+            "title": "Tipuri de Vehicule la Licitații",
+            "subtitle": "De unde provin vehiculele?",
+            "fleet_title": "Vehicule de Flotă",
+            "fleet_desc": "Mașini de companie bine întreținute cu istoric complet",
+            "leasing_title": "Sfârșit de Leasing",
+            "leasing_desc": "Vehicule recente în stare excelentă cu kilometraj redus",
+            "trade_in_title": "Schimburi Dealeri",
+            "trade_in_desc": "Vehicule premium schimbate la reprezentanțe oficiale"
         },
         "tips": {
-            "title": "Nos Conseils",
-            "subtitle": "Pour maximiser vos chances de trouver la perle rare",
-            "budget_title": "Définissez Votre Budget",
-            "budget_desc": "Fixez un budget maximum incluant le prix d'achat, les frais et la livraison.",
-            "flexible_title": "Soyez Flexible",
-            "flexible_desc": "Plus vos critères sont flexibles (couleur, options), plus vous aurez d'opportunités.",
-            "experts_title": "Faites Confiance aux Experts",
-            "experts_desc": "Notre équipe connaît le marché et saura vous conseiller sur les meilleures opportunités.",
-            "act_fast_title": "Agissez Rapidement",
-            "act_fast_desc": "Les meilleures affaires partent vite. Soyez réactif quand nous vous proposons un véhicule."
+            "title": "Sfaturile Noastre",
+            "subtitle": "Pentru a vă maximiza șansele de a găsi bijuteria rară",
+            "budget_title": "Definiți Bugetul Dvs.",
+            "budget_desc": "Stabiliți un buget maxim incluzând prețul de achiziție, taxele și livrarea.",
+            "flexible_title": "Fiți Flexibil",
+            "flexible_desc": "Cu cât criteriile dvs. sunt mai flexibile (culoare, opțiuni), cu atât veți avea mai multe oportunități.",
+            "experts_title": "Aveți Încredere în Experți",
+            "experts_desc": "Echipa noastră cunoaște piața și vă va sfătui cu privire la cele mai bune oportunități.",
+            "act_fast_title": "Acționați Rapid",
+            "act_fast_desc": "Cele mai bune oferte se duc repede. Fiți reactiv când vă propunem un vehicul."
         },
         "cta": {
-            "title": "Intéressé par les Enchères ?",
-            "subtitle": "Contactez-nous pour discuter de vos critères et nous trouverons le véhicule idéal pour vous",
-            "btn_contact": "Nous contacter",
-            "btn_vehicles": "Voir les véhicules disponibles"
+            "title": "Interesat de Licitații?",
+            "subtitle": "Contactați-ne pentru a discuta criteriile dvs. și vom găsi vehiculul ideal pentru dvs.",
+            "btn_contact": "Contactați-ne",
+            "btn_vehicles": "Vezi vehiculele disponibile"
         }
+    },
+    "sourcing": {
+        "hero_title": "Proveniența Vehiculelor",
+        "hero_subtitle": "Vehicule premium selectate cu grijă din Germania și Europa",
+        "intro": {
+            "title": "De ce Germania?",
+            "desc": "Germania este leagănul automobilului premium și deține cea mai dezvoltată și fiabilă piață de vehicule second-hand din Europa. Standardele de calitate sunt excepționale, iar întreținerea vehiculelor este obligatorie și riguros controlată.",
+            "stat1": "Piața auto a Europei",
+            "stat2": "Din vehiculele noastre provin din Germania",
+            "stat3": "Controlate și Certificate"
+        },
+        "sources": {
+            "title": "De Unde Provin Vehiculele Noastre?",
+            "subtitle": "Trei surse principale pentru o calitate optimă",
+            "fleet_title": "Flote Corporative",
+            "fleet_desc": "Vehicule provenite de la companii mari cu întreținere regulată și istoric complet.",
+            "fleet_adv1": "Întreținere urmată în reprezentanță",
+            "fleet_adv2": "Istoric complet documentat",
+            "fleet_adv3": "Kilometraj certificat",
+            "fleet_adv4": "Vehicule recente (2-4 ani)",
+            "leasing_title": "Sfârșit de Leasing",
+            "leasing_desc": "Vehicule la final de contract de leasing profesional, adesea în stare excelentă.",
+            "leasing_adv1": "Stare impecabilă",
+            "leasing_adv2": "Puțini kilometri",
+            "leasing_adv3": "Întreținere garantată",
+            "leasing_adv4": "Opțiuni premium",
+            "trade_in_title": "Schimburi Dealeri",
+            "trade_in_desc": "Vehicule schimbate la reprezentanțe oficiale la achiziționarea unui vehicul nou.",
+            "trade_in_adv1": "Inspecție tehnică OK",
+            "trade_in_adv2": "Istoric verificat",
+            "trade_in_adv3": "Stare generală bună",
+            "trade_in_adv4": "Prețuri competitive"
+        },
+        "countries": {
+            "title": "Țările Noastre Sursă",
+            "subtitle": "O selecție riguroasă în întreaga Europă",
+            "germany_desc": "Piața noastră principală cu cele mai bune vehicule premium",
+            "germany_reason1": "Calitate de fabricație superioară",
+            "germany_reason2": "Întreținere riguroasă obligatorie",
+            "germany_reason3": "Controale tehnice stricte",
+            "germany_reason4": "Cea mai dezvoltată piață auto din Europa",
+            "austria": "Austria",
+            "austria_desc": "Vehicule premium în stare excelentă",
+            "austria_reason1": "Standarde înalte de calitate",
+            "austria_reason2": "Vehicule bine întreținute",
+            "austria_reason3": "Piață stabilă și fiabilă",
+            "netherlands": "Olanda",
+            "netherlands_desc": "Oportunități specifice pe vehicule electrice",
+            "netherlands_reason1": "Lider european în electrice",
+            "netherlands_reason2": "Infrastructuri de încărcare dezvoltate",
+            "netherlands_reason3": "Vehicule recente"
+        },
+        "quality": {
+            "title": "Garanția Noastră de Calitate",
+            "subtitle": "Un proces de selecție riguros",
+            "control_title": "Control Calitate Riguros",
+            "control_desc": "Fiecare vehicul trece printr-un control în 150 de puncte înainte de a fi pus la vânzare.",
+            "history_title": "Istoric Complet",
+            "history_desc": "Verificăm istoricul complet: accidente, întreținere, proprietari anteriori.",
+            "certification_title": "Certificare Oficială",
+            "certification_desc": "Toate vehiculele noastre sunt certificate conform normelor europene.",
+            "transparency_title": "Transparență Totală",
+            "transparency_desc": "Raport de inspecție detaliat și fotografii HD disponibile pentru fiecare vehicul."
+        },
+        "process": {
+            "title": "Procesul Nostru de Selecție",
+            "step1_title": "Sourcing",
+            "step1_desc": "Monitorizăm zilnic cele mai bune surse din Germania și Europa.",
+            "step2_title": "Verificare",
+            "step2_desc": "Controlul istoricului complet, documentelor și provenienței.",
+            "step3_title": "Inspecție",
+            "step3_desc": "Inspecție tehnică în 150 de puncte de către experții noștri certificați.",
+            "step4_title": "Certificare",
+            "step4_desc": "Validare finală și certificare înainte de vânzare."
+        },
+        "cta": {
+            "title": "Descoperiți Selecția Noastră",
+            "subtitle": "Vehicule premium selectate cu grijă pentru dvs.",
+            "btn": "Vezi vehiculele disponibile"
+        }
+    },
+    "warranties": {
+        "hero_title": "Garanțiile Noastre",
+        "hero_subtitle": "Conduceți liniștit cu garanțiile noastre complete și asistența 24/7",
+        "plans_title": "Alegeți Protecția Dumneavoastră",
+        "plans_subtitle": "Planuri adaptate tuturor nevoilor",
+        "popular": "POPULAR",
+        "choose_plan": "Alegeți această garanție",
+        "coverage_title": "Ce Este Acoperit",
+        "coverage_subtitle": "Protecție completă pentru liniștea dumneavoastră",
+        "advantages_title": "Avantajele Noastre",
+        "advantages_subtitle": "Serviciu premium pentru seninătatea dumneavoastră",
+        "faq_title": "Întrebări Frecvente",
+        "cta_title": "Aveți Nevoie de Mai Multe Informații?",
+        "cta_subtitle": "Echipa noastră vă stă la dispoziție pentru a vă consilia",
+        "contact_btn": "Contactați-ne",
+        "call_btn": "Sunați acum",
+        "plans": {
+            "standard_name": "Garanție Standard",
+            "standard_duration": "12 luni",
+            "standard_price": "Inclusă",
+            "standard_feat1": "Acoperire mecanică de bază",
+            "standard_feat2": "Asistență rutieră 24/7",
+            "standard_feat3": "Reparații în rețeaua noastră",
+            "standard_feat4": "Piese originale garantate",
+            "standard_feat5": "Transfer de proprietate posibil",
+            "extended_name": "Garanție Extinsă",
+            "extended_duration": "24 luni",
+            "extended_feat1": "Acoperire completă mecanică și electrică",
+            "extended_feat2": "Asistență rutieră 24/7 în Europa",
+            "extended_feat3": "Vehicul de înlocuire inclus",
+            "extended_feat4": "Reparații în orice rețea autorizată",
+            "extended_feat5": "Acoperire costuri de tractare",
+            "extended_feat6": "Extindere posibilă până la 36 luni",
+            "extended_feat7": "Fără franșiză",
+            "premium_name": "Garanție Premium",
+            "premium_duration": "36 luni",
+            "premium_feat1": "Acoperire integrală toate riscurile",
+            "premium_feat2": "Asistență rutieră 24/7 internațională",
+            "premium_feat3": "Vehicul de înlocuire premium",
+            "premium_feat4": "Reparații în toate centrele autorizate",
+            "premium_feat5": "Acoperire totală a costurilor",
+            "premium_feat6": "Întreținere preventivă inclusă",
+            "premium_feat7": "Garanție caroserie și vopsea",
+            "premium_feat8": "Serviciu de concierge"
+        },
+        "coverage": {
+            "engine_title": "Motor și Transmisie",
+            "engine_desc": "Acoperire completă a grupului motopropulsor, cutiei de viteze și ambreiajului",
+            "electric_title": "Sistem Electric",
+            "electric_desc": "Electronică de bord, baterie, alternator și demaror",
+            "suspension_title": "Suspensie și Direcție",
+            "suspension_desc": "Amortizoare, arcuri, servodirecție și articulații sferice",
+            "brakes_title": "Sistem de Frânare",
+            "brakes_desc": "Frâne, ABS, ESP și toate componentele de siguranță"
+        },
+        "advantages": {
+            "immediate_title": "Activare Imediată",
+            "immediate_desc": "Garanția dumneavoastră este activă imediat ce vehiculul este livrat",
+            "support_title": "Suport 24/7",
+            "support_desc": "O echipă disponibilă zi și noapte pentru a vă asista",
+            "network_title": "Rețea Europeană",
+            "network_desc": "Peste 5.000 de garaje autorizate în întreaga Europă",
+            "simple_title": "Procedură Simplă",
+            "simple_desc": "Declarație online și gestionare rapidă"
+        },
+        "faq": {
+            "q1": "Pot extinde garanția după achiziție?",
+            "a1": "Da, puteți subscrie la o garanție extinsă în termen de 30 de zile de la achiziționarea vehiculului.",
+            "q2": "Garanția este valabilă în toată Europa?",
+            "a2": "Da, garanțiile noastre sunt valabile în toate țările europene cu rețeaua noastră de garaje autorizate.",
+            "q3": "Ce să fac în caz de pană?",
+            "a3": "Contactați asistența noastră 24/7 la numărul indicat pe certificatul dumneavoastră de garanție. Vom organiza tractarea și reparația.",
+            "q4": "Există o franșiză de plătit?",
+            "a4": "Garanția standard poate include o franșiză. Garanțiile extinsă și premium nu au nicio franșiză."
+        }
+    },
+    "expertises": {
+        "hero_title": "Expertiză Vehicule",
+        "hero_subtitle": "Un control riguros în 150 de puncte pentru liniștea dumneavoastră",
+        "intro_title": "Angajamentul Nostru de Calitate",
+        "intro_desc": "Fiecare vehicul pe care îl oferim trece printr-o expertiză completă realizată de tehnicienii noștri certificați. Această inspecție în 150 de puncte garantează că primiți un vehicul în stare perfectă, fără surprize neplăcute.",
+        "stats": {
+            "points": "Puncte de control",
+            "inspected": "Vehicule inspectate",
+            "experience": "Ani de experiență"
+        },
+        "points_title": "Puncte de Control",
+        "points_subtitle": "O inspecție completă a tuturor sistemelor",
+        "categories": {
+            "mechanical": "Mecanică",
+            "electronic": "Electronică",
+            "security": "Siguranță",
+            "bodywork": "Caroserie"
+        },
+        "points": {
+            "mechanical_1": "Motor și transmisie",
+            "mechanical_2": "Sistem de răcire",
+            "mechanical_3": "Evacuare și catalizator",
+            "mechanical_4": "Ambreiaj și cutie de viteze",
+            "mechanical_5": "Curea de distribuție",
+            "electronic_1": "Baterie și alternator",
+            "electronic_2": "Sistem electric complet",
+            "electronic_3": "Electronică de bord",
+            "electronic_4": "Senzori și calculatoare",
+            "electronic_5": "Sistem multimedia",
+            "security_1": "Frâne (discuri, plăcuțe, lichid)",
+            "security_2": "Suspensie și amortizoare",
+            "security_3": "Direcție și articulații sferice",
+            "security_4": "Anvelope și geometrie",
+            "security_5": "Airbag-uri și centuri",
+            "bodywork_1": "Starea vopselei",
+            "bodywork_2": "Absența coroziunii",
+            "bodywork_3": "Geamuri și parbriz",
+            "bodywork_4": "Iluminare completă",
+            "bodywork_5": "Etanșeitate"
+        },
+        "process_title": "Procesul Nostru de Expertiză",
+        "process_subtitle": "4 pași pentru o inspecție completă",
+        "process": {
+            "step1_title": "Inspecție Vizuală Completă",
+            "step1_desc": "Examinare detaliată a exteriorului și interiorului vehiculului",
+            "step1_detail1": "Fotografii HD din toate unghiurile",
+            "step1_detail2": "Verificarea vopselei",
+            "step1_detail3": "Starea interiorului",
+            "step1_detail4": "Controlul echipamentelor",
+            "step2_title": "Control Tehnic Aprofundat",
+            "step2_desc": "Testarea tuturor sistemelor mecanice și electronice",
+            "step2_detail1": "Diagnostic electronic complet",
+            "step2_detail2": "Test pe drum",
+            "step2_detail3": "Măsurarea performanțelor",
+            "step2_detail4": "Verificarea nivelurilor",
+            "step3_title": "Verificare Documentară",
+            "step3_desc": "Controlul istoricului și documentelor",
+            "step3_detail1": "Istoric de întreținere",
+            "step3_detail2": "Verificare VIN",
+            "step3_detail3": "Controlul facturilor",
+            "step3_detail4": "Căutare accidente",
+            "step4_title": "Raport de Expertiză",
+            "step4_desc": "Generarea unui raport detaliat cu fotografii",
+            "step4_detail1": "Raport în 150 de puncte",
+            "step4_detail2": "Fotografii detaliate",
+            "step4_detail3": "Recomandări",
+            "step4_detail4": "Estimare de valoare"
+        },
+        "certifications_title": "Certificările Noastre",
+        "certifications_subtitle": "Experți recunoscuți pentru profesionalismul lor",
+        "certifications": {
+            "certified_title": "Experți Certificați",
+            "certified_desc": "Inspectorii noștri sunt certificați și au peste 15 ani de experiență în domeniul auto.",
+            "independent_title": "Independență Totală",
+            "independent_desc": "Expertizele noastre sunt realizate în mod total independent și obiectiv.",
+            "report_title": "Raport Detaliat",
+            "report_desc": "Fiecare vehicul dispune de un raport de inspecție complet disponibil la cerere."
+        },
+        "check_title": "Ce Verificăm",
+        "checks": {
+            "accidents_title": "Fără Accidente",
+            "accidents_desc": "Verificare completă a istoricului și căutarea urmelor de reparații",
+            "mileage_title": "Kilometraj Certificat",
+            "mileage_desc": "Validarea kilometrajului real prin istoric și baze de date",
+            "mechanical_title": "Stare Mecanică",
+            "mechanical_desc": "Test complet al tuturor sistemelor mecanice și electronice",
+            "legal_title": "Conformitate Legală",
+            "legal_desc": "Verificarea conformității cu normele europene și documente"
+        },
+        "warning": {
+            "title": "Angajamentul Nostru de Transparență",
+            "desc1": "Dacă în timpul expertizei noastre detectăm o problemă majoră sau un defect ascuns, refuzăm vehiculul. Oferim doar vehicule care trec cu succes controlul nostru riguros de calitate.",
+            "desc2": "Satisfacția și siguranța dumneavoastră sunt prioritatea noastră absolută."
+        },
+        "cta_title": "Vehicule Expertizate și Certificate",
+        "cta_subtitle": "Descoperiți selecția noastră de vehicule care au trecut cu succes expertiza noastră completă",
+        "cta_btn": "Vedeți vehiculele disponibile"
+    },
+    "visit": {
+        "hero": {
+            "title": "Vizitați un Vehicul",
+            "subtitle": "Mai multe opțiuni pentru a descoperi viitorul dumneavoastră vehicul în detaliu"
+        },
+        "options_title": "Alegeți Tipul de Vizită",
+        "options_subtitle": "Trei moduri de a descoperi vehiculele noastre",
+        "options": {
+            "virtual": {
+                "title": "Tur Virtual 360°",
+                "description": "Explorați vehiculul în detaliu de acasă",
+                "features": [
+                    "Tur interactiv 360°",
+                    "Fotografii HD din toate unghiurile",
+                    "Zoom pe detalii",
+                    "Video de prezentare",
+                    "Disponibil 24/7"
+                ],
+                "advantages": [
+                    "Gratuit și imediat",
+                    "Fără deplasare necesară",
+                    "Luați-vă timp",
+                    "Partajați cu familia"
+                ]
+            },
+            "video": {
+                "title": "Vizită prin Videoconferință",
+                "description": "Un expert vă prezintă vehiculul în direct",
+                "features": [
+                    "Apel video cu un expert",
+                    "Prezentare personalizată",
+                    "Puneți toate întrebările",
+                    "Durată: 30-45 minute",
+                    "Cu programare"
+                ],
+                "advantages": [
+                    "Interacțiune în timp real",
+                    "Sfaturi de la experți",
+                    "Verificarea punctelor specifice",
+                    "Înregistrare posibilă"
+                ]
+            },
+            "physical": {
+                "title": "Vizită Fizică",
+                "description": "Veniți să vedeți și să testați vehiculul la fața locului",
+                "features": [
+                    "Vizită în sediul nostru",
+                    "Test drive posibil",
+                    "Inspecție detaliată",
+                    "Întâlnire cu echipa",
+                    "Cu programare"
+                ],
+                "advantages": [
+                    "Experiență completă",
+                    "Test pe drum",
+                    "Verificare personală",
+                    "Decizie imediată posibilă"
+                ]
+            }
+        },
+        "included": "Inclus:",
+        "choose_option": "Alegeți această opțiune",
+        "advantages_prefix": "Avantajele",
+        "how_it_works_title": "Cum Funcționează?",
+        "how_it_works_subtitle": "4 pași simpli pentru a vizita vehiculul dumneavoastră",
+        "steps": {
+            "1": {
+                "title": "Alegeți Vehiculul",
+                "description": "Răsfoiți catalogul nostru și selectați vehiculul care vă interesează"
+            },
+            "2": {
+                "title": "Rezervați Vizita",
+                "description": "Alegeți tipul de vizită și faceți o programare online sau prin telefon"
+            },
+            "3": {
+                "title": "Pregătiți Întrebările",
+                "description": "Notați toate punctele pe care doriți să le verificați sau întrebările de pus"
+            },
+            "4": {
+                "title": "Vizitați Vehiculul",
+                "description": "Bucurați-vă de vizita virtuală, video sau fizică, la alegere"
+            }
+        },
+        "locations_title": "Punctele Noastre de Vizită",
+        "locations_subtitle": "Vizitați showroom-urile noastre din Europa",
+        "locations": {
+            "germany": "Germania",
+            "france": "Franța",
+            "belgium": "Belgia",
+            "hours_berlin": "Lun-Vin: 9h-18h, Sâm: 10h-16h",
+            "hours_paris": "Lun-Vin: 9h-18h, Sâm: 10h-15h",
+            "hours_brussels": "Lun-Vin: 9h-17h30, Sâm: 10h-14h"
+        },
+        "cta": {
+            "title": "Gata să Vizitați Viitorul Vehicul?",
+            "subtitle": "Contactați-ne pentru a planifica vizita virtuală, video sau fizică",
+            "call": "Sunați-ne",
+            "email": "Trimiteți un email",
+            "whatsapp": "WhatsApp"
+        },
+        "faq_title": "Întrebări Frecvente",
+        "faq": [
+            {
+                "q": "Este turul virtual la fel de detaliat ca o vizită fizică?",
+                "a": "Da! Tururile noastre virtuale 360° includ fotografii HD din toate unghiurile, zoom pe detalii și un video de prezentare complet."
+            },
+            {
+                "q": "Pot face un test drive?",
+                "a": "Da, în timpul unei vizite fizice la sediul nostru, puteți efectua un test drive cu programare."
+            },
+            {
+                "q": "Cât durează o vizită prin videoconferință?",
+                "a": "O vizită prin videoconferință durează în general între 30 și 45 de minute, în funcție de întrebările și nevoile dumneavoastră."
+            },
+            {
+                "q": "Trebuie să plătesc pentru o vizită?",
+                "a": "Nu, toate vizitele noastre (virtuale, video și fizice) sunt complet gratuite și fără obligații."
+            }
+        ]
+    },
+    "faq": {
+        "hero_title": "Întrebări Frecvente",
+        "hero_subtitle": "Găsiți rapid răspunsuri la întrebările dumneavoastră despre achiziție, livrare și serviciile noastre",
+        "categories": {
+            "purchase": {
+                "title": "Achiziție de vehicule",
+                "q1": "Cum pot cumpăra un vehicul?",
+                "a1": "Puteți răsfoi catalogul nostru online, selectați vehiculul care vă interesează și contactați-ne pentru a finaliza achiziția. Vă ghidăm în fiecare etapă a procesului.",
+                "q2": "Pot vedea vehiculul înainte de a-l cumpăra?",
+                "a2": "Da, oferim tururi virtuale detaliate și puteți, de asemenea, programa o vizită fizică în sediul nostru din Germania sau în punctele noastre de vânzare.",
+                "q3": "Ce metode de plată sunt acceptate?",
+                "a3": "Acceptăm transferuri bancare, plăți cu cardul de credit și oferim, de asemenea, soluții de finanțare personalizate.",
+                "q4": "Este posibil să fac un test drive?",
+                "a4": "Da, puteți efectua un test drive cu programare în sediul nostru din Germania sau într-unul dintre punctele noastre de vânzare partenere."
+            },
+            "delivery": {
+                "title": "Livrare și transport",
+                "q1": "În ce țări livrați?",
+                "a1": "Livrăm în toată Europa: Franța, Belgia, Elveția, Luxemburg, Italia, Spania, Portugalia, România și alte țări la cerere.",
+                "q2": "Care este termenul de livrare?",
+                "a2": "Termenul variază în funcție de țara dumneavoastră: 5-7 zile pentru Franța, 4-6 zile pentru Belgia, până la 10-12 zile pentru destinații mai îndepărtate.",
+                "q3": "Cum este asigurat transportul?",
+                "a3": "Toate vehiculele noastre sunt transportate de profesioniști certificați și sunt complet asigurate în timpul transportului.",
+                "q4": "Pot ridica vehiculul eu însumi?",
+                "a4": "Da, puteți ridica vehiculul direct din sediul nostru din Germania. Vă asistăm cu toate formalitățile necesare."
+            },
+            "warranties": {
+                "title": "Garanții și servicii",
+                "q1": "Ce garanție este inclusă cu vehiculul?",
+                "a1": "Toate vehiculele noastre includ o garanție minimă de 12 luni. Puteți, de asemenea, să vă abonați la o garanție extinsă de 24 de luni.",
+                "q2": "Ce acoperă garanția?",
+                "a2": "Garanția acoperă defectele mecanice și electrice majore. Garanția extinsă oferă acoperire completă, inclusiv asistență 24/7 și vehicul de înlocuire.",
+                "q3": "Vehiculele sunt inspectate?",
+                "a3": "Da, toate vehiculele noastre trec printr-o inspecție tehnică completă și o evaluare detaliată înainte de vânzare. Furnizăm un raport complet.",
+                "q4": "Oferiți servicii post-vânzare?",
+                "a4": "Da, oferim servicii post-vânzare complete cu asistență tehnică, întreținere și reparații în rețeaua noastră de parteneri."
+            },
+            "documentation": {
+                "title": "Documentație și formalități",
+                "q1": "Ce documente voi primi?",
+                "a1": "Veți primi: certificatul de înmatriculare, inspecția tehnică, cartea de service, certificatul de conformitate european și toate documentele necesare pentru înmatriculare.",
+                "q2": "Ajutați cu înmatricularea?",
+                "a2": "Da, vă asistăm în toate procedurile de înmatriculare în țara dumneavoastră și furnizăm toate documentele necesare.",
+                "q3": "Vehiculul este conform cu standardele europene?",
+                "a3": "Da, toate vehiculele noastre sunt conforme cu standardele europene și au un certificat de conformitate CE.",
+                "q4": "Există taxe ascunse?",
+                "a4": "Nu, toate prețurile noastre sunt transparente. Prețul afișat include vehiculul și garanția. Taxele de livrare și înmatriculare sunt indicate clar separat."
+            },
+            "financing": {
+                "title": "Finanțare",
+                "q1": "Oferiți soluții de finanțare?",
+                "a1": "Da, lucrăm cu mai mulți parteneri financiari pentru a vă oferi soluții de credit adaptate situației dumneavoastră.",
+                "q2": "Care este avansul minim?",
+                "a2": "Avansul minim variază în funcție de situația dumneavoastră și vehiculul ales. Contactați-ne pentru un studiu personalizat.",
+                "q3": "Pot obține credit fără avans?",
+                "a3": "Da, în anumite condiții. Consilierii noștri financiari vor studia dosarul dumneavoastră pentru a găsi cea mai bună soluție.",
+                "q4": "Care este durata maximă de finanțare?",
+                "a4": "Oferim finanțare de la 12 la 84 de luni în funcție de profilul dumneavoastră și suma împrumutată."
+            }
+        },
+        "cta_title": "Nu Găsiți Răspunsul?",
+        "cta_subtitle": "Echipa noastră este aici pentru a vă ajuta",
+        "cta_call": "Sunați-ne",
+        "cta_email": "Trimiteți un email",
+        "cta_whatsapp": "WhatsApp"
+    },
+    "commitments": {
+        "hero_title": "Angajamentele Noastre",
+        "hero_subtitle": "Valori puternice care ghidează fiecare dintre acțiunile noastre zilnice",
+        "promise_title": "Promisiunea Noastră",
+        "promise_text": "La AUTO17, nu vindem doar vehicule. Construim relații de încredere bazate pe valori solide și angajamente concrete. Fiecare decizie pe care o luăm este ghidată de dorința noastră de a vă oferi cea mai bună experiență posibilă.",
+        "items": {
+            "transparency": {
+                "title": "Transparență Totală",
+                "description": "Credem în comunicare onestă și transparentă. Fiecare vehicul vine cu un raport complet care detaliază istoricul, starea și toate informațiile relevante.",
+                "points": [
+                    "Istoric complet al vehiculului",
+                    "Fotografii detaliate din toate unghiurile",
+                    "Raport de inspecție tehnică",
+                    "Prețuri clare fără taxe ascunse"
+                ]
+            },
+            "quality": {
+                "title": "Calitate Garantată",
+                "description": "Selectăm doar vehicule de calitate superioară. Fiecare mașină trece printr-un control de calitate riguros înainte de a fi oferită spre vânzare.",
+                "points": [
+                    "Inspecție tehnică amănunțită",
+                    "Verificarea istoricului",
+                    "Inspecție mecanică completă",
+                    "Garanție inclusă pe toate vehiculele"
+                ]
+            },
+            "service": {
+                "title": "Serviciu Clienți Excepțional",
+                "description": "Satisfacția dumneavoastră este prioritatea noastră. Echipa noastră dedicată vă sprijină la fiecare pas, de la selecție la livrare și dincolo.",
+                "points": [
+                    "Consultant personal dedicat",
+                    "Disponibil 7 zile pe săptămână",
+                    "Suport multilingv",
+                    "Urmărire personalizată a comenzii"
+                ]
+            },
+            "ecology": {
+                "title": "Angajament Ecologic",
+                "description": "Ne angajăm să reducem amprenta noastră de carbon prin optimizarea transportului și oferind o selecție largă de vehicule electrice și hibride.",
+                "points": [
+                    "Transport optimizat și grupat",
+                    "Alegere largă de vehicule electrice",
+                    "Parteneriat cu transportatori eco-responsabili",
+                    "Compensare de carbon disponibilă"
+                ]
+            },
+            "trust": {
+                "title": "Relație de Încredere",
+                "description": "Construim relații durabile cu clienții noștri bazate pe încredere, integritate și respect reciproc.",
+                "points": [
+                    "Peste 10.000 de clienți mulțumiți",
+                    "Rată de satisfacție de 98%",
+                    "Program de recomandare",
+                    "Urmărire post-vânzare personalizată"
+                ]
+            },
+            "innovation": {
+                "title": "Inovație Continuă",
+                "description": "Investim constant în tehnologii noi pentru a îmbunătăți experiența dumneavoastră de cumpărare și pentru a vă oferi cele mai bune servicii.",
+                "points": [
+                    "Platformă online modernă",
+                    "Tururi virtuale 360°",
+                    "Proces de cumpărare digitalizat",
+                    "Instrumente de finanțare online"
+                ]
+            }
+        },
+        "core_values_title": "Valorile Noastre Fundamentale",
+        "core_values_subtitle": "Principiile care ne definesc",
+        "values": [
+            "Onestitate în toate tranzacțiile noastre",
+            "Excelență în serviciul clienți",
+            "Respectarea angajamentelor noastre",
+            "Îmbunătățire continuă a serviciilor noastre"
+        ],
+        "testimonials_title": "Au Încredere în Noi",
+        "testimonials_subtitle": "Descoperiți mărturiile clienților noștri mulțumiți",
+        "testimonials": [
+            {
+                "location": "Paris, Franța",
+                "text": "Serviciu excepțional! Echipa m-a sprijinit de la început până la sfârșit. Audi-ul meu a sosit în stare perfectă."
+            },
+            {
+                "location": "Bruxelles, Belgia",
+                "text": "Transparență totală privind starea vehiculului. Fără surprize, doar fericire!"
+            },
+            {
+                "location": "Milano, Italia",
+                "text": "Proces simplu și rapid. Recomand cu căldură AUTO17 tuturor prietenilor mei."
+            }
+        ],
+        "cta_title": "Alăturați-vă Comunității Noastre",
+        "cta_subtitle": "Experimentați un serviciu auto diferit, bazat pe încredere și excelență",
+        "cta_btn_vehicles": "Descoperiți vehiculele noastre",
+        "cta_btn_contact": "Contactați-ne"
+    },
+    "sales_points": {
+        "hero_title": "Punctele Noastre de Vânzare",
+        "hero_subtitle": "Prezenți în toată Europa pentru a vă servi mai bine",
+        "intro_title": "O Rețea Europeană în Serviciul Dumneavoastră",
+        "intro_text": "Rețeaua noastră de puncte de vânzare și livrare se întinde în toată Europa pentru a vă oferi un serviciu local. Fie că doriți să ridicați vehiculul direct sau să beneficiați de livrare la domiciliu, avem soluția adaptată nevoilor dumneavoastră.",
+        "opening_hours": "Program de Funcționare",
+        "btn_directions": "Indicații",
+        "btn_contact": "Contact",
+        "locations": {
+            "berlin": {
+                "country": "Germania",
+                "city": "Berlin",
+                "type": "Sediu Central și Showroom Principal",
+                "hours": {
+                    "weekdays": "Lun-Vin: 9:00 - 18:00",
+                    "saturday": "Sâm: 10:00 - 16:00",
+                    "sunday": "Dum: Închis"
+                },
+                "features": [
+                    "Showroom de 2000m²",
+                    "Peste 150 de vehicule în stoc",
+                    "Atelier de pregătire",
+                    "Serviciu post-vânzare complet"
+                ]
+            },
+            "paris": {
+                "country": "Franța",
+                "city": "Paris",
+                "type": "Punct de Livrare",
+                "hours": {
+                    "weekdays": "Lun-Vin: 9:00 - 18:00",
+                    "saturday": "Sâm: 10:00 - 15:00",
+                    "sunday": "Dum: Închis"
+                },
+                "features": [
+                    "Punct de livrare securizat",
+                    "Inspecție înainte de livrare",
+                    "Consultant francofon",
+                    "Parcare pentru clienți"
+                ]
+            },
+            "brussels": {
+                "country": "Belgia",
+                "city": "Bruxelles",
+                "type": "Punct de Livrare",
+                "hours": {
+                    "weekdays": "Lun-Vin: 9:00 - 17:30",
+                    "saturday": "Sâm: 10:00 - 14:00",
+                    "sunday": "Dum: Închis"
+                },
+                "features": [
+                    "Centru de livrare modern",
+                    "Test drive-uri disponibile",
+                    "Suport multilingv",
+                    "Cafenea pentru clienți"
+                ]
+            },
+            "geneva": {
+                "country": "Elveția",
+                "city": "Geneva",
+                "type": "Punct de Livrare",
+                "hours": {
+                    "weekdays": "Lun-Vin: 9:00 - 18:00",
+                    "saturday": "Sâm: 10:00 - 15:00",
+                    "sunday": "Dum: Închis"
+                },
+                "features": [
+                    "Locație premium",
+                    "Serviciu VIP disponibil",
+                    "Vămuire la fața locului",
+                    "Înmatriculare asistată"
+                ]
+            }
+        },
+        "services_title": "Servicii Disponibile",
+        "services_subtitle": "În toate punctele noastre de vânzare",
+        "services": {
+            "inspection": {
+                "title": "Inspecție Gratuită",
+                "description": "Inspecție completă a vehiculului înainte de livrare"
+            },
+            "advisor": {
+                "title": "Consultant Dedicat",
+                "description": "Un expert în ascultare pentru a răspunde întrebărilor dumneavoastră"
+            },
+            "test_drive": {
+                "title": "Test Drive",
+                "description": "Testați vehiculul înainte de finalizare"
+            }
+        },
+        "cta_title": "Planificați Vizita",
+        "cta_subtitle": "Faceți o programare la punctul de vânzare cel mai apropiat",
+        "cta_btn": "Faceți o programare"
+    },
+    "home": {
+        "most_requested_brands": "Cele mai solicitate"
     }
 }

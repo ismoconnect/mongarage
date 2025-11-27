@@ -1,87 +1,90 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Shield, Heart, Award, Users, Leaf, TrendingUp, CheckCircle, Star } from 'lucide-react';
 
 const Engagements = () => {
+    const { t } = useTranslation();
+
     const engagements = [
         {
             icon: Shield,
-            title: "Transparence Totale",
-            description: "Nous croyons en une communication honnête et transparente. Chaque véhicule est accompagné d'un rapport complet détaillant son historique, son état et toutes les informations pertinentes.",
+            title: t('commitments.items.transparency.title'),
+            description: t('commitments.items.transparency.description'),
             color: "blue",
             points: [
-                "Historique complet du véhicule",
-                "Photos détaillées sous tous les angles",
-                "Rapport d'inspection technique",
-                "Prix clairs sans frais cachés"
+                t('commitments.items.transparency.points.0'),
+                t('commitments.items.transparency.points.1'),
+                t('commitments.items.transparency.points.2'),
+                t('commitments.items.transparency.points.3')
             ]
         },
         {
             icon: Award,
-            title: "Qualité Garantie",
-            description: "Nous sélectionnons uniquement des véhicules de qualité supérieure. Chaque voiture passe par un contrôle qualité rigoureux avant d'être proposée à la vente.",
+            title: t('commitments.items.quality.title'),
+            description: t('commitments.items.quality.description'),
             color: "green",
             points: [
-                "Contrôle technique approfondi",
-                "Vérification de l'historique",
-                "Inspection mécanique complète",
-                "Garantie incluse sur tous les véhicules"
+                t('commitments.items.quality.points.0'),
+                t('commitments.items.quality.points.1'),
+                t('commitments.items.quality.points.2'),
+                t('commitments.items.quality.points.3')
             ]
         },
         {
             icon: Heart,
-            title: "Service Client Exceptionnel",
-            description: "Votre satisfaction est notre priorité. Notre équipe dédiée vous accompagne à chaque étape, de la sélection à la livraison et au-delà.",
+            title: t('commitments.items.service.title'),
+            description: t('commitments.items.service.description'),
             color: "red",
             points: [
-                "Conseiller personnel dédié",
-                "Disponibilité 7j/7",
-                "Support multilingue",
-                "Suivi personnalisé de votre commande"
+                t('commitments.items.service.points.0'),
+                t('commitments.items.service.points.1'),
+                t('commitments.items.service.points.2'),
+                t('commitments.items.service.points.3')
             ]
         },
         {
             icon: Leaf,
-            title: "Engagement Écologique",
-            description: "Nous nous engageons à réduire notre empreinte carbone en optimisant nos transports et en proposant une large sélection de véhicules électriques et hybrides.",
+            title: t('commitments.items.ecology.title'),
+            description: t('commitments.items.ecology.description'),
             color: "green",
             points: [
-                "Transport optimisé et groupé",
-                "Large choix de véhicules électriques",
-                "Partenariat avec des transporteurs éco-responsables",
-                "Compensation carbone disponible"
+                t('commitments.items.ecology.points.0'),
+                t('commitments.items.ecology.points.1'),
+                t('commitments.items.ecology.points.2'),
+                t('commitments.items.ecology.points.3')
             ]
         },
         {
             icon: Users,
-            title: "Relation de Confiance",
-            description: "Nous construisons des relations durables avec nos clients basées sur la confiance, l'intégrité et le respect mutuel.",
+            title: t('commitments.items.trust.title'),
+            description: t('commitments.items.trust.description'),
             color: "purple",
             points: [
-                "Plus de 10,000 clients satisfaits",
-                "Taux de satisfaction de 98%",
-                "Programme de parrainage",
-                "Suivi après-vente personnalisé"
+                t('commitments.items.trust.points.0'),
+                t('commitments.items.trust.points.1'),
+                t('commitments.items.trust.points.2'),
+                t('commitments.items.trust.points.3')
             ]
         },
         {
             icon: TrendingUp,
-            title: "Innovation Continue",
-            description: "Nous investissons constamment dans les nouvelles technologies pour améliorer votre expérience d'achat et vous offrir les meilleurs services.",
+            title: t('commitments.items.innovation.title'),
+            description: t('commitments.items.innovation.description'),
             color: "orange",
             points: [
-                "Plateforme en ligne moderne",
-                "Visites virtuelles 360°",
-                "Processus d'achat digitalisé",
-                "Outils de financement en ligne"
+                t('commitments.items.innovation.points.0'),
+                t('commitments.items.innovation.points.1'),
+                t('commitments.items.innovation.points.2'),
+                t('commitments.items.innovation.points.3')
             ]
         }
     ];
 
     const values = [
-        { icon: CheckCircle, text: "Honnêteté dans toutes nos transactions" },
-        { icon: CheckCircle, text: "Excellence dans le service client" },
-        { icon: CheckCircle, text: "Respect de nos engagements" },
-        { icon: CheckCircle, text: "Amélioration continue de nos services" }
+        { icon: CheckCircle, text: t('commitments.values.0') },
+        { icon: CheckCircle, text: t('commitments.values.1') },
+        { icon: CheckCircle, text: t('commitments.values.2') },
+        { icon: CheckCircle, text: t('commitments.values.3') }
     ];
 
     const getColorClasses = (color) => {
@@ -103,10 +106,10 @@ const Engagements = () => {
                     <div className="text-center">
                         <Star className="h-16 w-16 mx-auto mb-6" />
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            Nos Engagements
+                            {t('commitments.hero_title')}
                         </h1>
                         <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
-                            Des valeurs fortes qui guident chacune de nos actions au quotidien
+                            {t('commitments.hero_subtitle')}
                         </p>
                     </div>
                 </div>
@@ -115,11 +118,9 @@ const Engagements = () => {
             {/* Introduction */}
             <div className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
-                    <h2 className="text-3xl font-bold text-primary mb-6">Notre Promesse</h2>
+                    <h2 className="text-3xl font-bold text-primary mb-6">{t('commitments.promise_title')}</h2>
                     <p className="text-xl text-gray-700 leading-relaxed">
-                        Chez AUTO17, nous ne vendons pas simplement des véhicules. Nous construisons des relations
-                        de confiance basées sur des valeurs solides et des engagements concrets. Chaque décision que
-                        nous prenons est guidée par notre volonté de vous offrir la meilleure expérience possible.
+                        {t('commitments.promise_text')}
                     </p>
                 </div>
             </div>
@@ -168,10 +169,10 @@ const Engagements = () => {
                 <div className="container mx-auto px-6 max-w-4xl">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Nos Valeurs Fondamentales
+                            {t('commitments.core_values_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Les principes qui nous définissent
+                            {t('commitments.core_values_subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-2 gap-6">
@@ -190,30 +191,30 @@ const Engagements = () => {
                 <div className="container mx-auto px-6 max-w-6xl">
                     <div className="text-center mb-16">
                         <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
-                            Ils Nous Font Confiance
+                            {t('commitments.testimonials_title')}
                         </h2>
                         <p className="text-xl text-gray-600">
-                            Découvrez les témoignages de nos clients satisfaits
+                            {t('commitments.testimonials_subtitle')}
                         </p>
                     </div>
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
                             {
                                 name: "Sophie Martin",
-                                location: "Paris, France",
-                                text: "Service exceptionnel ! L'équipe m'a accompagnée du début à la fin. Mon Audi est arrivée en parfait état.",
+                                location: t('commitments.testimonials.0.location'),
+                                text: t('commitments.testimonials.0.text'),
                                 rating: 5
                             },
                             {
                                 name: "Marc Dubois",
-                                location: "Bruxelles, Belgique",
-                                text: "Transparence totale sur l'état du véhicule. Aucune surprise, que du bonheur !",
+                                location: t('commitments.testimonials.1.location'),
+                                text: t('commitments.testimonials.1.text'),
                                 rating: 5
                             },
                             {
                                 name: "Laura Rossi",
-                                location: "Milan, Italie",
-                                text: "Processus simple et rapide. Je recommande vivement AUTO17 à tous mes amis.",
+                                location: t('commitments.testimonials.2.location'),
+                                text: t('commitments.testimonials.2.text'),
                                 rating: 5
                             }
                         ].map((testimonial, index) => (
@@ -238,23 +239,23 @@ const Engagements = () => {
             <div className="bg-gradient-to-r from-primary to-primary/90 text-white py-20">
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                        Rejoignez Notre Communauté
+                        {t('commitments.cta_title')}
                     </h2>
                     <p className="text-xl text-white/90 mb-8">
-                        Faites l'expérience d'un service automobile différent, basé sur la confiance et l'excellence
+                        {t('commitments.cta_subtitle')}
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <a
                             href="/vehicules"
                             className="bg-white text-primary hover:bg-gray-100 px-8 py-4 rounded-xl font-bold transition-all shadow-lg"
                         >
-                            Découvrir nos véhicules
+                            {t('commitments.cta_btn_vehicles')}
                         </a>
                         <a
                             href="/contact"
                             className="bg-accent hover:bg-accent/90 text-white px-8 py-4 rounded-xl font-bold transition-all shadow-lg"
                         >
-                            Nous contacter
+                            {t('commitments.cta_btn_contact')}
                         </a>
                     </div>
                 </div>
