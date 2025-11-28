@@ -27,46 +27,46 @@ const Header = () => {
     };
 
     const menuItems = [
-        { name: 'Accueil', path: '/', hasDropdown: false },
+        { nameKey: 'nav.home', path: '/', hasDropdown: false },
         {
-            name: 'Véhicules',
+            nameKey: 'nav.vehicles',
             path: '/vehicules',
             hasDropdown: true,
             submenu: [
-                { name: 'Tous les véhicules', path: '/vehicules' },
-                { name: 'Les Enchères', path: '/encheres' },
-                { name: 'Provenance & Sourcing', path: '/provenance' },
+                { nameKey: 'nav.all_vehicles', path: '/vehicules' },
+                { nameKey: 'nav.auctions', path: '/encheres' },
+                { nameKey: 'nav.sourcing', path: '/provenance' },
             ],
         },
         {
-            name: 'Services & Confiance',
+            nameKey: 'nav.services_trust',
             path: '/services',
             hasDropdown: true,
             submenu: [
-                { name: 'Nos Services', path: '/services' },
-                { name: 'Nos Garanties', path: '/garanties' },
-                { name: 'Expertises & Contrôles', path: '/expertises' },
-                { name: 'Visiter un véhicule', path: '/visiter-vehicule' },
+                { nameKey: 'nav.our_services', path: '/services' },
+                { nameKey: 'nav.guarantees', path: '/garanties' },
+                { nameKey: 'nav.inspections', path: '/expertises' },
+                { nameKey: 'nav.visit_vehicle', path: '/visiter-vehicule' },
             ],
         },
         {
-            name: 'Guide Achat',
+            nameKey: 'nav.buying_guide',
             path: '/comment-acheter',
             hasDropdown: true,
             submenu: [
-                { name: 'Comment acheter ?', path: '/comment-acheter' },
-                { name: 'Questions Fréquentes (FAQ)', path: '/faq' },
+                { nameKey: 'nav.how_to_buy', path: '/comment-acheter' },
+                { nameKey: 'nav.faq', path: '/faq' },
             ],
         },
         {
-            name: "L'Entreprise",
+            nameKey: 'nav.company',
             path: '/about',
             hasDropdown: true,
             submenu: [
-                { name: 'Qui sommes nous ?', path: '/about' },
-                { name: 'Nos Engagements', path: '/engagements' },
-                { name: 'Nos Points de vente', path: '/points-vente' },
-                { name: 'Nous contacter', path: '/contact' },
+                { nameKey: 'nav.about_us', path: '/about' },
+                { nameKey: 'nav.commitments', path: '/engagements' },
+                { nameKey: 'nav.locations', path: '/points-vente' },
+                { nameKey: 'nav.contact_us', path: '/contact' },
             ],
         },
     ];
@@ -104,12 +104,12 @@ const Header = () => {
                             <div key={idx} className="relative dropdown-container">
                                 {item.hasDropdown ? (
                                     <button
-                                        onClick={() => toggleDropdown(item.name)}
+                                        onClick={() => toggleDropdown(item.nameKey)}
                                         className="text-gray-600 hover:text-primary font-medium transition-colors px-4 py-2 rounded-lg hover:bg-gray-50 flex items-center gap-1"
                                     >
-                                        {item.name}
+                                        {t(item.nameKey)}
                                         <svg
-                                            className={`w-4 h-4 transition-transform ${openDropdown === item.name ? 'rotate-180' : ''}`}
+                                            className={`w-4 h-4 transition-transform ${openDropdown === item.nameKey ? 'rotate-180' : ''}`}
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
@@ -120,12 +120,12 @@ const Header = () => {
                                 ) : (
                                     <Link
                                         to={item.path}
-                                        className={`${item.name === 'Accueil' ? 'bg-primary/10 text-primary hover:bg-primary/20 font-bold' : 'text-gray-600 hover:text-primary hover:bg-gray-50 font-medium'} transition-colors px-4 py-2 rounded-lg`}
+                                        className={`${item.nameKey === 'nav.home' ? 'bg-primary/10 text-primary hover:bg-primary/20 font-bold' : 'text-gray-600 hover:text-primary hover:bg-gray-50 font-medium'} transition-colors px-4 py-2 rounded-lg`}
                                     >
-                                        {item.name}
+                                        {t(item.nameKey)}
                                     </Link>
                                 )}
-                                {item.hasDropdown && openDropdown === item.name && (
+                                {item.hasDropdown && openDropdown === item.nameKey && (
                                     <div className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 max-h-96 overflow-y-auto">
                                         {item.submenu.map((sub, subIdx) => (
                                             <Link
@@ -134,7 +134,7 @@ const Header = () => {
                                                 onClick={() => setOpenDropdown(null)}
                                                 className="block px-4 py-2.5 text-gray-700 hover:bg-gray-50 hover:text-primary transition-colors"
                                             >
-                                                {sub.name}
+                                                {t(sub.nameKey)}
                                             </Link>
                                         ))}
                                     </div>
@@ -147,7 +147,7 @@ const Header = () => {
                     <div className="hidden lg:flex items-center space-x-4">
                         <Link to="/dashboard" className="flex items-center gap-2 text-gray-600 hover:text-primary font-medium transition-colors px-4 py-2 rounded-lg hover:bg-gray-50">
                             <User className="h-5 w-5" />
-                            <span>Mon Compte</span>
+                            <span>{t('nav.my_account')}</span>
                         </Link>
                         <Link to="/contact" className="bg-accent hover:bg-accent/90 text-white px-6 py-2.5 rounded-full font-medium transition-colors">
                             {t('hero.cta_quote')}
@@ -278,13 +278,13 @@ const Header = () => {
                                                 <button
                                                     onClick={(e) => {
                                                         e.stopPropagation();
-                                                        setOpenDropdown(openDropdown === item.name ? null : item.name);
+                                                        setOpenDropdown(openDropdown === item.nameKey ? null : item.nameKey);
                                                     }}
                                                     className="w-full text-left text-gray-800 font-semibold py-4 flex items-center justify-between hover:text-primary transition-colors"
                                                 >
-                                                    <span className="text-base">{item.name}</span>
+                                                    <span className="text-base">{t(item.nameKey)}</span>
                                                     <svg
-                                                        className={`w-5 h-5 transition-transform ${openDropdown === item.name ? 'rotate-180' : ''}`}
+                                                        className={`w-5 h-5 transition-transform ${openDropdown === item.nameKey ? 'rotate-180' : ''}`}
                                                         fill="none"
                                                         stroke="currentColor"
                                                         viewBox="0 0 24 24"
@@ -292,7 +292,7 @@ const Header = () => {
                                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                                                     </svg>
                                                 </button>
-                                                {openDropdown === item.name && (
+                                                {openDropdown === item.nameKey && (
                                                     <div className="pl-4 pb-3 space-y-1 bg-gray-50 -mx-6 px-10 py-3">
                                                         {item.submenu.map((sub, subIdx) => (
                                                             <Link
@@ -304,7 +304,7 @@ const Header = () => {
                                                                     setOpenDropdown(null);
                                                                 }}
                                                             >
-                                                                {sub.name}
+                                                                {t(sub.nameKey)}
                                                             </Link>
                                                         ))}
                                                     </div>
@@ -316,7 +316,7 @@ const Header = () => {
                                                 className="block text-gray-800 font-semibold py-4 hover:text-primary transition-colors text-base"
                                                 onClick={() => setIsMenuOpen(false)}
                                             >
-                                                {item.name}
+                                                {t(item.nameKey)}
                                             </Link>
                                         )}
                                     </div>
